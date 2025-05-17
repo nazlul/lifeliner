@@ -1,18 +1,22 @@
 import Home from '@/components/Home'
 import Mission from '@/components/mission'
 import Feature from '@/components/feature'
+import Join from '@/components/Join'
 
 export default function HomePage() {
   return (
     <>
-      <section className="h-screen">
+      <section>
         <Home />
       </section>
-      <section className="h-screen">
+      <section>
         <Mission />
       </section>
-      <section className="h-screen">
+      <section>
         <Feature />
+      </section>
+      <section>
+        <Join />
       </section>
     </>
   );

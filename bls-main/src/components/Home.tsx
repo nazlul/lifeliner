@@ -49,10 +49,9 @@ export default function Home() {
         </div>
       </div>
 
-    {/* Mobile Menu Overlay */}
     {toggleMenu && (
       <div className="fixed inset-0 z-20 bg-white/30 backdrop-blur-md flex flex-col items-center justify-center transition-all duration-500 ease-in-out">
-        {["Home", "About Us", "Training Dates", "Become a Lifeline"].map((item, index) => (
+        {["Home", "About Us", "Training Dates", "Become a Lifeliner"].map((item, index) => (
           <span
             key={index}
             className="text-black font-bold my-6 text-2xl uppercase tracking-wide cursor-pointer">
