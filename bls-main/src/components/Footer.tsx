@@ -49,9 +49,9 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center lg:items-start">
-          <div className="relative w-[200px] h-[72px] mb-4 mr-10">
+          <div className="relative w-[300px] h-[170px] mb-4 mr-10">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="life liner"
               fill
               style={{ objectFit: "contain" }}

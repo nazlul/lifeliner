@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 export default function HomePage() {
   return (
     <>
-      <section>
+      <section id="home">
         <Home />
       </section>
       <section>

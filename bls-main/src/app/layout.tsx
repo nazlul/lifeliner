@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Lifeliners",
+  title: "Lifeliner",
   description: "BLS Training Campaign",
   icons: {
-    icon: "/logo.svg",
+    icon: "/logo.png",
   }
 };
 

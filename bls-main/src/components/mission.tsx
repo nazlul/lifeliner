@@ -8,7 +8,7 @@ export default function Mission() {
       className="w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/mission.png')" }}
     >
-      <div className="text-white font-sans px-6 py-10 md:px-20 md:py-24 sm:py-39 text-center">
+      <div className="text-white font-sans px-6 py-10 md:px-20 md:py-24 sm:py-24 text-center">
         <h2 className="text-2xl md:text-4xl font-bold mb-6">
            EMPOWERING COMMUNITIES<br className="hidden md:inline" /> TO SAVE LIVES
         </h2>
