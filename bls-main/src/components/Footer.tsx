@@ -2,74 +2,55 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#333333] font-sans w-full">
-      <div className="max-w-[1444px] mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 py-12 px-6 text-[#AFAFAF]">
-        <div>
-          <h3 className="text-white font-semibold uppercase mb-4">Press</h3>
-          <ul className="space-y-2 font-extralight text-sm">
-            <li>EU Presents at</li>
-            <li>Citizen CPR</li>
-            <li>Foundation</li>
-            <li>January 1st</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 className="text-white font-semibold uppercase mb-4">Who We Are</h3>
-          <ul className="space-y-2 font-extralight text-sm">
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Blog</li>
-            <li>Podcasts</li>
-            <li>Press</li>
-            <li>Testimonials</li>
-            <li>FAQ</li>
-            <li>Contact Us</li>
-            <li>Research</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 className="text-white font-semibold uppercase mb-4">Industries</h3>
-          <ul className="space-y-2 font-extralight text-sm mb-4">
-            <li>Corporations</li>
-            <li>Government</li>
-            <li>Healthcare</li>
-            <li>Home Care</li>
-            <li>Instructors</li>
-            <li>Individuals</li>
-            <li>Schools</li>
-          </ul>
-          <h3 className="text-white font-semibold uppercase mb-4">Compliance</h3>
-          <ul className="space-y-2 font-extralight text-sm">
-            <li>Validate Certificate</li>
-            <li>2015 AHA CPR Guidelines</li>
-            <li>State AED Regulations</li>
-          </ul>
-        </div>
-
-        <div className="flex flex-col items-center lg:items-start">
-          <div className="relative w-[300px] h-[170px] mb-4 mr-10">
-            <Image
-              src="/logo.png"
-              alt="life liner"
-              fill
-              style={{ objectFit: "contain" }}
-              priority
-            />
+    <footer className="bg-[#333333] text-xl font-sans w-full">
+      <div className="max-w-[1444px] mx-auto px-6 py-12 text-[#AFAFAF]">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div>
+            <h3 className="text-white font-semibold uppercase mb-4">Who We Are</h3>
+            <ul className="space-y-2 font-extralight text-sm">
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>Press</li>
+              <li>Testimonials</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+            </ul>
           </div>
-          <p className="text-sm text-center lg:text-left leading-relaxed uppercase tracking-wide mb-4">
-            Contact us. Let us customize a solution for your company!
-          </p>
-          <button className="bg-red-600 text-white py-2 px-6 rounded hover:bg-red-700 transition text-sm uppercase">
-            Contact Us
-          </button>
+
+          <div>
+            <h3 className="text-white font-semibold uppercase mb-4">Industries</h3>
+            <ul className="space-y-2 font-extralight text-sm">
+              <li>Corporations</li>
+              <li>Government</li>
+              <li>Healthcare</li>
+              <li>Home Care</li>
+              <li>Instructors</li>
+              <li>Individuals</li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col items-center md:items-center lg:items-center text-center md:text-left lg:text-center">
+            <div className="relative w-[250px] h-[150px] ">
+              <Image
+                src="/logo.png"
+                alt="life liner"
+                fill
+                style={{ objectFit: "contain" }}
+                priority
+              />
+            </div>
+            <p className="text-sm uppercase tracking-wide font-light mb-4 max-w-[300px]">
+              Contact us. Let us customize a solution for your company!
+            </p>
+            <button className="bg-red-600 text-white py-2 px-6 rounded hover:bg-red-700 transition text-sm uppercase">
+              Contact Us
+            </button>
+          </div>
         </div>
       </div>
 
       <div className="bg-[#2D2D2D] w-full py-6 px-4">
         <div className="max-w-[1444px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-[#AFAFAF] italic font-light tracking-wide text-[16px]">
-        
           <div className="flex items-center space-x-4">
             <a href="#" className="hover:underline">
               Terms of Service
@@ -129,9 +110,9 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          
+
           <div className="text-center md:text-right max-w-[350px]">
-            © 2025 fdvdg frdgdrgd fdfg grgthth
+            © 2025 BMH. All rights reserved. <br />
           </div>
         </div>
       </div>
