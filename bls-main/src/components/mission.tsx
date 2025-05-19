@@ -13,7 +13,7 @@ export default function Mission() {
            EMPOWERING COMMUNITIES<br className="hidden md:inline" /> TO SAVE LIVES
         </h2>
         <p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-          Every second matters when someone's life is on the line. This campaign aims to empower individuals with the skills and confidence to respond in emergencies through Basic Life Support (BLS) training.
+          Every second matters when someone&apos;s life is on the line. This campaign aims to empower individuals with the skills and confidence to respond in emergencies through Basic Life Support (BLS) training.
         </p>
       </div>
 
