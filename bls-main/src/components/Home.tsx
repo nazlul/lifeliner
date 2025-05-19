@@ -61,7 +61,7 @@ export default function Home() {
       </div>
     )}
 
-      {/* <div className="relative w-full h-screen">
+      <div className="relative w-full h-screen">
         <video
           src="/bg-1.mp4"
           autoPlay
@@ -69,19 +69,7 @@ export default function Home() {
           loop
           playsInline
           className="absolute inset-0 w-full h-[832px] object-cover z-0"
-        /> */}
-
-    <div className="relative w-full h-screen">
-        <div className="absolute inset-0 w-full h-[832px]">
-          <Image
-            src="/bg-1.png"
-            alt="Background"
-            layout="fill"
-            objectFit="cover"
-            className="z-0"
-          />
-        </div>
-
+        />
 
         <h1 className="font-nyght absolute top-[352px] left-1/2 transform -translate-x-1/2 w-[90%] md:w-[612px] text-center text-black font-semibold text-3xl md:text-[50.25px] leading-tight tracking-wide uppercase z-10">
           Train to Save. Pledge to Protect.

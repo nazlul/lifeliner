@@ -17,11 +17,14 @@ export default function Join() {
             />
         </div>
         <button
-            className="absolute top-[70%] left-[8%] bg-[#E11B22] text-white font-semibold text-sm px-4 py-2 
-                    md:text-base md:px-6 md:py-3 
-                    lg:text-lg lg:px-8 lg:py-4 
-                    rounded-lg shadow-md hover:bg-red-700 transition"
-        >
+            className="absolute cursor-pointer top-[70%] left-[8%]
+                    bg-[#E11B22] text-white font-semibold
+                      text-xs px-2 py-1 
+                      md:text-base md:px-6 md:py-3
+                      lg:text-lg lg:px-8 lg:py-4
+                     
+                      rounded-lg shadow-md hover:bg-red-700 transition"
+                    onClick={() => window.open('https://forms.gle/MNQ2dtiU4rPokEiD8', '_blank')}>
             Join the Certified Lifeliners
         </button>
  </section>
