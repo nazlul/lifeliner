@@ -29,23 +29,24 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="flex flex-col items-center md:items-center lg:items-center text-center md:text-left lg:text-center">
-            <div className="relative w-[250px] h-[150px] ">
-              <Image
-                src="/logo.png"
-                alt="life liner"
-                fill
-                style={{ objectFit: "contain" }}
-                priority
-              />
-            </div>
-            <p className="text-sm uppercase tracking-wide font-light mb-4 max-w-[300px]">
-              Contact us. Let us customize a solution for your company!
-            </p>
-            <button className="bg-red-600 text-white py-2 px-6 rounded hover:bg-red-700 transition text-sm uppercase">
-              Contact Us
-            </button>
-          </div>
+          <div className="flex flex-col items-center text-center w-full">
+        <div className="w-[200px] h-[120px] relative mb-4 shrink-0">
+          <Image
+            src="/logo2.png"
+            alt="life liner"
+            fill
+            style={{ objectFit: 'contain' }}
+            priority
+          />
+        </div>
+        <p className="text-sm uppercase tracking-wide font-light mb-4 max-w-[300px]">
+          Contact us. Let us customize a solution for your company!
+        </p>
+        <button className="bg-red-600 text-white py-2 px-6 rounded hover:bg-red-700 transition text-sm uppercase">
+          Contact Us
+        </button>
+      </div>
+
         </div>
       </div>
 

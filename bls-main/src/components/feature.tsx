@@ -15,8 +15,7 @@ export default function Feature() {
   return (
     <section className="w-full font-sans bg-white py-12 px-6 md:px-20">
       <div className="text-center mb-8">
-        <h2 className="text-xl md:text-2xl lg:text-3xl text-[#F3838D] font-bold mb-2">In the Spotlight:</h2>
-        <h3 className="text-3xl md:text-4xl lg:text-5xl font-medium text-black">Proudly Featured By</h3>
+        <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] font-sans font-bold">Proudly <span className="italic">Featured By</span></h3>
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         {logos.map((src, i) => (

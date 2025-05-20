@@ -100,6 +100,20 @@ export default function Home() {
         <button className="absolute top-[493px] left-1/2 transform cursor-pointer -translate-x-1/2 bg-[#005AAC] rounded-[10px] w-[209px] h-[56px] z-10" onClick={() => window.open('https://forms.gle/MNQ2dtiU4rPokEiD8', '_blank')}>
           <span className="text-white font-bold text-sm md:text-base uppercase">Become a lifeliner</span>
         </button>
+        <a
+        href="https://wa.me/" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-5 right-5 lg:bottom-15 lg:right-15 sm:bottom-10 md:right-10 z-40"
+        >
+          <Image
+            src="/whatsapp.svg"
+            alt="WhatsApp"
+            width={60}
+            height={60}
+            className="w-12 h-12 md:w-14 md:h-14"
+          />
+        </a>
       </div>
     </main>
   )
