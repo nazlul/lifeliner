@@ -1,32 +1,20 @@
 'use client'
 
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { useInView } from 'react-intersection-observer'
+import Image from 'next/image'
 
-type Stat = {
+interface Stat {
   icon: string
   number: number
   label: string
 }
 
-export default function Count() {
+export default function StatsRow() {
   const stats: Stat[] = [
-    {
-      icon: '/count/1.svg',
-      number: 2400,
-      label: 'Certified Lifeliners',
-    },
-    {
-      icon: '/count/2.svg',
-      number: 1200,
-      label: 'Lives Impacted',
-    },
-    {
-      icon: '/count/3.svg',
-      number: 500,
-      label: 'Trainings',
-    },
+    { icon: '/count/1.svg', number: 2400, label: 'Certified Lifeliners' },
+    { icon: '/count/2.svg', number: 1200, label: 'Lives Impacted' },
+    { icon: '/count/3.svg', number: 500, label: 'Trainings' },
   ]
 
   return (
@@ -36,34 +24,48 @@ export default function Count() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 md:gap-20 gap-20 text-center">
         {stats.map((stat, index) => (
-          <StatItem key={index} icon={stat.icon} number={stat.number} label={stat.label} />
+          <CountUpStat
+            key={index}
+            icon={stat.icon}
+            number={stat.number}
+            label={stat.label}
+          />
         ))}
       </div>
     </section>
   )
 }
 
-function StatItem({ icon, number, label }: Stat) {
+function CountUpStat({ icon, number, label }: Stat) {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+    triggerOnce: false,
+  })
   const [count, setCount] = useState(0)
-  const { ref, inView } = useInView({ triggerOnce: true })
 
   useEffect(() => {
-    if (!inView) return
-    const duration = 1000 
-    const increment = number / (duration / 16) 
-    let current = 0
+    let interval: NodeJS.Timeout
 
-    const counter = setInterval(() => {
-      current += increment
-      if (current >= number) {
-        setCount(number)
-        clearInterval(counter)
-      } else {
-        setCount(Math.floor(current))
-      }
-    }, 16)
+    if (inView) {
+      let current = 0
+      const duration = 1000 
+      const stepTime = 16
+      const increment = number / (duration / stepTime)
 
-    return () => clearInterval(counter)
+      interval = setInterval(() => {
+        current += increment
+        if (current >= number) {
+          setCount(number)
+          clearInterval(interval)
+        } else {
+          setCount(Math.floor(current))
+        }
+      }, stepTime)
+    } else {
+      setCount(0)
+    }
+
+    return () => clearInterval(interval)
   }, [inView, number])
 
   return (
