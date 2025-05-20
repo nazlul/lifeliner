@@ -10,7 +10,7 @@ type Stat = {
   label: string
 }
 
-export default function StatsRow() {
+export default function Count() {
   const stats: Stat[] = [
     {
       icon: '/count/1.svg',
@@ -49,8 +49,6 @@ function StatItem({ icon, number, label }: Stat) {
 
   useEffect(() => {
     if (!inView) return
-
-    let start = 0
     const duration = 1000 
     const increment = number / (duration / 16) 
     let current = 0
