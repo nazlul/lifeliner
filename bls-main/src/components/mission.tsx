@@ -18,7 +18,7 @@ export default function Mission() {
       </div>
 
       <div className="text-black font-sans px-6 py-16 md:px-20 md:py-39 text-center">
-        <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-bold mb-10">Our <span className="italic">Goals</span></h2>
+        <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold mb-10">Our <span className="italic">Goals</span></h2>
         <ul className="list-disc text-[#005AAC] list-inside text-2xl md:text-2xl font-semibold leading-relaxed max-w-3xl mx-auto space-y-4 text-left md:text-center">
             <li>Train 10,000+ community members</li>
             <li>Build a network of certified Lifeliners across the region</li>
