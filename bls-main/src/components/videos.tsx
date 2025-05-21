@@ -30,7 +30,7 @@ export default function Videos() {
   return (
     <section className="py-16 px-4 md:px-16 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
       <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
-        Learn How to <span className='italic'>Save a Life</span>
+        Learn How to <span className="italic">Save a Life</span>
       </h2>
       <div className="grid gap-8 md:grid-cols-3">
         {videos.map((video, index) => (
@@ -55,19 +55,19 @@ export default function Videos() {
                   layout="fill"
                   objectFit="cover"
                 />
-               <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-black/10 flex flex-col justify-between p-4">
-                  <div className="flex justify-center items-start flex-grow pt-12">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-black/10 flex flex-col justify-end p-3 sm:p-4">
+                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 200 200"
-                      className="w-20 h-20 fill-white"
+                      className="w-14 h-14 sm:w-20 sm:h-20 fill-white opacity-90"
                     >
                       <polygon points="70,55 70,145 145,100" />
                     </svg>
                   </div>
-                  <div className="text-left text-white font-sans">
-                    <h3 className="text-xl font-bold">{video.title}</h3>
-                    <p className="text-sm opacity-90">{video.description}</p>
+                  <div className="relative rounded-md p-2 sm:p-3 text-white font-sans">
+                    <h3 className="text-base sm:text-lg font-bold leading-tight">{video.title}</h3>
+                    <p className="text-xs sm:text-sm opacity-90 leading-snug mt-1">{video.description}</p>
                   </div>
                 </div>
               </>

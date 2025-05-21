@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 export default function Footer() {
@@ -30,12 +32,13 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col items-center text-center w-full">
-        <div className="w-[200px] h-[120px] relative mb-4 shrink-0">
+        <div className="w-[200px] h-[120px] cursor-pointer relative mb-4 shrink-0">
           <Image
             src="/logo2.png"
             alt="life liner"
             fill
             style={{ objectFit: 'contain' }}
+            onClick={() => window.open('https://babymhospital.org/', '_blank')}
             priority
           />
         </div>
@@ -64,7 +67,8 @@ export default function Footer() {
 
           <div className="flex space-x-6">
             <a
-              href="#"
+              href="https://www.facebook.com"
+              target="_blank"
               aria-label="Facebook"
               className="w-11 h-11 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition"
             >
@@ -80,8 +84,10 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
-              aria-label="Twitter"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
               className="w-11 h-11 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition"
             >
               <svg
@@ -91,13 +97,15 @@ export default function Footer() {
                 fill="#2D2D2D"
                 viewBox="0 0 24 24"
               >
-                <path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.93 4.93 0 002.165-2.724c-.951.566-2.005.974-3.127 1.195a4.92 4.92 0 00-8.384 4.482A13.955 13.955 0 011.671 3.149a4.902 4.902 0 001.523 6.574 4.903 4.903 0 01-2.228-.616c-.054 2.28 1.581 4.415 3.949 4.89a4.936 4.936 0 01-2.224.084 4.927 4.927 0 004.6 3.417A9.867 9.867 0 010 19.54a13.94 13.94 0 007.548 2.212c9.057 0 14.01-7.514 14.01-14.035 0-.213-.005-.425-.014-.636A10.012 10.012 0 0024 4.557z" />
+                <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.5-2.25a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z" />
               </svg>
             </a>
 
             <a
-              href="#"
-              aria-label="LinkedIn"
+              href="https://www.youtube.com/user/BabyMemorialHospital"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
               className="w-11 h-11 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition"
             >
               <svg
@@ -107,9 +115,10 @@ export default function Footer() {
                 fill="#2D2D2D"
                 viewBox="0 0 24 24"
               >
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.327-.027-3.037-1.852-3.037-1.854 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049c.476-.9 1.637-1.852 3.37-1.852 3.602 0 4.268 2.369 4.268 5.455v6.288zM5.337 7.433c-1.144 0-2.068-.927-2.068-2.068 0-1.143.924-2.068 2.068-2.068s2.068.925 2.068 2.068c0 1.141-.924 2.068-2.068 2.068zM6.766 20.452H3.91V9h2.856v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.22.792 24 1.771 24h20.451C23.2 24 24 23.22 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                <path d="M23.498 6.186a2.952 2.952 0 00-2.078-2.09C19.59 3.5 12 3.5 12 3.5s-7.59 0-9.42.596a2.952 2.952 0 00-2.078 2.09A30.31 30.31 0 000 12a30.31 30.31 0 00.502 5.814 2.952 2.952 0 002.078 2.09C4.41 20.5 12 20.5 12 20.5s7.59 0 9.42-.596a2.952 2.952 0 002.078-2.09A30.31 30.31 0 0024 12a30.31 30.31 0 00-.502-5.814zM9.546 15.568V8.432l6.09 3.568-6.09 3.568z" />
               </svg>
             </a>
+
           </div>
 
           <div className="text-center md:text-right max-w-[350px]">
