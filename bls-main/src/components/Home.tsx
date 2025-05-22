@@ -5,31 +5,30 @@ import Blinking from './blink'
 
 export default function Home() {
   return (
-    <main className="scroll-smooth relative w-full min-h-screen bg-white sm:items-center sm:justify-center overflow-hidden">
+    <main className="scroll-smooth relative w-full min-h-screen bg-white overflow-hidden flex flex-col">
       <NavBar />
       <Blinking />
-      <div id="home" className="relative w-full h-screen">
+      <section id="home" className="relative w-full flex-grow min-h-screen">
         <video
           src="/bg-1.mp4"
           autoPlay
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-[832px] object-cover z-0"
+          className="absolute inset-0 w-full h-full object-cover z-0"
         />
-        <div className="absolute top-[300px] left-1/2 transform -translate-x-1/2 w-[90%] md:w-[612px] pointer-events-none">
+        <div className="absolute top-[38%] md:top-[42%] lg:top-[42%] left-1/2 transform -translate-x-1/2 w-[90%] max-w-md md:max-w-lg lg:max-w-4xl pointer-events-none">
           <div className="relative z-10 text-center">
             <h1 className="font-nyght font-semibold text-3xl md:text-[50.25px] leading-tight tracking-wide uppercase">
-              <span className="text-[#0A68AD]">Train to Save.</span> <br />
-              <span className="text-[#EE5A22]">Pledge to Protect.</span>
+              <span className="block text-[#0A68AD]">Train to Save.</span>
+              <span className="block text-[#EE5A22] whitespace-nowrap">Pledge to Protect.</span>
             </h1>
-            <div className="absolute -inset-4 -z-10 bg-white/80 blur-2xl rounded-full"></div>
+            <div className="absolute -inset-3 -z-10 bg-white/80 blur-2xl rounded-full"></div>
           </div>
         </div>
 
-
         <button
-          className="absolute top-[430px] md:top-[450px] lg:top-[490px] left-1/2 transform cursor-pointer -translate-x-1/2 bg-[#005AAC] hover:bg-[#044786] rounded-[10px] lg:w-[209px] lg:h-[56px] md:w-[209px] md:h-[56px] w-[150px] h-[46px]"
+          className="absolute top-[52%] lg:top-[62%] md:top-[58%] left-1/2 transform -translate-x-1/2 bg-[#005AAC] hover:bg-[#044786] rounded-[10px] w-[150px] h-[46px] md:w-[209px] md:h-[56px]"
           onClick={() => window.open('https://forms.gle/MNQ2dtiU4rPokEiD8', '_blank')}
         >
           <span className="text-white font-sans font-bold text-sm md:text-base uppercase">
@@ -38,10 +37,10 @@ export default function Home() {
         </button>
 
         <a
-          href="https://wa.me/"
+          href="https://wa.me/8589023000"
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-5 right-5 z-[9999] lg:bottom-15 lg:right-15 sm:bottom-10 md:right-10"
+          className="fixed bottom-5 right-5 z-[9999] md:bottom-10 md:right-10"
         >
           <Image
             src="/whatsapp.svg"
@@ -51,7 +50,33 @@ export default function Home() {
             className="w-12 h-12 md:w-14 md:h-14"
           />
         </a>
-      </div>
+
+        <div className="absolute bottom-5 md:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
+          <div className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
+            <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">2400+</span>
+            <div className="leading-tight">
+              <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">People</span>
+              <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">Trained</span>
+            </div>
+          </div>
+
+          <div className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
+            <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">1200+</span>
+            <div className="leading-tight">
+              <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">People</span>
+              <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">Taken the Pledge</span>
+            </div>
+          </div>
+
+          <div className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
+            <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">500+</span>
+            <div className="leading-tight">
+              <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">Training</span>
+              <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">Sessions</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }

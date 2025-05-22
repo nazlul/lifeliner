@@ -19,7 +19,7 @@ export default function TeamCards() {
   const scroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
       const container = scrollRef.current
-      const scrollAmount = 248 * 4 + 40 
+      const scrollAmount = 248 * 4 + 40
       if (direction === 'right') {
         if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
           container.scrollTo({ left: 0, behavior: 'smooth' })
@@ -37,16 +37,16 @@ export default function TeamCards() {
   }
 
   return (
-    <section className="relative w-full font-sans px-6 md:px-20 pt-12 pb-10 py-2 bg-gray-100">
+    <section className="relative w-full font-sans px-6 md:px-25 pt-12 pb-10 bg-gray-100">
       <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-sans font-bold">
         Our <span className="italic">Team</span>
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:hidden">
+      <div className="flex md:hidden overflow-x-auto scrollbar-hide gap-6">
         {profiles.map((person, index) => (
           <div
             key={index}
-            className="w-full h-[375px] bg-white shadow-[0px_13px_19px_rgba(0,0,0,0.07)] rounded-[10px] flex flex-col items-center"
+            className="flex-shrink-0 w-[260px] h-[375px] bg-white shadow-[0px_13px_19px_rgba(0,0,0,0.07)] rounded-[10px] flex flex-col items-center"
           >
             <div className="w-[238px] h-[231px] relative">
               <Image
@@ -79,18 +79,31 @@ export default function TeamCards() {
         ))}
       </div>
 
-      <div className="overflow-hidden relative hidden md:flex">
+      <div className="relative hidden md:flex justify-center items-center">
+        <button
+          onClick={() => scroll('left')}
+          className="absolute left-[-80px] z-10"
+          aria-label="Scroll Left"
+        >
+          <Image
+            src="/arrow.svg"
+            alt="Left Arrow"
+            width={26}
+            height={52}
+            className="transform rotate-180 cursor-pointer"
+          />
+        </button>
+
         <div
           ref={scrollRef}
-          className="flex gap-10 transition-all duration-500 overflow-x-auto scrollbar-hide"
+          className="flex gap-10 overflow-x-auto scrollbar-hide"
         >
           {profiles.map((person, index) => (
             <div
               key={index}
               className="flex-shrink-0 w-[300px] h-[375px] bg-white rounded-[10px] mb-4 flex flex-col items-center shadow-[0_8px_10px_-2px_rgba(0,0,0,0.2)]"
-
             >
-              <div className="w-[250px] h-[250px] relative">
+              <div className="w-[280px] h-[250px] relative">
                 <Image
                   src={person.image}
                   alt={person.name}
@@ -122,21 +135,8 @@ export default function TeamCards() {
         </div>
 
         <button
-          onClick={() => scroll('left')}
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 w-[26px] h-[52px]"
-          aria-label="Scroll Left"
-        >
-          <Image
-            src="/arrow.svg"
-            alt="Left Arrow"
-            width={26}
-            height={52}
-            className="transform rotate-180"
-          />
-        </button>
-        <button
           onClick={() => scroll('right')}
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 w-[26px] h-[52px]"
+          className="absolute right-[-80px] z-10"
           aria-label="Scroll Right"
         >
           <Image src="/arrow.svg" alt="Right Arrow" width={26} height={52} />

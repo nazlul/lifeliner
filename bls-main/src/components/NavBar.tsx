@@ -24,7 +24,7 @@ export default function NavBar() {
         {[
           { label: 'Home', id: 'home' },
           { label: 'About LifeLinER', id: 'about' },
-          { label: 'Our goals', id: 'goal' },
+          { label: 'Our goals', id: 'goals' },
           { label: 'Blogs', id: 'blogs' },
         ].map(({ label, id }) => (
           <span

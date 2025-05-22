@@ -18,7 +18,7 @@ export default function StatsRow() {
   ]
 
   return (
-    <section className="py-16 px-4 md:px-16 bg-[#F5FCFF] font-sans">
+    <section className="py-16 px-4 md:px-16 bg-[#E0F5FE] font-sans">
       <h1 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-15">
         Our Lifesaving <span className="italic">Impact</span>
       </h1>

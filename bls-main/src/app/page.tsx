@@ -8,6 +8,7 @@ import Count from '@/components/count';
 import NavBar from '@/components/NavBar';
 import Home from '@/components/Home';
 import Team from '@/components/team';
+import Goals from '@/components/goals';
 
 export default function HomePage() {
   return (
@@ -16,8 +17,11 @@ export default function HomePage() {
       <section id="home">
         <Home />
       </section>
-      <section id="goals">
+      <section id="about">
         <Mission />
+      </section>
+      <section id="goals">
+        <Goals />
       </section>
       <section>
         <Team />
@@ -37,7 +41,7 @@ export default function HomePage() {
       <section>
         <Feature />
       </section>
-      <section id="about">
+      <section>
         <Footer />
       </section>
     </>
