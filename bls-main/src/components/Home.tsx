@@ -2,6 +2,59 @@
 import Image from 'next/image'
 import NavBar from './NavBar'
 import Blinking from './blink'
+import { useEffect, useState } from 'react'
+import { useInView } from 'react-intersection-observer'
+
+interface Stat {
+  icon?: React.ReactNode
+  number: number
+  label: string
+}
+
+function CountUpStat({ number, label }: Stat) {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+    triggerOnce: false,
+  })
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    let interval: NodeJS.Timeout | null = null
+
+    if (inView) {
+      let current = 0
+      const duration = 1000
+      const stepTime = 16
+      const increment = number / (duration / stepTime)
+
+      interval = setInterval(() => {
+        current += increment
+        if (current >= number) {
+          setCount(number)
+          if (interval) clearInterval(interval)
+        } else {
+          setCount(Math.floor(current))
+        }
+      }, stepTime)
+    } else {
+      setCount(0)
+    }
+
+    return () => {
+      if (interval) clearInterval(interval)
+    }
+  }, [inView, number])
+
+  return (
+    <div ref={ref} className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
+      <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">{count}+</span>
+      <div className="leading-tight">
+        <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">{label.split(' ')[0]}</span>
+        <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">{label.split(' ').slice(1).join(' ')}</span>
+      </div>
+    </div>
+  )
+}
 
 export default function Home() {
   return (
@@ -52,29 +105,9 @@ export default function Home() {
         </a>
 
         <div className="absolute bottom-5 md:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
-          <div className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
-            <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">2400+</span>
-            <div className="leading-tight">
-              <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">People</span>
-              <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">Trained</span>
-            </div>
-          </div>
-
-          <div className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
-            <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">1200+</span>
-            <div className="leading-tight">
-              <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">People</span>
-              <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">Taken the Pledge</span>
-            </div>
-          </div>
-
-          <div className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
-            <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">500+</span>
-            <div className="leading-tight">
-              <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">Training</span>
-              <span className="text-[#0A68AD] text-[0.5rem] sm:text-[0.6rem] uppercase font-gilroyb block">Sessions</span>
-            </div>
-          </div>
+          <CountUpStat number={2400} label="People Trained" />
+          <CountUpStat number={1200} label="People Taken the Pledge" />
+          <CountUpStat number={500} label="Training Sessions" />
         </div>
       </section>
     </main>
