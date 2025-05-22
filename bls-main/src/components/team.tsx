@@ -39,7 +39,7 @@ export default function TeamCards() {
   return (
     <section className="relative w-full font-sans px-6 md:px-25 pt-12 pb-10 bg-gray-100">
       <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-sans font-bold">
-        Our <span className="italic">Team</span>
+        Our <span className="italic text-[#EE5A22]">Team</span>
       </h3>
 
       <div className="flex md:hidden overflow-x-auto scrollbar-hide gap-6">

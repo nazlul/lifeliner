@@ -10,8 +10,8 @@ interface Stat {
   number: number
   label: string
 }
-
-function CountUpStat({ number, label }: Stat) {
+  
+function    CountUpStat({ number, label }: Stat) {
   const { ref, inView } = useInView({
     threshold: 0.5,
     triggerOnce: false,
@@ -46,7 +46,7 @@ function CountUpStat({ number, label }: Stat) {
   }, [inView, number])
 
   return (
-    <div ref={ref} className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] sm:w-[240px] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
+    <div ref={ref} className="border border-white rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] md:w-[240px] md:h-[100px] md:flex-row md:px-4 md:py-3 sm:w-[30%] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left">
       <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">{count}+</span>
       <div className="leading-tight">
         <span className="text-[#0A68AD] text-xs sm:text-lg font-gilroyl block">{label.split(' ')[0]}</span>
@@ -63,7 +63,7 @@ export default function Home() {
       <Blinking />
       <section id="home" className="relative w-full flex-grow min-h-screen">
         <video
-          src="/bg-1.mp4"
+          src="/bg/bg-1.mp4"
           autoPlay
           muted
           loop
@@ -76,15 +76,15 @@ export default function Home() {
               <span className="block text-[#0A68AD]">Train to Save.</span>
               <span className="block text-[#EE5A22] whitespace-nowrap">Pledge to Protect.</span>
             </h1>
-            <div className="absolute -inset-3 -z-10 bg-white/80 blur-2xl rounded-full"></div>
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-full -z-10 bg-white/80 blur-2xl rounded-full"></div>
           </div>
         </div>
 
         <button
-          className="absolute top-[52%] lg:top-[62%] md:top-[58%] left-1/2 transform -translate-x-1/2 bg-[#005AAC] hover:bg-[#044786] rounded-[10px] w-[150px] h-[46px] md:w-[209px] md:h-[56px]"
+          className="absolute top-[52%] lg:top-[62%] md:top-[62%] left-1/2 transform -translate-x-1/2 bg-[#005AAC] hover:bg-[#044786] rounded-[10px] w-[150px] h-[46px] md:w-[209px] md:h-[56px]"
           onClick={() => window.open('https://forms.gle/MNQ2dtiU4rPokEiD8', '_blank')}
         >
-          <span className="text-white font-sans font-bold text-sm md:text-base uppercase">
+          <span className="text-white font-sans shadow-2xl font-bold text-sm md:text-base uppercase">
             Become a lifeliner
           </span>
         </button>
@@ -104,7 +104,7 @@ export default function Home() {
           />
         </a>
 
-        <div className="absolute bottom-5 md:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
+        <div className="absolute bottom-25 md:bottom-10 lg:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
           <CountUpStat number={2400} label="People Trained" />
           <CountUpStat number={1200} label="People Taken the Pledge" />
           <CountUpStat number={500} label="Training Sessions" />

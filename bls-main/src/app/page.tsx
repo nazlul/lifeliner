@@ -24,13 +24,13 @@ export default function HomePage() {
         <Goals />
       </section>
       <section>
-        <Team />
-      </section>
-      <section>
         <Videos />
       </section>
       <section>
         <Join />
+      </section>
+      <section>
+        <Team />
       </section>
       <section>
         <Count />

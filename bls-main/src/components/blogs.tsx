@@ -32,7 +32,7 @@ const blogs = [
 export default function Blog() {
   return (
     <section className="py-16 px-4 md:px-16 bg-white">
-      <h2 className="text-[#005AAC] font-sans text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">Recent <span className="italic">Blogs</span></h2>
+      <h2 className="text-[#005AAC] font-sans text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">Recent <span className="italic text-[#EE5A22]">Blogs</span></h2>
       <div className="grid gap-8 md:grid-cols-3">
         {blogs.map((blog) => (      
           <div key={blog.id} className="bg-[#E0F5FE] rounded-xl overflow-hidden shadow-md transform transition duration-300 hover:scale-105">

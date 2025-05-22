@@ -16,9 +16,12 @@ export default function Blinking() {
   return (
     <div
       className="
-        fixed top-2 right-5
+        fixed top-2 right-4
+        md:top-2 md:right-8
+        lg:top-4 lg:right-13
         z-[9999]
-        flex flex-col items-center space-y-1 
+        flex flex-col lg:flex-row lg:items-center lg:space-x-2 
+        items-center
         p-1 
         select-none pointer-events-none
       "
@@ -28,14 +31,19 @@ export default function Blinking() {
         alt="Blinking Icon"
         width={32}
         height={32}
-        className="w-8 h-8"
+        className="w-11 h-11"
       />
-      <span className="text-[0.5rem] md:text-[0.55rem] lg:text-[0.65rem] text-red-600 font-sans font-bold text-center uppercase leading-tight whitespace-nowrap">
-        Emergency <br /> contact
-      </span>
-      <span className="text-[0.5rem] md:text-[0.65rem] lg:text-[0.75rem] -mt-1 text-red-600 font-sans font-bold">
-        +91 974 720 0002
-      </span>
+      <div className="flex flex-col items-center lg:items-start text-red-600 font-sans font-bold leading-tight">
+        <span className="text-[0.5rem] md:text-[0.55rem] lg:text-[0.65rem] text-center lg:text-left uppercase">
+          Emergency
+          <span className="hidden lg:inline"><br /></span>
+          <span className="inline lg:hidden"> </span>
+          contact
+        </span>
+        <span className="text-[0.5rem] md:text-[0.65rem] lg:text-[0.75rem]">
+          +91 974 720 0002
+        </span>
+      </div>
     </div>
   )
 }

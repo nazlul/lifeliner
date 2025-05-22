@@ -30,7 +30,7 @@ export default function Videos() {
   return (
     <section className="py-16 px-4 md:px-16 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
       <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
-        Learn How to <span className="italic">Save a Life</span>
+        Learn How to <span className="italic text-[#EE5A22]">Save a Life</span>
       </h2>
       <div className="grid gap-8 md:grid-cols-3">
         {videos.map((video, index) => (
