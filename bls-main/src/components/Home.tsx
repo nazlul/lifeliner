@@ -48,7 +48,7 @@ function CountUpStat({ number, label }: Stat) {
   return (
     <div
       ref={ref}
-      className="border border-[#0A68AD] bg-white/80 rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] md:w-[240px] md:h-[100px] md:flex-row md:px-4 md:py-3 sm:w-[30%] sm:h-[100px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left"
+      className="border border-[#0A68AD] bg-white/80 rounded-xl px-2 py-2 flex flex-col items-center w-[30%] min-w-[100px] h-[80px] md:w-[240px] md:h-[100px] md:flex-row md:px-4 md:py-3 sm:w-[30%] sm:h-[90px] sm:flex-row sm:px-4 sm:py-3 text-center sm:text-left"
     >
       <span className="text-[#EE5A22] text-xl sm:text-4xl font-bold sm:mr-3">{count}+</span>
       <div className="leading-tight">
@@ -96,7 +96,7 @@ export default function Home() {
       <NavBar />
       <Blinking />
       <section id="home" className="relative w-full flex-grow min-h-screen">
-        <div className="absolute inset-0 w-full h-full top-[90px] -z-10">
+        <div className="absolute top-20 sm:top-20 md:top-20 left-0 right-0 bottom-0 -z-10">
           <Image
             src={currentImage}
             alt="Background slide"
@@ -140,7 +140,7 @@ export default function Home() {
           />
         </a>
 
-        <div className="absolute bottom-115 md:bottom-10 lg:bottom-10  left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
+        <div className="absolute top-30 md:top-auto md:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
           <CountUpStat number={2400} label="People Trained" />
           <CountUpStat number={1200} label="People Taken the Pledge" />
           <CountUpStat number={500} label="Training Sessions" />
