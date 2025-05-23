@@ -38,7 +38,13 @@ export default function Blinking() {
           Emergency
           <span className="hidden lg:inline"></span>
         </span>
-        <span className="text-[0.5rem] md:text-[0.65rem] lg:text-[0.75rem]">
+        <a
+          href="tel:+919747200002"
+          className="block md:hidden cursor-pointer bg-red-600 text-white px-3 py-1 rounded text-[0.65rem] text-center hover:bg-red-700 transition"
+        >
+          CALL
+        </a>
+        <span className="hidden md:block text-[0.5rem] md:text-[0.65rem] lg:text-[0.75rem]">
           +91 974 720 0002
         </span>
       </div>
