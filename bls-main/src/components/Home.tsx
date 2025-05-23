@@ -126,7 +126,7 @@ export default function Home() {
         </button>
 
         <a
-          href="https://wa.me/8589023000"
+          href="https://wa.me/+918589023000"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-5 right-5 z-[9999] md:bottom-10 md:right-10"

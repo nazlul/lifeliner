@@ -27,7 +27,7 @@ export default function Footer() {
                 <li><a href="#blogs" className="hover:underline">Blog</a></li>
                 <li><a href="#testimonials" className="hover:underline">Testimonials</a></li>
                 <li><a href="#faq" className="hover:underline">FAQ</a></li>
-                <li><a href="https://wa.me/8589023000" target="_blank" className="hover:underline">Contact Us</a></li>
+                <li><a href="https://wa.me/+918589023000" target="_blank" className="hover:underline">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Footer() {
             <p className="text-sm tracking-wide font-normal mb-4 max-w-[300px]">
               If you would like to organize a LifeLinER training in your organization or partner with us, Get in Touch
             </p>
-            <button className="bg-red-600 text-white py-2 px-6 cursor-pointer rounded hover:bg-red-700 transition text-sm uppercase" onClick={() => window.open('https://wa.me/8589023000', '_blank')}>
+            <button className="bg-red-600 text-white py-2 px-6 cursor-pointer rounded hover:bg-red-700 transition text-sm uppercase" onClick={() => window.open('https://wa.me/+918589023000', '_blank')}>
               Partner with LifeLinER
             </button>
           </div>

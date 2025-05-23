@@ -23,7 +23,7 @@ export default function Blinking() {
         flex flex-col lg:flex-row lg:items-center lg:space-x-2 
         items-center
         p-1 
-        select-none pointer-events-none
+        select-none 
       "
     >
       <Image
@@ -40,7 +40,7 @@ export default function Blinking() {
         </span>
         <a
           href="tel:+919747200002"
-          className="block md:hidden cursor-pointer bg-red-600 text-white px-3 py-1 rounded text-[0.65rem] text-center hover:bg-red-700 transition"
+          className="block md:hidden bg-red-600 text-white px-3 py-1 rounded text-[0.65rem] text-center hover:bg-red-700 transition"
         >
           CALL
         </a>
