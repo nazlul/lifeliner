@@ -2,15 +2,16 @@
 
 import React, { useRef } from 'react'
 import Image from 'next/image'
-import { FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa'
 
 const profiles = [
-  { image: '/dr.jpg', name: 'Dr. Alice Smith', profession: 'Cardiologist' },
-  { image: '/dr.jpg', name: 'Dr. John Lee', profession: 'Neurologist' },
-  { image: '/dr.jpg', name: 'Dr. Maria Gomez', profession: 'Pediatrician' },
-  { image: '/dr.jpg', name: 'Dr. Ryan Chen', profession: 'Orthopedic Surgeon' },
-  { image: '/dr.jpg', name: 'Dr. Olivia Ray', profession: 'Dermatologist' },
-  { image: '/dr.jpg', name: 'Dr. Ethan Park', profession: 'Radiologist' },
+  { image: '/dr/1.jpg', name: 'Dr. Fabith Moideen V M', profession: 'Chief - Emergency Medicine' },
+  { image: '/dr/2.png', name: 'Dr. Rinoop Ramachandran', profession: 'Dy. Chief & Senior Consultant' },
+  { image: '/dr/3.png', name: 'Dr. Sanooj O P', profession: 'Senior Consultant' },
+  { image: '/dr/4.png', name: 'Dr. Priya Padmanabhan', profession: 'Consultant' },
+  { image: '/dr/5.png', name: 'Dr. Ajay Solomon Linson', profession: 'Specialist in Emergency Medicine' },
+  { image: '/dr/6.png', name: 'Dr. Reshma B K', profession: 'Specialist in Emergency Medicine' },
+  { image: '/dr/7.png', name: 'Dr. Faisal Basheer', profession: 'Associate Consultant' },
+  { image: '/dr/8.png', name: 'Dr. Drishya S', profession: 'Associate Consultant' },
 ]
 
 export default function TeamCards() {
@@ -38,7 +39,7 @@ export default function TeamCards() {
 
   return (
     <section className="relative w-full font-sans px-6 md:px-25 pt-12 pb-10 bg-gray-100">
-      <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-sans font-bold">
+      <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-bold">
         Our <span className="italic text-[#EE5A22]">Team</span>
       </h3>
 
@@ -46,34 +47,17 @@ export default function TeamCards() {
         {profiles.map((person, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-[260px] h-[375px] bg-white shadow-[0px_13px_19px_rgba(0,0,0,0.07)] rounded-[10px] flex flex-col items-center"
+            className="flex-shrink-0 w-[260px] h-[390px] relative rounded-[10px] overflow-hidden"
           >
-            <div className="w-[238px] h-[231px] relative">
-              <Image
-                src={person.image}
-                alt={person.name}
-                fill
-                className="object-cover rounded-t-[10px]"
-              />
-            </div>
-            <div className="flex flex-col items-center px-[30px] pt-[20px] gap-[10px] h-[144px]">
-              <h3 className="text-[#252B42] text-[16px] font-bold leading-[24px] tracking-[0.1px] text-center">
-                {person.name}
-              </h3>
-              <p className="text-[#737373] text-[12px] font-normal leading-[16px] tracking-[0.2px] text-center">
-                {person.profession}
-              </p>
-              <div className="flex justify-center items-center gap-[20px] mt-2">
-                <a href="#" className="text-[#FF685B] text-[20px]">
-                  <FaFacebook />
-                </a>
-                <a href="#" className="text-[#FF685B] text-[20px]">
-                  <FaTwitter />
-                </a>
-                <a href="#" className="text-[#FF685B] text-[20px]">
-                  <FaInstagram />
-                </a>
-              </div>
+            <Image
+              src={person.image}
+              alt={person.name}
+              fill
+              className="object-cover object-top scale-100"
+            />
+            <div className="absolute bottom-0 w-full bg-white h-[80px] px-[30px] pt-[20px] gap-[10px]">
+              <h3 className="text-black text-sm font-bold leading-[24px] tracking-[0.1px] text-center">{person.name}</h3>
+              <p className="text-gray-500 text-xs leading-[16px] tracking-[0.2px] text-center">{person.profession}</p>
             </div>
           </div>
         ))}
@@ -90,45 +74,28 @@ export default function TeamCards() {
             alt="Left Arrow"
             width={26}
             height={52}
-            className="transform rotate-180 cursor-pointer"
+            className="rotate-180 cursor-pointer"
           />
         </button>
 
         <div
           ref={scrollRef}
-          className="flex gap-10 overflow-x-auto scrollbar-hide"
+          className="flex gap-14 overflow-x-auto scrollbar-hide"
         >
           {profiles.map((person, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[300px] h-[375px] bg-white rounded-[10px] mb-4 flex flex-col items-center shadow-[0_8px_10px_-2px_rgba(0,0,0,0.2)]"
+              className="flex-shrink-0 w-[280px] h-[430px] relative rounded-[10px] overflow-hidden"
             >
-              <div className="w-[280px] h-[250px] relative">
-                <Image
-                  src={person.image}
-                  alt={person.name}
-                  fill
-                  className="object-cover rounded-t-[10px]"
-                />
-              </div>
-              <div className="flex flex-col items-center px-[30px] pt-[20px] gap-[10px] h-[144px]">
-                <h3 className="text-[#252B42] text-[16px] font-bold leading-[24px] tracking-[0.1px] text-center">
-                  {person.name}
-                </h3>
-                <p className="text-[#737373] text-[12px] font-normal leading-[16px] tracking-[0.2px] text-center">
-                  {person.profession}
-                </p>
-                <div className="flex justify-center items-center gap-[20px] mt-2">
-                  <a href="#" className="text-[#FF685B] text-[20px]">
-                    <FaFacebook />
-                  </a>
-                  <a href="#" className="text-[#FF685B] text-[20px]">
-                    <FaTwitter />
-                  </a>
-                  <a href="#" className="text-[#FF685B] text-[20px]">
-                    <FaInstagram />
-                  </a>
-                </div>
+              <Image
+                src={person.image}
+                alt={person.name}
+                fill
+                className="object-cover object-top scale-100"
+              />
+              <div className="absolute bottom-0 w-full bg-white h-[90px] px-[30px] pt-[20px] gap-[10px]">
+                <h3 className="text-black text-sm font-bold leading-[36px] tracking-[0.1px] text-center">{person.name}</h3>
+                <p className="text-gray-500 text-[0.7rem] leading-[16px] tracking-[0.2px] text-center">{person.profession}</p>
               </div>
             </div>
           ))}

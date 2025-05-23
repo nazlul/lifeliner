@@ -32,7 +32,7 @@ export default function Videos() {
       <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
         Learn How to <span className="italic text-[#EE5A22]">Save a Life</span>
       </h2>
-      <div className="grid gap-8 md:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {videos.map((video, index) => (
           <div
             key={index}
@@ -60,14 +60,20 @@ export default function Videos() {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 200 200"
-                      className="w-14 h-14 sm:w-20 sm:h-20 fill-white opacity-90"
+                      className="w-14 h-14 sm:w-20 sm:h-20 fill-white opacity-90
+                        [&@media(min-width:1025px)]:[&@media(max-width:1220px)]:hidden
+                        [&@media(min-width:768px)]:[&@media(max-width:840px)]:hidden"
                     >
                       <polygon points="70,55 70,145 145,100" />
                     </svg>
                   </div>
                   <div className="relative rounded-md p-2 sm:p-3 text-white font-sans">
-                    <h3 className="text-base sm:text-lg font-bold leading-tight">{video.title}</h3>
-                    <p className="text-xs sm:text-sm opacity-90 leading-snug mt-1">{video.description}</p>
+                    <h3 className="text-xs md:text-xl sm:text-lg font-bold leading-tight custom-title">
+                      {video.title}
+                    </h3>
+                    <p className="text-xs md:text-xs sm:text-sm opacity-90 leading-snug mt-1 custom-desc">
+                      {video.description}
+                    </p>
                   </div>
                 </div>
               </>

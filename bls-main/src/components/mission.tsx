@@ -5,15 +5,15 @@ import React from 'react'
 export default function Mission() {
   return (
     <section
-      className="w-full bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center px-6 md:px-16 py-10 md:py-20"
+      className="relative w-full bg-cover bg-center bg-no-repeat py-25 px-6 md:px-16 lg:px-22 flex justify-center items-center text-center"
       style={{ backgroundImage: 'url("/bg/bg-2.png")' }}
     >
-      <div className="max-w-4xl text-white text-center space-y-6 p-8">
+      <div className="w-full max-w-6xl text-white space-y-6">
         <h1 className="text-3xl md:text-5xl uppercase font-bold leading-tight">
           <span className="text-white">Empowering Communities </span> <br />
-            <span className="text-[#EE5A22] italic">to Save Lives</span>
+          <span className="text-[#EE5A22] italic">to Save Lives</span>
         </h1>
-        <div className='flex flex-col font-semibold text-l'>
+        <div className="flex flex-col font-semibold text-base space-y-4">
           <p className="leading-relaxed">
             LifeLinER is a CSR initiative by Baby Memorial Hospital aimed at training
             everyday citizens to become Emergency First Responders.
