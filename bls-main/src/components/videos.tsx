@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import Image from 'next/image'
 
 const videos = [
@@ -24,21 +24,62 @@ const videos = [
   },
 ]
 
+function useOnScreen<T extends Element = HTMLDivElement>(ref: React.RefObject<T | null>, rootMargin = '0px') {
+  const [isVisible, setVisible] = React.useState(false)
+
+  React.useEffect(() => {
+    const node = ref.current
+    if (!node) return
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setVisible(entry.intersectionRatio >= 0.6)
+      },
+      {
+        rootMargin,
+        threshold: Array.from({ length: 101 }, (_, i) => i / 100),
+      }
+    )
+
+    observer.observe(node)
+
+    return () => {
+      if (node) observer.unobserve(node)
+    }
+  }, [ref, rootMargin])
+
+  return isVisible
+}
+
+const AnimatedBlock: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => {
+  const ref = useRef<HTMLDivElement | null>(null)
+  const isVisible = useOnScreen(ref, '-100px')
+
+  return (
+    <div
+      ref={ref}
+      className={`${className ?? ''} transition-opacity duration-700 ease-out transform ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+      }`}
+    >
+      {children}
+    </div>
+  )
+}
+
 export default function Videos() {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null)
 
   return (
     <section className="py-16 px-4 md:px-16 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
-      <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
-        Learn How to <span className="italic text-[#EE5A22]">Save a Life</span>
-      </h2>
+      <AnimatedBlock>
+        <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
+          Learn How to <span className="italic text-[#EE5A22]">Save a Life</span>
+        </h2>
+      </AnimatedBlock>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {videos.map((video, index) => (
-          <div
-            key={index}
-            className="relative aspect-video w-full rounded-xl overflow-hidden shadow-md group cursor-pointer"
-            onClick={() => setPlayingIndex(index)}
-          >
+          <div key={index} className="relative aspect-video w-full rounded-xl overflow-hidden shadow-md group cursor-pointer">
             {playingIndex === index ? (
               <iframe
                 src={`${video.videoUrl}?autoplay=1`}
@@ -48,26 +89,24 @@ export default function Videos() {
                 className="w-full h-full border-0"
               />
             ) : (
-              <>
+              <div onClick={() => setPlayingIndex(index)} className="relative w-full h-full">
                 <Image
                   src={video.thumbnail}
                   alt={video.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: 'cover' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-black/10 flex flex-col justify-end p-3 sm:p-4">
-                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 200 200"
-                      className="w-14 h-14 sm:w-20 sm:h-20 fill-white opacity-90
-                        [&@media(min-width:1025px)]:[&@media(max-width:1220px)]:hidden
-                        [&@media(min-width:768px)]:[&@media(max-width:840px)]:hidden"
+                      className="w-14 h-14 sm:w-20 sm:h-20 fill-white opacity-90"
                     >
                       <polygon points="70,55 70,145 145,100" />
                     </svg>
                   </div>
-                  <div className="relative rounded-md p-2 sm:p-3 text-white font-sans">
+                  <div className="relative rounded-md p-2 sm:p-3 text-white font-sans pointer-events-auto">
                     <h3 className="text-xs md:text-xl sm:text-lg font-bold leading-tight custom-title">
                       {video.title}
                     </h3>
@@ -76,7 +115,7 @@ export default function Videos() {
                     </p>
                   </div>
                 </div>
-              </>
+              </div>
             )}
           </div>
         ))}

@@ -34,11 +34,9 @@ export default function Blinking() {
         className="w-8 h-8 md:w-10 md:h-10 lg:w-11 lg:h-11"
       />
       <div className="flex flex-col items-center lg:items-start text-red-600 font-sans font-bold leading-tight">
-        <span className="text-[0.5rem] md:text-[0.55rem] lg:text-[0.65rem] text-center lg:text-left uppercase">
+        <span className="text-[0.5rem] md:text-[0.55rem] lg:text-[0.75rem] text-center uppercase">
           Emergency
-          <span className="hidden lg:inline"><br /></span>
-          <span className="inline lg:hidden"> </span>
-          contact
+          <span className="hidden lg:inline"></span>
         </span>
         <span className="text-[0.5rem] md:text-[0.65rem] lg:text-[0.75rem]">
           +91 974 720 0002

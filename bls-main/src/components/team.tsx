@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef } from 'react'
+import React, { useRef, RefObject } from 'react'
 import Image from 'next/image'
 
 const profiles = [
@@ -13,6 +13,40 @@ const profiles = [
   { image: '/dr/7.png', name: 'Dr. Faisal Basheer', profession: 'Associate Consultant' },
   { image: '/dr/8.png', name: 'Dr. Drishya S', profession: 'Associate Consultant' },
 ]
+
+function useOnScreen(ref: RefObject<HTMLElement | null>, rootMargin = '0px') {
+  const [isVisible, setVisible] = React.useState(false)
+
+  React.useEffect(() => {
+    if (!ref.current) return
+    const observer = new IntersectionObserver(
+      ([entry]) => setVisible(entry.isIntersecting),
+      { rootMargin }
+    )
+    observer.observe(ref.current)
+    return () => {
+      if (ref.current) observer.unobserve(ref.current)
+    }
+  }, [ref, rootMargin])
+
+  return isVisible
+}
+
+const AnimatedBlock: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const ref = useRef<HTMLDivElement>(null)
+  const isVisible = useOnScreen(ref, '-100px')
+
+  return (
+    <div
+      ref={ref}
+      className={`transition-opacity duration-700 ease-out transform ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+      }`}
+    >
+      {children}
+    </div>
+  )
+}
 
 export default function TeamCards() {
   const scrollRef = useRef<HTMLDivElement>(null)
@@ -39,30 +73,33 @@ export default function TeamCards() {
 
   return (
     <section className="relative w-full font-sans px-6 md:px-25 pt-12 pb-10 bg-gray-100">
-      <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-bold">
-        Our <span className="italic text-[#EE5A22]">Team</span>
-      </h3>
+      <AnimatedBlock>
+        <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-bold">
+          Our <span className="italic text-[#EE5A22]">Team</span>
+        </h3>
+      </AnimatedBlock>
 
+      {/* Mobile version */}
       <div className="flex md:hidden overflow-x-auto scrollbar-hide gap-6">
         {profiles.map((person, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 w-[200px] h-[320px] relative rounded-[10px] overflow-hidden"
-          >
-            <Image
-              src={person.image}
-              alt={person.name}
-              fill
-              className="object-cover object-top scale-100"
-            />
-            <div className="absolute bottom-0 w-full bg-white h-[70px] px-[20px] pt-[16px] gap-[8px]">
-              <h3 className="text-black text-xs font-bold leading-tight tracking-[0.1px] text-center">{person.name}</h3>
-              <p className="text-gray-500 text-[0.65rem] leading-tight tracking-[0.2px] text-center">{person.profession}</p>
+          <AnimatedBlock key={index}>
+            <div className="flex-shrink-0 w-[200px] h-[320px] relative rounded-[10px] overflow-hidden">
+              <Image
+                src={person.image}
+                alt={person.name}
+                fill
+                className="object-cover object-top scale-100"
+              />
+              <div className="absolute bottom-0 w-full bg-white h-[70px] px-[20px] pt-[16px] gap-[8px]">
+                <h3 className="text-black text-xs font-bold leading-tight tracking-[0.1px] text-center">{person.name}</h3>
+                <p className="text-gray-500 text-[0.65rem] leading-tight tracking-[0.2px] text-center">{person.profession}</p>
+              </div>
             </div>
-          </div>
+          </AnimatedBlock>
         ))}
       </div>
 
+      {/* Desktop version */}
       <div className="relative hidden md:flex justify-center items-center">
         <button
           onClick={() => scroll('left')}
@@ -83,21 +120,20 @@ export default function TeamCards() {
           className="flex gap-14 overflow-x-auto scrollbar-hide"
         >
           {profiles.map((person, index) => (
-            <div
-              key={index}
-              className="flex-shrink-0 w-[280px] h-[430px] relative rounded-[10px] overflow-hidden"
-            >
-              <Image
-                src={person.image}
-                alt={person.name}
-                fill
-                className="object-cover object-top scale-100"
-              />
-              <div className="absolute bottom-0 w-full bg-white h-[90px] px-[30px] pt-[20px] gap-[10px]">
-                <h3 className="text-black text-sm font-bold leading-[36px] tracking-[0.1px] text-center">{person.name}</h3>
-                <p className="text-gray-500 text-[0.7rem] leading-[16px] tracking-[0.2px] text-center">{person.profession}</p>
+            <AnimatedBlock key={index}>
+              <div className="flex-shrink-0 w-[280px] h-[430px] relative rounded-[10px] overflow-hidden">
+                <Image
+                  src={person.image}
+                  alt={person.name}
+                  fill
+                  className="object-cover object-top scale-100"
+                />
+                <div className="absolute bottom-0 w-full bg-white h-[90px] px-[30px] pt-[20px] gap-[10px]">
+                  <h3 className="text-black text-sm font-bold leading-[36px] tracking-[0.1px] text-center">{person.name}</h3>
+                  <p className="text-gray-500 text-[0.7rem] leading-[16px] tracking-[0.2px] text-center">{person.profession}</p>
+                </div>
               </div>
-            </div>
+            </AnimatedBlock>
           ))}
         </div>
 
