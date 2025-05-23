@@ -47,7 +47,7 @@ export default function TeamCards() {
         {profiles.map((person, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-[260px] h-[390px] relative rounded-[10px] overflow-hidden"
+            className="flex-shrink-0 w-[200px] h-[320px] relative rounded-[10px] overflow-hidden"
           >
             <Image
               src={person.image}
@@ -55,9 +55,9 @@ export default function TeamCards() {
               fill
               className="object-cover object-top scale-100"
             />
-            <div className="absolute bottom-0 w-full bg-white h-[80px] px-[30px] pt-[20px] gap-[10px]">
-              <h3 className="text-black text-sm font-bold leading-[24px] tracking-[0.1px] text-center">{person.name}</h3>
-              <p className="text-gray-500 text-xs leading-[16px] tracking-[0.2px] text-center">{person.profession}</p>
+            <div className="absolute bottom-0 w-full bg-white h-[70px] px-[20px] pt-[16px] gap-[8px]">
+              <h3 className="text-black text-xs font-bold leading-tight tracking-[0.1px] text-center">{person.name}</h3>
+              <p className="text-gray-500 text-[0.65rem] leading-tight tracking-[0.2px] text-center">{person.profession}</p>
             </div>
           </div>
         ))}

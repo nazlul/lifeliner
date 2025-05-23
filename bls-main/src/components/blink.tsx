@@ -31,7 +31,7 @@ export default function Blinking() {
         alt="Blinking Icon"
         width={32}
         height={32}
-        className="w-11 h-11"
+        className="w-8 h-8 md:w-10 md:h-10 lg:w-11 lg:h-11"
       />
       <div className="flex flex-col items-center lg:items-start text-red-600 font-sans font-bold leading-tight">
         <span className="text-[0.5rem] md:text-[0.55rem] lg:text-[0.65rem] text-center lg:text-left uppercase">
