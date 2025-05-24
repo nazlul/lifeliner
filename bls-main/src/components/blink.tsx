@@ -28,7 +28,7 @@ export default function Blinking() {
       {/* MOBILE */}
       <div className="flex flex-col items-center md:hidden mt-3">
         <select
-          className="mb-1 px-2 py-[2px] rounded border border-red-500 text-[0.6rem] bg-white focus:outline-none"
+          className="mb-1 px-0.1 py-[2px] rounded border border-red-500 text-[0.6rem] bg-white focus:outline-none"
           value={location}
           onChange={(e) => setLocation(e.target.value as keyof typeof phoneNumbers)}
         >
@@ -43,11 +43,11 @@ export default function Blinking() {
             alt="Blinking Icon"
             width={24}
             height={24}
-            className="w-6 h-6"
+            className="w-6 h-6 hidden md:block"
           />
           <a
             href={`tel:${number.replace(/\s+/g, '')}`}
-            className="bg-red-600 text-white px-5 py-[2px] rounded text-[0.6rem] hover:bg-red-700 transition"
+            className="bg-red-600 text-white px-7 py-[2px] rounded text-[0.6rem] hover:bg-red-700 transition"
           >
             CALL
           </a>
