@@ -68,7 +68,7 @@ export default function TeamCards() {
       <div className="relative hidden md:flex justify-center items-center">
         <button
           onClick={() => scroll('left')}
-          className="absolute left-[-80px] z-10"
+          className="absolute left-[-80px]"
           aria-label="Scroll Left"
         >
           <Image
@@ -105,7 +105,7 @@ export default function TeamCards() {
 
         <button
           onClick={() => scroll('right')}
-          className="absolute right-[-80px] z-10"
+          className="absolute right-[-80px]"
           aria-label="Scroll Right"
         >
           <Image src="/arrow.svg" alt="Right Arrow" width={26} height={52} />
