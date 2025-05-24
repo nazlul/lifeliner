@@ -16,7 +16,7 @@ export default function Feature() {
     <section className="w-full font-sans bg-white py-12 px-6 md:px-20">
       <div className="text-center mb-8">
         <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] font-sans font-bold">
-          Proudly <span className="italic text-[#EE5A22]">Featured By</span>
+          Proudly <span className="text-[#EE5A22]">Featured By</span>
         </h3>
       </div>
 
