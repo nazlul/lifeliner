@@ -1,10 +1,18 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Mission() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: false, mirror: true })
+  }, [])
+
   const Paragraph: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-    <p className="leading-relaxed">{children}</p>
+    <p className="leading-relaxed" data-aos="fade-up">
+      {children}
+    </p>
   )
 
   return (
@@ -13,12 +21,13 @@ export default function Mission() {
       style={{ backgroundImage: 'url("/bg/bg-2.png")' }}
     >
       <div className="w-full max-w-6xl text-white space-y-6">
-        <Paragraph>
-          <h1 className="text-3xl md:text-5xl uppercase font-bold leading-tight">
-            <span className="text-white">Empowering Communities </span> <br />
-            <span className="text-[#EE5A22]">to Save Lives</span>
-          </h1>
-        </Paragraph>
+        <h1
+          className="text-3xl md:text-5xl uppercase font-bold leading-tight"
+          data-aos="fade-up"
+        >
+          <span className="text-white">Empowering Communities </span> <br />
+          <span className="text-[#EE5A22]">to Save Lives</span>
+        </h1>
         <div className="flex flex-col font-semibold text-base space-y-4">
           <Paragraph>
             LifeLinER is a CSR initiative by Baby Memorial Hospital aimed at training

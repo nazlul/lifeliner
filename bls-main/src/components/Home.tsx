@@ -120,7 +120,7 @@ export default function Home() {
           className="absolute top-[52%] lg:top-[62%] md:top-[62%] left-1/2 transform -translate-x-1/2 bg-[#005AAC] hover:bg-[#044786] rounded-[10px] w-[150px] h-[46px] md:w-[209px] md:h-[56px]"
           onClick={() => window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')}
         >
-          <span className="text-white font-sans shadow-2xl font-bold text-sm md:text-base uppercase">
+          <span className="text-white font-sans cursor-pointer shadow-2xl font-bold text-sm md:text-base uppercase">
             Become a lifeliner
           </span>
         </button>

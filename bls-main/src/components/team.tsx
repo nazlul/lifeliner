@@ -87,7 +87,7 @@ export default function TeamCards() {
           {profiles.map((person, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[280px] h-[430px] relative rounded-[10px] overflow-hidden"
+              className="flex-shrink-0 w-[280px] h-[430px] shadow-md hover:shadow-lg transform transition duration-200 mb-4 relative rounded-[10px] overflow-hidden"
             >
               <Image
                 src={person.image}

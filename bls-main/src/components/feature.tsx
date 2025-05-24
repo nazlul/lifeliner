@@ -16,7 +16,7 @@ export default function Feature() {
     <section className="w-full font-sans bg-white py-12 px-6 md:px-20">
       <div className="text-center mb-8">
         <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] font-sans font-bold">
-          Proudly <span className="text-[#EE5A22]">Featured By</span>
+          Proudly <span className="italic text-[#EE5A22]">Featured By</span>
         </h3>
       </div>
 
@@ -32,14 +32,14 @@ export default function Feature() {
               width={150}
               height={80}
               className="object-contain"
-              priority={true}
+              priority
             />
           </div>
         ))}
       </div>
 
       <div className="hidden lg:block md:block overflow-hidden mx-30">
-        <div className="flex gap-16 mx-20 w-max">
+        <div className="flex animate-slide gap-16 mx-20 w-max">
           {[...logos, ...logos].map((src, i) => (
             <div
               key={i}
@@ -51,12 +51,26 @@ export default function Feature() {
                 width={150}
                 height={80}
                 className="object-contain"
-                priority={true}
+                priority
               />
             </div>
           ))}
         </div>
       </div>
+
+      <style jsx global>{`
+        @keyframes slide {
+          0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+        .animate-slide {
+          animation: slide 10s linear infinite;
+        }
+      `}</style>
     </section>
   )
 }

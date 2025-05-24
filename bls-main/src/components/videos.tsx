@@ -1,7 +1,9 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const videos = [
   {
@@ -27,16 +29,27 @@ const videos = [
 export default function Videos() {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null)
 
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: false, mirror: true })
+  }, [])
+
   return (
     <section className="py-16 px-4 md:px-16 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
       <div>
-        <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
+        <h2
+          className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12"
+          data-aos="fade-up"
+        >
           Learn How to <span className="text-[#EE5A22]">Save a Life</span>
         </h2>
       </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {videos.map((video, index) => (
-          <div key={index} className="relative aspect-video w-full rounded-xl overflow-hidden shadow-md group cursor-pointer">
+          <div
+            key={index}
+            className="relative aspect-video w-full rounded-xl overflow-hidden shadow-md group cursor-pointer"
+            data-aos="fade-up"
+          >
             {playingIndex === index ? (
               <iframe
                 src={`${video.videoUrl}?autoplay=1`}
