@@ -58,7 +58,7 @@ export default function Join() {
           <div className="hidden lg:flex absolute top-1/2 right-4 lg:right-28 -translate-y-1/2">
             <button
               className="bg-[#EE5A22] hover:bg-[#ee4422] rounded-[11px] cursor-pointer w-[240px] h-[72px] flex items-center justify-center"
-              onClick={() => window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')}
+              onClick={() => window.open('https://wa.me/+918589023000', '_blank')}
             >
               <div className="text-white text-center">
                 <div className="text-[22px] leading-[33px] font-bold capitalize">Join the Certified</div>

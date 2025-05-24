@@ -109,8 +109,8 @@ export default function Home() {
         <div className="absolute top-[38%] md:top-[42%] lg:top-[42%] left-1/2 transform -translate-x-1/2 w-[90%] max-w-md md:max-w-lg lg:max-w-4xl pointer-events-none">
           <div className="relative z-10 text-center">
             <h1 className="font-nyght font-semibold text-3xl md:text-[50.25px] leading-tight tracking-wide uppercase">
-              <span className="block text-[#0A68AD]">Train to Save.</span>
-              <span className="block text-[#EE5A22] whitespace-nowrap">Pledge to Protect.</span>
+              <span className="block text-[#0A68AD]">First To Respond.</span>
+              <span className="block text-[#EE5A22] whitespace-nowrap">First To Help.</span>
             </h1>
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-full -z-10"></div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
 
         <button
           className="absolute top-[52%] lg:top-[62%] md:top-[62%] left-1/2 transform -translate-x-1/2 bg-[#005AAC] hover:bg-[#044786] rounded-[10px] w-[150px] h-[46px] md:w-[209px] md:h-[56px]"
-          onClick={() => window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')}
+          onClick={() => window.open('https://wa.me/+918589023000', '_blank')}
         >
           <span className="text-white font-sans cursor-pointer shadow-2xl font-bold text-sm md:text-base uppercase">
             Become a lifeliner
@@ -141,9 +141,9 @@ export default function Home() {
         </a>
 
         <div className="absolute top-30 md:top-auto md:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
-          <CountUpStat number={2400} label="People Trained" />
-          <CountUpStat number={1200} label="People Taken the Pledge" />
-          <CountUpStat number={500} label="Training Sessions" />
+          <CountUpStat number={100} label="People Trained" />
+          <CountUpStat number={200} label="Pledges Taken" />
+          <CountUpStat number={10} label="Sessions Organized" />
         </div>
       </section>
     </main>

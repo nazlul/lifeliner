@@ -29,7 +29,7 @@ export default function HomePage() {
       <section>
         <Join />
       </section>
-      <section>
+      <section id="team">
         <Team />
       </section>
       <section>

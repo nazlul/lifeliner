@@ -40,7 +40,7 @@ export default function NavBar() {
         ))}
 
         <a
-          href="https://forms.gle/Xx9UuXfq6VTVppbf7"
+          href="https://wa.me/+918589023000"
           target="_blank"
           rel="noopener noreferrer"
         >

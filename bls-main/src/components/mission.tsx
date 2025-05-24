@@ -30,21 +30,19 @@ export default function Mission() {
         </h1>
         <div className="flex flex-col font-semibold text-base space-y-4">
           <Paragraph>
-            LifeLinER is a CSR initiative by Baby Memorial Hospital aimed at training
-            everyday citizens to become Emergency First Responders.
+            LifeLinER is a life-saving community initiative conceptualized by Baby Memorial Hospitals, with a clear and urgent mission: to reduce preventable pre-hospital deaths by empowering everyday individuals with the knowledge and skills to respond effectively to medical emergencies.
           </Paragraph>
           <Paragraph>
-            In a medical emergency, every second counts. The first few minutes can mean
-            the difference between life and death. Before ambulances arrive, a trained
-            LifeLinER can step in and provide life-saving support.
+            Medical emergencies can strike anywhere, at any time. In critical situations—such as cardiac arrest, trauma, or severe bleeding—the actions taken in the first few minutes often determine the outcome. Yet, across India, and even in Kerala, many lives are lost each year due to a lack of timely first aid and emergency response before professional help arrives.
           </Paragraph>
           <Paragraph>
-            Whether it&apos;s a road accident, cardiac arrest, stroke, or choking,
-            LifeLinERs ensure that help is never too far away.
+            According to the Indian Council of Medical Research (ICMR), over 4.28 lakh lives are lost annually in India due to delays in emergency intervention. These are not just statistics—they are reminders of a gap in public preparedness that needs urgent attention.
+          </Paragraph>
+          <Paragraph> 
+            LifeLinER aims to bridge this gap by offering structured emergency response training tailored for different age groups. Through this initiative, Baby Memorial Hospitals envisions a more responsive and prepared society—where every trained individual becomes a potential “life-liner,” capable of making a meaningful difference when seconds coun
           </Paragraph>
           <Paragraph>
-            Our mission is vital: to create a state-wide network of trained individuals
-            who can act swiftly and effectively during the golden hour of any medical crisis.
+            Together, we can build a community where no life is lost for lack of first response.
           </Paragraph>
         </div>
       </div>
