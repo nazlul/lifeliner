@@ -1,19 +1,8 @@
 'use client'
 
-import React, { useRef } from 'react'
-import { useOnScreen } from '../hooks/useOnScreen'
+import React from 'react'
 
 export default function Join() {
-  const titleRef = useRef<HTMLDivElement>(null)
-  const textRef = useRef<HTMLDivElement>(null)
-  const buttonMobileRef = useRef<HTMLDivElement>(null)
-  const buttonLgRef = useRef<HTMLDivElement>(null)
-
-  const titleVisible = useOnScreen(titleRef, '-100px')
-  const textVisible = useOnScreen(textRef, '-100px')
-  const buttonMobileVisible = useOnScreen(buttonMobileRef, '-100px')
-  const buttonLgVisible = useOnScreen(buttonLgRef, '-100px')
-
   return (
     <section
       className="relative w-full h-auto lg:h-[488px] bg-cover bg-center bg-no-repeat px-6 md:px-12 py-12"
@@ -21,10 +10,7 @@ export default function Join() {
     >
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between h-full relative">
         <div className="text-white max-w-[574px] lg:ml-20">
-          <div
-            ref={titleRef}
-            className={`transition-all duration-700 ease-out transform ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}
-          >
+          <div>
             <h1 className="text-[36px] md:text-[64px] lg:text-[81.55px] leading-[50px] md:leading-[65px] lg:leading-[60px] mt-15 font-bold capitalize">
               BE A LifeLin<span className="text-[#EE5A22]">ER</span>,
             </h1>
@@ -33,10 +19,7 @@ export default function Join() {
             </h2>
           </div>
 
-          <div
-            ref={textRef}
-            className={`mt-4 transition-all duration-700 ease-out delay-150 transform ${textVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}
-          >
+          <div className="mt-4">
             <p className="text-[18px] md:text-[24px] lg:text-[27px] leading-[30px] md:leading-[38px] font-light capitalize">
               Each of us can be a lifeLinER To keep alive.
             </p>
@@ -45,10 +28,7 @@ export default function Join() {
             </p>
           </div>
 
-          <div
-            ref={buttonMobileRef}
-            className={`mt-8 lg:hidden w-full flex justify-center transition-all duration-700 ease-out delay-300 transform ${buttonMobileVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}
-          >
+          <div className="mt-8 lg:hidden w-full flex justify-center">
             <button className="bg-[#EE5A22] hover:bg-[#ee4422] rounded-[11px] w-full max-w-[200px] h-[66px] flex items-center justify-center">
               <div className="text-white text-center">
                 <div className="text-[18px] leading-[22px] font-bold capitalize">Join the Certified</div>
@@ -57,12 +37,10 @@ export default function Join() {
             </button>
           </div>
 
-          <div
-            ref={buttonLgRef}
-            className={`hidden lg:flex absolute top-1/2 right-4 lg:right-28 -translate-y-1/2 transition-all duration-700 ease-out delay-300 transform ${buttonLgVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}
-          >
-            <button className="bg-[#EE5A22] hover:bg-[#ee4422] rounded-[11px] w-[240px] h-[72px] flex items-center justify-center"
-            onClick={() => window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')}
+          <div className="hidden lg:flex absolute top-1/2 right-4 lg:right-28 -translate-y-1/2">
+            <button
+              className="bg-[#EE5A22] hover:bg-[#ee4422] rounded-[11px] w-[240px] h-[72px] flex items-center justify-center"
+              onClick={() => window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')}
             >
               <div className="text-white text-center">
                 <div className="text-[22px] leading-[33px] font-bold capitalize">Join the Certified</div>

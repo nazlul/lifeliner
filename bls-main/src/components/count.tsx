@@ -20,7 +20,7 @@ export default function StatsRow() {
   return (
     <section className="py-16 px-4 md:px-16 bg-[#E0F5FE] font-sans">
       <h1 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-15">
-        Our Lifesaving <span className="italic text-[#EE5A22]">Impact</span>
+        Our Lifesaving <span className="text-[#EE5A22]">Impact</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 md:gap-20 gap-20 text-center">
         {stats.map((stat, index) => (

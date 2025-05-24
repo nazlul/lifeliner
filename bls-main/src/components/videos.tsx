@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 
 const videos = [
@@ -24,59 +24,16 @@ const videos = [
   },
 ]
 
-function useOnScreen<T extends Element = HTMLDivElement>(ref: React.RefObject<T | null>, rootMargin = '0px') {
-  const [isVisible, setVisible] = React.useState(false)
-
-  React.useEffect(() => {
-    const node = ref.current
-    if (!node) return
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setVisible(entry.intersectionRatio >= 0.6)
-      },
-      {
-        rootMargin,
-        threshold: Array.from({ length: 101 }, (_, i) => i / 100),
-      }
-    )
-
-    observer.observe(node)
-
-    return () => {
-      if (node) observer.unobserve(node)
-    }
-  }, [ref, rootMargin])
-
-  return isVisible
-}
-
-const AnimatedBlock: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => {
-  const ref = useRef<HTMLDivElement | null>(null)
-  const isVisible = useOnScreen(ref, '-100px')
-
-  return (
-    <div
-      ref={ref}
-      className={`${className ?? ''} transition-opacity duration-700 ease-out transform ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
-      }`}
-    >
-      {children}
-    </div>
-  )
-}
-
 export default function Videos() {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null)
 
   return (
     <section className="py-16 px-4 md:px-16 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
-      <AnimatedBlock>
+      <div>
         <h2 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
-          Learn How to <span className="italic text-[#EE5A22]">Save a Life</span>
+          Learn How to <span className="text-[#EE5A22]">Save a Life</span>
         </h2>
-      </AnimatedBlock>
+      </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {videos.map((video, index) => (
           <div key={index} className="relative aspect-video w-full rounded-xl overflow-hidden shadow-md group cursor-pointer">
