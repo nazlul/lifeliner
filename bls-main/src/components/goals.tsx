@@ -24,22 +24,22 @@ export default function Goals() {
         <div className="flex flex-col gap-8 font-bold text-lg md:text-xl leading-relaxed">
           <div className="flex justify-center" data-aos="fade-up">
             <p className="max-w-6xl text-center">
-              Reduce preventable pre-hospital deaths – <span className="text-[#EE5A22]"> Address the critical window between emergency onset and professional medical intervention.</span>
+              Reduce preventable pre-hospital deaths<br /> <span className="text-[#EE5A22]"> Address the critical window between emergency onset and professional medical intervention.</span>
             </p>
           </div>
           <div className="flex justify-center" data-aos="fade-up">
             <p className="max-w-6xl text-center">
-              Empower everyday individuals with life-saving skills – <span className="text-[#EE5A22]">Train non-medical people—students, parents, workers, bystanders—to act in emergencies.</span>
+              Empower everyday individuals with life-saving skills<br /> <span className="text-[#EE5A22]">Train non-medical people—students, parents, workers, bystanders—to act in emergencies.</span>
             </p>
           </div>
           <div className="flex justify-center" data-aos="fade-up">
             <p className="max-w-6xl text-center">
-              Build a community of trained “LifeLinERs” –<span className="text-[#EE5A22]"> Create a network of first responders capable of stepping in when seconds count.</span>
+              Build a community of trained “LifeLinERs”<br /><span className="text-[#EE5A22]"> Create a network of first responders capable of stepping in when seconds count.</span>
             </p>
           </div>
           <div className="flex justify-center" data-aos="fade-up">
             <p className="max-w-6xl text-center">
-              Foster a culture of civic responsibility and readiness –<span className="text-[#EE5A22]"> Encourage people to view first aid knowledge as a vital life skill—not just for professionals.</span>
+              Foster a culture of civic responsibility and readiness<br /><span className="text-[#EE5A22]"> Encourage people to view first aid knowledge as a vital life skill—not just for professionals.</span>
             </p>
           </div>
         </div>
