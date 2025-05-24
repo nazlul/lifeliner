@@ -23,7 +23,7 @@ export default function HomePage() {
       <section id="goals">
         <Goals />
       </section>
-      <section>
+      <section id="learn">
         <Videos />
       </section>
       <section>

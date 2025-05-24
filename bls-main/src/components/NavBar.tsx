@@ -25,7 +25,7 @@ export default function NavBar() {
           { label: 'Home', id: 'home' },
           { label: 'About LifeLinER', id: 'about' },
           { label: 'Our goals', id: 'goals' },
-          { label: 'Blogs', id: 'blogs' },
+          { label: 'Learn', id: 'learn' },
         ].map(({ label, id }) => (
           <span
             key={id}
@@ -68,7 +68,7 @@ export default function NavBar() {
       className="absolute top-6 left-6 text-black w-7 h-7 cursor-pointer z-50"
       onClick={() => setToggleMenu(false)}
     />
-    {["Home", "About LifeLinER", "Our Goals", "Blogs", "Take a Pledge"].map((item, index) => {
+    {["Home", "About LifeLinER", "Our Goals", "Learn", "Take a Pledge"].map((item, index) => {
       const handleClick = () => {
         if (item === "Take a Pledge") {
           window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')
@@ -77,7 +77,7 @@ export default function NavBar() {
             "Home": "home",
             "About LifeLinER": "about",
             "Our Goals": "goals",
-            "Blogs": "blogs",
+            "Learn": "learn",
           }
 
           const sectionId = idMap[item]

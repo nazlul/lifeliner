@@ -106,7 +106,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="absolute top-[38%] md:top-[42%] lg:top-[42%] left-1/2 transform -translate-x-1/2 w-[90%] max-w-md md:max-w-lg lg:max-w-4xl pointer-events-none">
+        <div className="absolute top-[38%] md:top-[30%] lg:top-[38%] left-1/2 transform -translate-x-1/2 w-[90%] max-w-md md:max-w-lg lg:max-w-4xl pointer-events-none">
           <div className="relative z-10 text-center">
             <h1 className="font-nyght font-semibold text-3xl md:text-[50.25px] leading-tight tracking-wide uppercase">
               <span className="block text-[#0A68AD]">First To Respond.</span>

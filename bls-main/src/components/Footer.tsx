@@ -19,17 +19,18 @@ export default function Footer() {
                 priority
               />
             </div>
-            <h3 className="text-black font-semibold uppercase mb-4 text-center md:ml-15 lg:text-left mt-5 md:mt-[3px] lg:mt-[37px]">Locations</h3>
-            <ul className="space-y-1 md:space-y-3 text-sm font-light text-center md:ml-15">
-              <li>Kozhikode</li>
-              <li>Kannur</li>
-              <li>Thodupuzha</li>
-            </ul>
+            <div className="md:ml-8">
+              <h3 className="text-black font-semibold uppercase mb-4 text-center mt-5 md:mt-[3px] lg:mt-[37px]">Our Network</h3>
+              <ul className="space-y-1 md:space-y-3 text-sm font-light text-center">
+                <li><a href="https://babymhospital.org/" target="_blank" className="hover:underline">Kozhikode</a></li>
+                <li><a href="https://bmhkannur.com/" target="_blank" className="hover:underline">Kannur</a></li>
+                <li><a href="https://bmhthodupuzha.com/" target="_blank" className="hover:underline">Thodupuzha</a></li>
+              </ul>
+            </div>
           </div>
 
           <div className="flex flex-col items-center lg:items-center">
-            <h3 className="text-black font-semibold uppercase mb-4 text-center md:mt-[60px]">Who We Are</h3>
-            <ul className="space-y-1 md:space-y-3 mt-3 font-extralight text-sm text-center">
+            <ul className="space-y-1 md:space-y-3 md:mt-25 font-extralight text-sm text-center">
               <li><a href="#home" className="hover:underline">Home</a></li>
               <li><a href="#about" className="hover:underline">About Us</a></li>
               <li><a href="#goals" className="hover:underline">Goals</a></li>

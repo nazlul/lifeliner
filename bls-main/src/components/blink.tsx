@@ -47,9 +47,17 @@ export default function Blinking() {
           />
           <a
             href={`tel:${number.replace(/\s+/g, '')}`}
-            className="bg-red-600 text-white px-7 py-[2px] rounded text-[0.6rem] hover:bg-red-700 transition"
+            className="bg-red-600 text-white py-[2px] rounded text-[0.55rem] flex items-center gap-1"
+            style={{ paddingLeft: '0.3rem', paddingRight: '0.3rem' }}
           >
-            CALL
+            EMERGENCY
+            <Image
+              src="/call.svg"
+              alt="Call Icon"
+              width={12}
+              height={12}
+              className="w-3 h-3"
+            />
           </a>
         </div>
       </div>
