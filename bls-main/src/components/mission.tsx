@@ -39,7 +39,7 @@ export default function Mission() {
             According to the Indian Council of Medical Research (ICMR), over 4.28 lakh lives are lost annually in India due to delays in emergency intervention. These are not just statistics—they are reminders of a gap in public preparedness that needs urgent attention.
           </Paragraph>
           <Paragraph> 
-            LifeLinER aims to bridge this gap by offering structured emergency response training tailored for different age groups. Through this initiative, Baby Memorial Hospitals envisions a more responsive and prepared society—where every trained individual becomes a potential “life-liner,” capable of making a meaningful difference when seconds coun
+            LifeLinER aims to bridge this gap by offering structured emergency response training tailored for different age groups. Through this initiative, Baby Memorial Hospitals envisions a more responsive and prepared society—where every trained individual becomes a potential “life-liner,” capable of making a meaningful difference when seconds count.
           </Paragraph>
           <Paragraph>
             Together, we can build a community where no life is lost for lack of first response.
