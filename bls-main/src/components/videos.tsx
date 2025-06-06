@@ -1,26 +1,32 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const videos = [
   {
-    title: "Stroke And Heart Attack",
+    title: "Heart Attack",
     thumbnail: "/thumbnail/1.jpg",
+    videoUrl: "https://www.youtube.com/embed/VTv0yQPWS6A",
+    description: "Dr. Fabith explains the first aid to be given in case of a Heart Attack."
+  },
+  {
+    title: "Stroke And Heart Attack",
+    thumbnail: "/thumbnail/2.jpg",
     videoUrl: "https://www.youtube.com/embed/WkdwAliK1xc",
     description: "A stroke or Heart Attack is a true emergency. Every moment counts."
   },
   {
     title: "Snake Bite",
-    thumbnail: "/thumbnail/2.jpg",
+    thumbnail: "/thumbnail/3.jpg",
     videoUrl: "https://www.youtube.com/embed/WUv1R_P2vlE",
     description: "In this video BMH brings to you the the first aid to be given in case of Snake Bite."
   },
   {
     title: "Seizure",
-    thumbnail: "/thumbnail/3.jpg",
+    thumbnail: "/thumbnail/4.jpg",
     videoUrl: "https://www.youtube.com/embed/jortS2HUW-Q",
     description: "In this video BMH brings to you the the first aid to be given in case of seizure."
   },
@@ -28,26 +34,62 @@ const videos = [
 
 export default function Videos() {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null)
+  const scrollRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     AOS.init({ duration: 1000, once: false, mirror: true })
   }, [])
 
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollRef.current) {
+      const container = scrollRef.current
+      const scrollAmount = 248 * 4 + 40
+      if (direction === 'right') {
+        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+          container.scrollTo({ left: 0, behavior: 'smooth' })
+        } else {
+          container.scrollBy({ left: scrollAmount, behavior: 'smooth' })
+        }
+      } else {
+        if (container.scrollLeft === 0) {
+          container.scrollTo({ left: container.scrollWidth, behavior: 'smooth' })
+        } else {
+          container.scrollBy({ left: -scrollAmount, behavior: 'smooth' })
+        }
+      }
+    }
+  };
+
   return (
-    <section className="py-16 px-4 md:px-16 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
-      <div>
-        <h2
-          className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12"
-          data-aos="fade-up"
-        >
-          Learn How to <span className="text-[#EE5A22]">Save a Life</span>
-        </h2>
-      </div>
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <section className="relative py-16 px-4 md:px-25 bg-gradient-to-b from-[#edf1f7] to-[#93bbf6]">
+      <h2
+        className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12"
+        data-aos="fade-up"
+      >
+        Learn How to <span className="text-[#EE5A22]">Save a Life</span>
+      </h2>
+
+      <button
+        onClick={() => scroll('left')}
+        className="hidden lg:flex items-center justify-center absolute left-3 top-[50%] transform -translate-y-1/2 p-2"
+      >
+        <Image src="/arrow.svg" alt="Left" width={24} height={24} className="rotate-180" />
+      </button>
+      <button
+        onClick={() => scroll('right')}
+        className="hidden lg:flex items-center justify-center absolute right-3 top-[50%] transform -translate-y-1/2 p-2"
+      >
+        <Image src="/arrow.svg" alt="Right" width={24} height={24} />
+      </button>
+
+      <div
+        ref={scrollRef}
+        className="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide pb-4"
+      >
         {videos.map((video, index) => (
           <div
             key={index}
-            className="relative aspect-video w-full rounded-xl overflow-hidden shadow-md group cursor-pointer"
+            className="relative w-[420px] h-[250px] flex-shrink-0 rounded-xl overflow-hidden shadow-md group cursor-pointer"
             data-aos="fade-up"
           >
             {playingIndex === index ? (
@@ -77,12 +119,8 @@ export default function Videos() {
                     </svg>
                   </div>
                   <div className="relative rounded-md p-2 sm:p-3 text-white font-sans pointer-events-auto">
-                    <h3 className="text-xs md:text-xl sm:text-lg font-bold leading-tight custom-title">
-                      {video.title}
-                    </h3>
-                    <p className="text-xs md:text-xs sm:text-sm opacity-90 leading-snug mt-1 custom-desc">
-                      {video.description}
-                    </p>
+                    <h3 className="text-xs md:text-xl sm:text-lg font-bold leading-tight">{video.title}</h3>
+                    <p className="text-xs md:text-xs sm:text-sm opacity-90 leading-snug mt-1">{video.description}</p>
                   </div>
                 </div>
               </div>
