@@ -68,7 +68,7 @@ export default function Footer() {
             <a href="#" className="hover:underline">Privacy Policy</a>
           </div>
           <div className="flex space-x-6 mr-0 lg:mr-6">
-            <a href="https://www.instagram.com/lifeliner.clt" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-11 h-11 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition">
+            <a href="https://www.instagram.com/lifeliner.bmh" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-11 h-11 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#2D2D2D" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.5-2.25a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z" /></svg>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLY-QIed6nlopDjih0WgbweLPLmnPcrriu" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="w-11 h-11 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition">
