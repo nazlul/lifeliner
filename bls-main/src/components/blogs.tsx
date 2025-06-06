@@ -79,7 +79,7 @@ export default function Blog() {
   };
 
   return (
-    <section className="relative py-16 px-4 md:px-25 bg-white">
+    <section className="relative py-16 px-4 md:px-20 bg-white">
       <h2 className="text-[#005AAC] font-sans text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
         Recent <span className="text-[#EE5A22]">Blogs</span>
       </h2>
