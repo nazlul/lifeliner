@@ -30,7 +30,7 @@ export default function Gallery() {
 
   function getMarginLeft(index: number) {
     if (index === 0) return '0px'
-    if (typeof window === 'undefined') return '-100px'
+    if (typeof window === 'undefined') return '-30px'
 
     const width = window.innerWidth
     if (width >= 1024) return '-30px'
