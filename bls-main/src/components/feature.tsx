@@ -1,9 +1,12 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 
 export default function Feature() {
+  const [showPopup, setShowPopup] = useState(false)
+  const popupRef = useRef<HTMLDivElement>(null)
+
   const logos = [
     '/logos/f1.svg',
     '/logos/f2.svg',
@@ -12,20 +15,24 @@ export default function Feature() {
     '/logos/f5.svg',
     '/logos/f6.svg',
     '/logos/f7.svg',
+    '/logos/f8.svg',
   ]
 
-  const getWrappedLogo = (src: string, i: number) => {
-    const imageElement = (
-      <Image
-        src={src}
-        alt={`Logo ${i + 1}`}
-        width={150}
-        height={80}
-        className="object-contain"
-        priority
-      />
-    )
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (popupRef.current && !popupRef.current.contains(e.target as Node)) {
+        setShowPopup(false)
+      }
+    }
+    if (showPopup) {
+      document.addEventListener('mousedown', handleClickOutside)
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [showPopup])
 
+  const getWrappedLogo = (src: string, i: number) => {
     if (src === '/logos/f3.svg') {
       return (
         <a
@@ -80,41 +87,80 @@ export default function Feature() {
         </a>
       )
     }
+    if (src === '/logos/f8.svg') {
+      return (
+        <div onClick={() => setShowPopup(true)} className="cursor-pointer">
+          <Image
+            src={src}
+            alt={`Logo ${i + 1}`}
+            width={150}
+            height={80}
+            className="object-contain"
+            priority
+          />
+        </div>
+      )
+    }
 
-    return imageElement
+    return (
+      <Image
+        src={src}
+        alt={`Logo ${i + 1}`}
+        width={150}
+        height={80}
+        className="object-contain"
+        priority
+      />
+    )
   }
 
   return (
-    <section className="w-full font-sans bg-white py-12 px-6 md:px-20">
-      <div className="text-center mb-8">
-        <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] font-sans font-bold">
-          Proudly <span className="text-[#EE5A22]">Featured By</span>
-        </h3>
-      </div>
+    <>
+      <section className="w-full font-sans bg-white py-12 px-6 md:px-20">
+        <div className="text-center mb-8">
+          <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] font-sans font-bold">
+            Proudly <span className="text-[#EE5A22]">Featured By</span>
+          </h3>
+        </div>
 
-      <div className="flex flex-wrap justify-center gap-8 lg:hidden md:hidden">
-        {logos.map((src, i) => (
-          <div
-            key={i}
-            className="w-[45%] sm:w-[30%] md:w-[15%] flex justify-center"
-          >
-            {getWrappedLogo(src, i)}
-          </div>
-        ))}
-      </div>
-
-      <div className="hidden lg:block md:block overflow-hidden mx-30">
-        <div className="flex animate-slide gap-16 mx-20 w-max">
-          {[...logos, ...logos].map((src, i) => (
+        <div className="flex flex-wrap justify-center gap-8 lg:hidden md:hidden">
+          {logos.map((src, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-[150px] h-[80px] flex items-center justify-center"
+              className="w-[45%] sm:w-[30%] md:w-[15%] flex justify-center"
             >
               {getWrappedLogo(src, i)}
             </div>
           ))}
         </div>
-      </div>
+
+        <div className="hidden lg:block md:block overflow-hidden mx-30">
+          <div className="flex animate-slide gap-16 mx-20 w-max">
+            {[...logos, ...logos].map((src, i) => (
+              <div
+                key={i}
+                className="flex-shrink-0 w-[150px] h-[80px] flex items-center justify-center"
+              >
+                {getWrappedLogo(src, i)}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {showPopup && (
+        <div className="fixed inset-0 z-50000 flex items-center justify-center bg-black/40 bg-opacity-50 backdrop-blur-sm">
+          <div ref={popupRef} className="relative w-[90%] max-w-3xl">
+            <Image
+              src="/chandrika.jpg"
+              alt="Chandrika Feature"
+              width={1200}
+              height={800}
+              className="rounded-lg w-full h-auto"
+            />
+          </div>
+        </div>
+      )}
 
       <style jsx global>{`
         @keyframes slide {
@@ -129,6 +175,6 @@ export default function Feature() {
           animation: slide 10s linear infinite;
         }
       `}</style>
-    </section>
+    </>
   )
 }
