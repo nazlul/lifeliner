@@ -60,7 +60,7 @@ export default function Feature() {
     return null
   }
 
-  const getWrappedLogo = (name: string, i: number) => {
+  const getWrappedLogo = (name: string) => {
     const { width, height } = getSize(name)
     const redirectLink = getRedirectLink(name)
 
@@ -111,21 +111,21 @@ export default function Feature() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 lg:hidden md:hidden">
-          {mediaList.map((name, i) => (
+          {mediaList.map((name) => (
             <div
-              key={i}
+              key={name}
               className="w-[45%] sm:w-[30%] md:w-[15%] flex justify-center"
             >
-              {getWrappedLogo(name, i)}
+              {getWrappedLogo(name)}
             </div>
           ))}
         </div>
 
         <div className="hidden lg:block md:block overflow-hidden mx-30 py-6">
           <div className="flex animate-slide gap-16 mx-20 w-max">
-            {[...mediaList, ...mediaList].map((name, i) => (
+            {[...mediaList, ...mediaList].map((name, idx) => (
               <div
-                key={i}
+                key={`${name}-${idx}`}
                 className="flex-shrink-0 flex items-center justify-center"
                 style={{
                   width:
@@ -146,7 +146,7 @@ export default function Feature() {
                       : 100,
                 }}
               >
-                {getWrappedLogo(name, i)}
+                {getWrappedLogo(name)}
               </div>
             ))}
           </div>
