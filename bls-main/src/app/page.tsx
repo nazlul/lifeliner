@@ -9,6 +9,7 @@ import NavBar from '@/components/NavBar';
 import Home from '@/components/Home';
 import Team from '@/components/team';
 import Goals from '@/components/goals';
+import Gallery from '@/components/gallery';
 
 export default function HomePage() {
   return (
@@ -25,6 +26,9 @@ export default function HomePage() {
       </section>
       <section id="learn">
         <Videos />
+      </section>
+      <section>
+        <Gallery />
       </section>
       <section>
         <Join />
