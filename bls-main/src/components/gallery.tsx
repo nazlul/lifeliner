@@ -38,7 +38,7 @@ export default function Gallery() {
     return '-20px'
   }
 
-  const imagesCount = 12
+  const imagesCount = 15
 
   return (
     <section className='bg-gray-100'>
