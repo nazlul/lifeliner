@@ -27,7 +27,7 @@ export default function HomePage() {
       <section id="learn">
         <Videos />
       </section>
-      <section>
+      <section id="gallery">
         <Gallery />
       </section>
       <section>

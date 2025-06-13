@@ -36,6 +36,7 @@ export default function Footer() {
               <li><a href="#home" className="hover:underline">Home</a></li>
               <li><a href="#about" className="hover:underline">About Us</a></li>
               <li><a href="#goals" className="hover:underline">Goals</a></li>
+              <li><a href="#gallery" className="hover:underline">Gallery</a></li>
               <li><a href="#team" className="hover:underline">Team</a></li>
               <li><a href="#blogs" className="hover:underline">Blog</a></li> 
               <li><a href="https://wa.me/+918589023000" target="_blank" className="hover:underline">Contact Us</a></li>

@@ -1,15 +1,29 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { AiOutlineClose } from 'react-icons/ai'
 
 export default function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const CloseIcon = AiOutlineClose as React.FC<React.ComponentProps<'svg'>>
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 30) 
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <>
-      <div className="top-0 left-0 w-full h-[90px] bg-white fixed z-10" />
+      <div
+        className={`top-0 left-0 w-full h-[90px] fixed z-10 transition-colors duration-300 ${
+          scrolled ? 'bg-white/30 backdrop-blur-2xl' : 'bg-white'
+        }`}
+      />
       <div className="fixed top-1 w-full flex justify-center xl:justify-start items-center z-20 h-[80px] px-4">
         <Image
           src="/logo.png"
