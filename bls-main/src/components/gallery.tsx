@@ -38,7 +38,7 @@ export default function Gallery() {
     return '-20px'
   }
 
-  const imagesCount = 12
+  const imagesCount = 15
 
   return (
     <section className='bg-gray-100'>
@@ -46,8 +46,6 @@ export default function Gallery() {
         Gallery
       </h2>
     <div className="relative w-full font-sans px-16 md:px-24 pt-12 pb-10 bg-gray-100 overflow-x-auto custom-scrollbar">
-      
-
       <div ref={galleryRef} className="relative flex items-center h-64">
         {Array(imagesCount).fill(null).map((_, i, arr) => {
           const isActive = activeIndex === i
@@ -63,7 +61,7 @@ export default function Gallery() {
             >
               <div
                 onClick={() => handleClick(i)}
-                className={`relative w-64 h-full transition-all duration-700 rounded-lg shadow-lg
+                className={`relative border-2 border-[#EE5A22] w-64 h-full transition-all duration-700 rounded-lg shadow-lg
                   ${
                     isActive
                       ? 'scale-110 z-1 border-4 border-[#EE5A22] rounded-xl'

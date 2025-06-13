@@ -25,6 +25,8 @@ export default function Footer() {
                 <li><a href="https://babymhospital.org/" target="_blank" className="hover:underline">Kozhikode</a></li>
                 <li><a href="https://bmhkannur.com/" target="_blank" className="hover:underline">Kannur</a></li>
                 <li><a href="https://bmhthodupuzha.com/" target="_blank" className="hover:underline">Thodupuzha</a></li>
+                <li><a href="https://babymhospital.org/" target="_blank" className="hover:underline">Payyannur</a></li>
+                <li><a href="https://babymhospital.org/" target="_blank" className="hover:underline">Vadakara</a></li>
               </ul>
             </div>
           </div>
