@@ -141,9 +141,9 @@ export default function Home() {
         </a>
 
         <div className="absolute top-30 md:top-auto md:bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
-          <CountUpStat number={225} label="People Trained" />
-          <CountUpStat number={510} label="Pledges Taken" />
-          <CountUpStat number={12} label="Sessions Organized" />
+          <CountUpStat number={465} label="People Trained" />
+          <CountUpStat number={715} label="Pledges Taken" />
+          <CountUpStat number={16} label="Sessions Organized" />
         </div>
       </section>
     </main>
