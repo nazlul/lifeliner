@@ -18,11 +18,11 @@ export default function StatsRow() {
   ]
 
   return (
-    <section className="py-16 px-4 md:px-16 bg-[#E0F5FE] font-sans">
-      <h1 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-15">
+    <section className="py-16 px-4 md:px-16 bg-[#E0F5FE] font-sans text-center">
+      <h1 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-bold mb-15">
         Our Lifesaving <span className="text-[#EE5A22]">Impact</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 md:gap-20 gap-20 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 md:gap-20 gap-20">
         {stats.map((stat, index) => (
           <CountUpStat
             key={index}
@@ -32,6 +32,9 @@ export default function StatsRow() {
           />
         ))}
       </div>
+      <p className="text-xs text-gray-500 mt-8">
+        *since the launch of LifeLinER in May 2025.
+      </p>
     </section>
   )
 }
@@ -48,7 +51,7 @@ function CountUpStat({ icon, number, label }: Stat) {
 
     if (inView) {
       let current = 0
-      const duration = 1000 
+      const duration = 1000
       const stepTime = 16
       const increment = number / (duration / stepTime)
 
