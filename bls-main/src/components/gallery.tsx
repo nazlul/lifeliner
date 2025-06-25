@@ -115,10 +115,10 @@ export default function GalleryPage() {
         Image <span className="text-[#EE5A22]">Gallery</span>
       </h1>
 
-      <div className="relative px-12">
+      <div className="relative px-4 md:px-12">
         <button
           onClick={() => scroll('left')}
-          className="absolute left-0 top-1/2 -translate-y-1/2 rotate-180 cursor-pointer"
+          className="hidden sm:block absolute left-0 top-1/2 -translate-y-1/2 rotate-180 cursor-pointer"
         >
           <Image src="/arrow.svg" alt="Left" width={24} height={24} />
         </button>
@@ -153,14 +153,14 @@ export default function GalleryPage() {
 
         <button
           onClick={() => scroll('right')}
-          className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer"
+          className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer"
         >
           <Image src="/arrow.svg" alt="Right" width={24} height={24} />
         </button>
       </div>
 
       {openSet && (
-        <div className="fixed z-50 inset-0 bg-black/40 backdrop-blur-xl flex items-center justify-center p-4">
+        <div className="fixed z-[9999] inset-0 bg-black/40 backdrop-blur-xl flex items-center justify-center p-4">
           <div
             ref={modalRef}
             className="bg-white rounded-xl max-w-5xl w-full max-h-[90vh] overflow-y-auto p-6 relative custom-scrollbar"

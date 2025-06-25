@@ -129,7 +129,7 @@ export default function Home() {
           href="https://wa.me/+918589023000"
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-5 right-5 z-[9999] md:bottom-10 md:right-10"
+          className="fixed bottom-5 right-5 z-[999] md:bottom-10 md:right-10"
         >
           <Image
             src="/whatsapp.svg"
