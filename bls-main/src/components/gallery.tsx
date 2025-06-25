@@ -118,7 +118,7 @@ export default function GalleryPage() {
       <div className="relative px-12">
         <button
           onClick={() => scroll('left')}
-          className="absolute left-0 top-1/2 -translate-y-1/2 rotate-180"
+          className="absolute left-0 top-1/2 -translate-y-1/2 rotate-180 cursor-pointer"
         >
           <Image src="/arrow.svg" alt="Left" width={24} height={24} />
         </button>
@@ -153,7 +153,7 @@ export default function GalleryPage() {
 
         <button
           onClick={() => scroll('right')}
-          className="absolute right-0 top-1/2 -translate-y-1/2"
+          className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer"
         >
           <Image src="/arrow.svg" alt="Right" width={24} height={24} />
         </button>
