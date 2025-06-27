@@ -36,7 +36,7 @@ export default function GalleryPage() {
     },
     {
       title: 'JDT  Event',
-      description: 'LifeliNER training at JDT Islam Arts & Science College',
+      description: 'LifeLinER training at JDT Islam Arts & Science College',
       images: ['/gallery/jdt/1.jpg', '/gallery/jdt/2.jpg', '/gallery/jdt/3.jpg', '/gallery/jdt/4.jpg']
     },
     {
@@ -46,7 +46,7 @@ export default function GalleryPage() {
     },
     {
       title: 'Kondotty Event',
-      description: 'LifeliNER program for Ambulance drivers and their families of  Kondotty region',
+      description: 'LifeLinER program for Ambulance drivers and their families of  Kondotty region',
       images: ['/gallery/kondotty/1.jpg', '/gallery/kondotty/2.jpg']
     },   
     {
