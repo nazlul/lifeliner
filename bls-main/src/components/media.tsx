@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 
-export default function Feature() {
+export default function Media() {
   const [popupImage, setPopupImage] = useState<string | null>(null)
   const popupRef = useRef<HTMLDivElement>(null)
 

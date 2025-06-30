@@ -1,5 +1,5 @@
 import Mission from '@/components/mission'
-import Feature from '@/components/feature'
+import Media from '@/components/media'
 import Join from '@/components/Join'
 import Footer from '@/components/Footer';
 import Blog from '@/components/blogs';
@@ -43,7 +43,7 @@ export default function HomePage() {
         <Blog />
       </section>
       <section>
-        <Feature />
+        <Media />
       </section>
       <section>
         <Footer />

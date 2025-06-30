@@ -58,6 +58,26 @@ export default function GalleryPage() {
       title: 'Kuttikatoor Training',
       description: 'LifeLinER training For Health Club Students at Kuttikatoor Govt Higher Secondary School',
       images: ['/gallery/kuttikatoor/1.jpg', '/gallery/kuttikatoor/2.jpg', '/gallery/kuttikatoor/3.jpg', '/gallery/kuttikatoor/4.jpg']
+    },
+    {
+      title: 'Training at Alif International School',
+      description: 'LifeLinER training For Students at  Alif International School, Knowledge City, Kaithapoyil',
+      images: ['/gallery/alif/1.jpg', '/gallery/alif/2.jpg', '/gallery/alif/3.jpg', '/gallery/alif/4.jpg', '/gallery/alif/5.jpg']
+    },   
+    {
+      title: 'Nanminda GHSS Training Program',
+      description: 'LifeLinER training For Junior Red Cross and Scouts and guides at Nanminda Govt Higher Secondary School',
+      images: ['/gallery/nanminda/1.jpg', '/gallery/nanminda/2.jpg', '/gallery/nanminda/3.jpg']
+    },
+    {
+      title: 'BMH Kannur Program',
+      description: 'LifeLinER going on at BMH Kannur.( Ambulance driver\'s family get-together). Dr.Hirash giving Awareness talk followed by BLS',
+      images: ['/gallery/kannur/1.jpg', '/gallery/kannur/2.jpg', '/gallery/kannur/3.jpg']
+    },
+    {
+      title: 'Training at Calicut Medical College',
+      description: 'LifeLinER program for Ambulance drivers and their families of Calicut Medical College region.Session led by Dr. Rinoob',
+      images: ['/gallery/calicutmedical/1.jpg', '/gallery/calicutmedical/2.jpg', '/gallery/calicutmedical/3.jpg', '/gallery/calicutmedical/4.jpg']
     }
   ]
 
