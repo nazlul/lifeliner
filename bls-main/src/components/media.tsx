@@ -5,6 +5,7 @@ import Image from 'next/image'
 
 export default function Media() {
   const [popupImage, setPopupImage] = useState<string | null>(null)
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const popupRef = useRef<HTMLDivElement>(null)
 
   const mediaList = [
@@ -26,6 +27,7 @@ export default function Media() {
     const handleClickOutside = (e: MouseEvent) => {
       if (popupRef.current && !popupRef.current.contains(e.target as Node)) {
         setPopupImage(null)
+        setCurrentImageIndex(0)
       }
     }
     if (popupImage) {
@@ -64,6 +66,16 @@ export default function Media() {
     const { width, height } = getSize(name)
     const redirectLink = getRedirectLink(name)
 
+    const handleClick = () => {
+      if (name === 'manorama') {
+        setPopupImage('manorama')
+        setCurrentImageIndex(0)
+      } else {
+        setPopupImage(`/media/post/${name}.jpg`)
+        setCurrentImageIndex(0)
+      }
+    }
+
     if (redirectLink) {
       return (
         <a
@@ -85,10 +97,7 @@ export default function Media() {
     }
 
     return (
-      <div
-        onClick={() => setPopupImage(`/media/post/${name}.jpg`)}
-        className="cursor-pointer"
-      >
+      <div onClick={handleClick} className="cursor-pointer">
         <Image
           src={`/media/logos/${name}.svg`}
           alt={name}
@@ -99,6 +108,19 @@ export default function Media() {
         />
       </div>
     )
+  }
+
+  const getPopupSrc = () => {
+    if (popupImage === 'manorama') {
+      return currentImageIndex === 0
+        ? `/media/post/manorama.jpg`
+        : `/media/post/manorama-1.jpg`
+    }
+    return popupImage
+  }
+
+  const handleToggleImage = () => {
+    setCurrentImageIndex((prev) => (prev === 0 ? 1 : 0))
   }
 
   return (
@@ -154,15 +176,65 @@ export default function Media() {
       </section>
 
       {popupImage && (
-        <div className="fixed inset-0 z-50000 flex items-center justify-center bg-black/40 bg-opacity-50 backdrop-blur-sm">
+        <div className="fixed inset-0 z-[50000] flex items-center justify-center bg-black/40 backdrop-blur-sm">
           <div ref={popupRef} className="relative w-[90%] max-w-3xl">
-            <Image
-              src={popupImage}
-              alt="Popup Feature"
-              width={1200}
-              height={600}
-              className="rounded-lg w-full h-auto"
-            />
+            <div className="hidden lg:block">
+              <Image
+                src={getPopupSrc() || ''}
+                alt="Popup Feature"
+                width={1200}
+                height={600}
+                className="rounded-lg w-full h-auto"
+              />
+
+              {popupImage === 'manorama' && (
+                <button
+                  onClick={handleToggleImage}
+                  className={`absolute top-1/2 -translate-y-1/2 ${
+                    currentImageIndex === 0
+                      ? 'right-[-60px]'
+                      : 'left-[-60px] rotate-180'
+                  }`}
+                >
+                  <Image
+                    src="/arrow.svg"
+                    alt="Toggle"
+                    width={40}
+                    height={40}
+                    className="opacity-80 hover:opacity-100"
+                  />
+                </button>
+              )}
+            </div>
+
+            <div className="lg:hidden flex gap-4 overflow-x-auto px-4 w-full">
+              {popupImage === 'manorama' ? (
+                <>
+                  <Image
+                    src="/media/post/manorama.jpg"
+                    alt="Manorama 1"
+                    width={250}
+                    height={170}
+                    className="rounded-md flex-shrink-0"
+                  />
+                  <Image
+                    src="/media/post/manorama-1.jpg"
+                    alt="Manorama 2"
+                    width={400}
+                    height={300}
+                    className="rounded-md flex-shrink-0"
+                  />
+                </>
+              ) : (
+                <Image
+                  src={getPopupSrc() || ''}
+                  alt="Popup"
+                  width={400}
+                  height={300}
+                  className="rounded-md"
+                />
+              )}
+            </div>
           </div>
         </div>
       )}
