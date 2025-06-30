@@ -85,7 +85,7 @@ export default function NavBar() {
     {["Home", "About LifeLinER", "Our Goals", "Learn", "Take a Pledge"].map((item, index) => {
       const handleClick = () => {
         if (item === "Take a Pledge") {
-          window.open('https://forms.gle/Xx9UuXfq6VTVppbf7', '_blank')
+          window.open('https://wa.me/+918589023000', '_blank')
         } else {
           const idMap: { [key: string]: string } = {
             "Home": "home",
