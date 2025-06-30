@@ -178,66 +178,83 @@ export default function Media() {
       {popupImage && (
         <div className="fixed inset-0 z-[50000] flex items-center justify-center bg-black/40 backdrop-blur-sm">
           <div ref={popupRef} className="relative w-[90%] max-w-3xl">
-            <div className="hidden lg:block">
-              <Image
-                src={getPopupSrc() || ''}
-                alt="Popup Feature"
-                width={1200}
-                height={600}
-                className="rounded-lg w-full h-auto"
-              />
+            <div className="hidden lg:flex items-center justify-center relative">
+        {popupImage === 'manorama' && currentImageIndex === 0 ? (
+          <Image
+            src="/media/post/manorama.jpg"
+            alt="Manorama"
+            width={400}
+            height={250}
+            className="rounded-lg object-contain"
+          />
+        ) : popupImage === 'manorama' && currentImageIndex === 1 ? (
+          <Image
+            src="/media/post/manorama-1.jpg"
+            alt="Manorama 2"
+            width={1200}
+            height={600}
+            className="rounded-lg object-contain"
+          />
+        ) : (
+          <Image
+            src={getPopupSrc() || ''}
+            alt="Popup Feature"
+            width={1200}
+            height={600}
+            className="rounded-lg object-contain"
+          />
+        )}
 
-              {popupImage === 'manorama' && (
-                <button
-                  onClick={handleToggleImage}
-                  className={`absolute top-1/2 -translate-y-1/2 ${
-                    currentImageIndex === 0
-                      ? 'right-[-60px]'
-                      : 'left-[-60px] rotate-180'
-                  }`}
-                >
-                  <Image
-                    src="/arrow.svg"
-                    alt="Toggle"
-                    width={40}
-                    height={40}
-                    className="opacity-80 hover:opacity-100"
-                  />
-                </button>
-              )}
-            </div>
+        {popupImage === 'manorama' && (
+          <button
+            onClick={handleToggleImage}
+            className={`absolute top-1/2 -translate-y-1/2 ${
+              currentImageIndex === 0 ? 'right-[-60px]' : 'left-[-60px] rotate-180'
+            }`}
+          >
+            <Image
+              src="/arrow.svg"
+              alt="Toggle"
+              width={40}
+              height={40}
+              className="opacity-80 hover:opacity-100"
+            />
+          </button>
+        )}
+      </div>
 
-            <div className="lg:hidden flex gap-4 overflow-x-auto px-4 w-full">
-              {popupImage === 'manorama' ? (
-                <>
-                  <Image
-                    src="/media/post/manorama.jpg"
-                    alt="Manorama 1"
-                    width={250}
-                    height={170}
-                    className="rounded-md flex-shrink-0"
-                  />
-                  <Image
-                    src="/media/post/manorama-1.jpg"
-                    alt="Manorama 2"
-                    width={400}
-                    height={300}
-                    className="rounded-md flex-shrink-0"
-                  />
-                </>
-              ) : (
-                <Image
-                  src={getPopupSrc() || ''}
-                  alt="Popup"
-                  width={400}
-                  height={300}
-                  className="rounded-md"
-                />
-              )}
-            </div>
-          </div>
-        </div>
-      )}
+      <div className="lg:hidden flex gap-4 overflow-x-auto px-4 w-full">
+        {popupImage === 'manorama' ? (
+          <>
+            <Image
+              src="/media/post/manorama.jpg"
+              alt="Manorama 1"
+              width={250}
+              height={160}
+              className="rounded-md flex-shrink-0"
+            />
+            <Image
+              src="/media/post/manorama-1.jpg"
+              alt="Manorama 2"
+              width={400}
+              height={300}
+              className="rounded-md flex-shrink-0"
+            />
+          </>
+        ) : (
+          <Image
+            src={getPopupSrc() || ''}
+            alt="Popup"
+            width={400}
+            height={300}
+            className="rounded-md"
+          />
+        )}
+      </div>
+    </div>
+  </div>
+)}
+
 
       <style jsx global>{`
         @keyframes slide {
