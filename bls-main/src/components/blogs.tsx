@@ -6,10 +6,10 @@ import Image from 'next/image'
 const blogs = [
   {
     id: 1,
-    title: "ലൈഫ് ലൈനർ സംരംഭവുമായി ബിഎംഎച്ച്",
-    description: "ബേബി മെമ്മോറിയൽ ഹോസ്പിറ്റലിൽ സിഎസ്ആർ  സംരംഭമായ ലൈഫ്ലൈനർ... ",
+    title: "റോഡപകടം : പരിക്കേറ്റവരെ രക്ഷിക്കുമ്പോൾ",
+    description: "അപകടത്തിൽപ്പെട്ടവരെ എങ്ങനെ ശരിയായ രീതിയിൽ ആശുപത്രിയിലേക്കു മാറ്റണമെന്നത്... ",
     imageUrl: "/blogs/blog1.jpg",
-    link: "https://www.deshabhimani.com/epaper/share/68427631c2e95bf015715989/",
+    link: "https://babymhospital.org/road-accident-first-aid/",
     external: true
   },
   {
@@ -17,7 +17,7 @@ const blogs = [
     title: "ഇലക്ട്രിക് ഷോക്ക്",
     description: "ഷോക്കേറ്റ വ്യക്തിക്ക് പ്രഥമശുശ്രൂഷ നൽകുന്നതിന് മുൻപ് ഏറ്റവും പ്രാഥമികമായി ചെയ്യേണ്ട കാര്യം...",
     imageUrl: "/blogs/blog2.jpg",
-    link: "https://www.mathrubhumi.com/kozhikode/news/lifeliner-emergency-first-responder-training-kozhikode-1.10635584", 
+    link: "https://babymhospital.org/electric-shock-first-aid/", 
     external: true
   },
   {
@@ -25,7 +25,7 @@ const blogs = [
     title: "പൊള്ളൽസംഭവിച്ചാൽ",
     description: "ശരീരത്തിന്റെ എത്ര ശതമാനം ഭാഗത്തെ ബാധിച്ചിട്ടുണ്ട് എന്നതിന് അനുസരിച്ചാണ്...",
     imageUrl: "/blogs/blog3.jpg",
-    link: "https://www.asianetnews.com/health/what-to-do-immediately-after-a-car-accident-swypaf",
+    link: "https://babymhospital.org/%e0%b4%aa%e0%b5%8a%e0%b4%b3%e0%b5%8d%e0%b4%b3%e0%b5%bd%e0%b4%b8%e0%b4%82%e0%b4%ad%e0%b4%b5%e0%b4%bf%e0%b4%9a%e0%b5%8d%e0%b4%9a%e0%b4%be%e0%b5%bd/",
     external: true
   }
 ]
