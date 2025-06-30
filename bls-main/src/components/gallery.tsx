@@ -78,6 +78,11 @@ export default function GalleryPage() {
       title: 'Training at Calicut Medical College',
       description: 'LifeLinER program for Ambulance drivers and their families of Calicut Medical College region.Session led by Dr. Rinoob',
       images: ['/gallery/calicutmedical/1.jpg', '/gallery/calicutmedical/2.jpg', '/gallery/calicutmedical/3.jpg', '/gallery/calicutmedical/4.jpg']
+    },
+    {
+      title: 'Training at Mahe Dental College',
+      description: 'LifeLinER program at Mahe Dental college',
+      images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg']
     }
   ]
 
