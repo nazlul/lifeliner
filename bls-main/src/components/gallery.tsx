@@ -83,6 +83,11 @@ export default function GalleryPage() {
       title: 'Training at Mahe Dental College',
       description: 'LifeLinER program at Mahe Dental college',
       images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg']
+    },
+    {
+      title: 'Training at St. Vincent HSS',
+      description: 'LifeLinER training for students at St. Vincent Higher Secondary School.',
+      images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg']
     }
   ]
 
