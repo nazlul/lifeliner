@@ -26,6 +26,12 @@ export default function GalleryPage() {
       date: '25 May 2025'
     },
     {
+      title: 'Training at Mahe Dental College',
+      description: 'LifeLinER program at Mahe Dental college',
+      images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg'],
+      date: '3 Jun 2025'
+    },
+    {
       title: 'Nadakkavu Girls School',
       description: 'LifeLinER training for students of Nadakkavu Girls School',
       images: ['/gallery/nadakav/1.jpg', '/gallery/nadakav/2.jpg', '/gallery/nadakav/3.jpg', '/gallery/nadakav/4.jpg', '/gallery/nadakav/5.jpg', '/gallery/nadakav/6.jpg'],
@@ -94,11 +100,6 @@ export default function GalleryPage() {
       images: ['/gallery/calicutmedical/1.jpg', '/gallery/calicutmedical/2.jpg', '/gallery/calicutmedical/3.jpg', '/gallery/calicutmedical/4.jpg'],
       date: '29 Jun 2025',
       attendees: 80
-    },
-    {
-      title: 'Training at Mahe Dental College',
-      description: 'LifeLinER program at Mahe Dental college',
-      images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg']
     },
     {
       title: 'Training at St. Vincent HSS',
@@ -226,7 +227,9 @@ export default function GalleryPage() {
 
             <div className="flex justify-between text-sm md:text-base font-semibold mb-1 text-[#EE5A22] px-6">
               <div>{openSet.date}</div>
-              <div>LifeLinERs Trained: {openSet.attendees}</div>
+              {openSet.attendees !== undefined && (
+                <div>LifeLinERs Trained: {openSet.attendees}</div>
+              )}
             </div>
 
             <h2 className="text-2xl font-bold text-center text-[#005AAC]">{openSet.title}</h2>
