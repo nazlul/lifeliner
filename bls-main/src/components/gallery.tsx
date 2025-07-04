@@ -104,7 +104,8 @@ export default function GalleryPage() {
     {
       title: 'Training at St. Vincent HSS',
       description: 'LifeLinER training for students at St. Vincent Higher Secondary School',
-      images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg']  
+      images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg']  ,
+      date: '3 Jul 2025'
     },
     {
       title: 'Training at Nahla Poly Clinic',
@@ -186,6 +187,11 @@ export default function GalleryPage() {
               className="min-w-[300px] max-w-[300px] flex-shrink-0 rounded-xl p-3 shadow hover:shadow-lg transition cursor-pointer bg-[#E0F5FE] hover:bg-[#D1EAFB] hover:scale-102 hover:translate-y-[-2px] duration-300 ease-in-out"
               onClick={() => setOpenSet(set)}
             >
+            {set.date && (
+              <div className="text-center text-sm text-[#EE5A22] font-medium mb-1">
+                {set.date}
+              </div>
+            )}
               <h2 className="text-lg font-semibold mb-2 text-[#005AAC]">{set.title}</h2>
               <div className="grid grid-cols-2 gap-2">
                 {set.images.slice(0, 4).map((src, idx) => (
