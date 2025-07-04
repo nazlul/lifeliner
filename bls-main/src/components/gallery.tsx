@@ -20,79 +20,16 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
-      title: 'Launch Event',
-      description: 'Launch event conducted at Hilite Mall, Kozhikode on 25th May 2025',
-      images: ['/gallery/launch/1.jpg', '/gallery/launch/2.jpg', '/gallery/launch/3.jpg'],
-      date: '25 May 2025'
+      title: 'Training at Nahla Poly Clinic',
+      description: 'LifeLinER training program in association with Nahla Poly Clinic vellamunda',
+      images: ['/gallery/nahla/1.jpg', '/gallery/nahla/2.jpg', '/gallery/nahla/3.jpg'],
+      date: '3 Jul 2025'
     },
     {
-      title: 'Training at Mahe Dental College',
-      description: 'LifeLinER program at Mahe Dental college',
-      images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg'],
-      date: '3 Jun 2025'
-    },
-    {
-      title: 'Nadakkavu Girls School',
-      description: 'LifeLinER training for students of Nadakkavu Girls School',
-      images: ['/gallery/nadakav/1.jpg', '/gallery/nadakav/2.jpg', '/gallery/nadakav/3.jpg', '/gallery/nadakav/4.jpg', '/gallery/nadakav/5.jpg', '/gallery/nadakav/6.jpg'],
-      date: '12 Jun 2025',
-      attendees: 91
-    },
-    {
-      title: 'JDT  Event',
-      description: 'LifeLinER training at JDT Islam Arts & Science College',
-      images: ['/gallery/jdt/1.jpg', '/gallery/jdt/2.jpg', '/gallery/jdt/3.jpg', '/gallery/jdt/4.jpg'],
-      date: '17 Jun 2025',
-      attendees: 100
-    },
-    {
-      title: 'Vythiri Training Program',
-      description: 'LifeLinER training for Staff in Vythiri Resort, Wayanad',
-      images: ['/gallery/vythiri/1.jpg', '/gallery/vythiri/2.jpg', '/gallery/vythiri/3.jpg', '/gallery/vythiri/4.jpg'],
-      date: '21 Jun 2025',
-      attendees: 40
-    },
-    {
-      title: 'Kondotty Event',
-      description: 'LifeLinER program for Ambulance drivers and their families of  Kondotty region',
-      images: ['/gallery/kondotty/1.jpg', '/gallery/kondotty/2.jpg'],
-      date: '22 Jun 2025',
-      attendees: 130
-    },   
-    {
-      title: 'Koodaranji Program',
-      description: 'LifeLinER training at Koodaranji Grama Panchayat',
-      images: ['/gallery/koodaranji/1.jpg', '/gallery/koodaranji/2.jpg', '/gallery/koodaranji/3.jpg'],
-      date: '20 Jun 2025',
-      attendees: 132
-    },
-    {
-      title: 'Kuttikatoor Training',
-      description: 'LifeLinER training For Health Club Students at Kuttikatoor Govt Higher Secondary School',
-      images: ['/gallery/kuttikatoor/1.jpg', '/gallery/kuttikatoor/2.jpg', '/gallery/kuttikatoor/3.jpg', '/gallery/kuttikatoor/4.jpg'],
-      date: '28 Jun 2025',
-      attendees: 74
-    },
-    {
-      title: 'Training at Alif International School',
-      description: 'LifeLinER training For Students at  Alif International School, Knowledge City, Kaithapoyil',
-      images: ['/gallery/alif/1.jpg', '/gallery/alif/2.jpg', '/gallery/alif/3.jpg', '/gallery/alif/4.jpg', '/gallery/alif/5.jpg'],
-      date: '28 Jun 2025',
-      attendees: 70
-    },   
-    {
-      title: 'Nanminda GHSS Training Program',
-      description: 'LifeLinER training For Junior Red Cross and Scouts and guides at Nanminda Govt Higher Secondary School',
-      images: ['/gallery/nanminda/1.jpg', '/gallery/nanminda/2.jpg', '/gallery/nanminda/3.jpg'],
-      date: '28 Jun 2025',
-      attendees: 145
-    },
-    {
-      title: 'BMH Kannur Program',
-      description: 'LifeLinER training at BMH Kannur.( Ambulance driver\'s family get-together). Dr.Hirash giving Awareness talk followed by BLS',
-      images: ['/gallery/kannur/1.jpg', '/gallery/kannur/2.jpg', '/gallery/kannur/3.jpg'],
-      date: '29 Jun 2025',
-      attendees: 64
+      title: 'Training at St. Vincent HSS',
+      description: 'LifeLinER training for students at St. Vincent Higher Secondary School',
+      images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg'],
+      date: '3 Jul 2025'
     },
     {
       title: 'Training at Calicut Medical College',
@@ -102,18 +39,82 @@ export default function GalleryPage() {
       attendees: 80
     },
     {
-      title: 'Training at St. Vincent HSS',
-      description: 'LifeLinER training for students at St. Vincent Higher Secondary School',
-      images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg']  ,
-      date: '3 Jul 2025'
+      title: 'BMH Kannur Program',
+      description: 'LifeLinER training at BMH Kannur.( Ambulance driver\'s family get-together). Dr.Hirash giving Awareness talk followed by BLS',
+      images: ['/gallery/kannur/1.jpg', '/gallery/kannur/2.jpg', '/gallery/kannur/3.jpg'],
+      date: '29 Jun 2025',
+      attendees: 64
     },
     {
-      title: 'Training at Nahla Poly Clinic',
-      description: 'LifeLinER training program in association with Nahla Poly Clinic vellamunda',
-      images: ['/gallery/nahla/1.jpg', '/gallery/nahla/2.jpg', '/gallery/nahla/3.jpg'],
-      date: '3 Jul 2025'
+      title: 'Nanminda GHSS Training Program',
+      description: 'LifeLinER training For Junior Red Cross and Scouts and guides at Nanminda Govt Higher Secondary School',
+      images: ['/gallery/nanminda/1.jpg', '/gallery/nanminda/2.jpg', '/gallery/nanminda/3.jpg'],
+      date: '28 Jun 2025',
+      attendees: 145
+    },
+    {
+      title: 'Training at Alif International School',
+      description: 'LifeLinER training For Students at  Alif International School, Knowledge City, Kaithapoyil',
+      images: ['/gallery/alif/1.jpg', '/gallery/alif/2.jpg', '/gallery/alif/3.jpg', '/gallery/alif/4.jpg', '/gallery/alif/5.jpg'],
+      date: '28 Jun 2025',
+      attendees: 70
+    },
+    {
+      title: 'Kuttikatoor Training',
+      description: 'LifeLinER training For Health Club Students at Kuttikatoor Govt Higher Secondary School',
+      images: ['/gallery/kuttikatoor/1.jpg', '/gallery/kuttikatoor/2.jpg', '/gallery/kuttikatoor/3.jpg', '/gallery/kuttikatoor/4.jpg'],
+      date: '28 Jun 2025',
+      attendees: 74
+    },
+    {
+      title: 'Kondotty Event',
+      description: 'LifeLinER program for Ambulance drivers and their families of  Kondotty region',
+      images: ['/gallery/kondotty/1.jpg', '/gallery/kondotty/2.jpg'],
+      date: '22 Jun 2025',
+      attendees: 130
+    },
+    {
+      title: 'Vythiri Training Program',
+      description: 'LifeLinER training for Staff in Vythiri Resort, Wayanad',
+      images: ['/gallery/vythiri/1.jpg', '/gallery/vythiri/2.jpg', '/gallery/vythiri/3.jpg', '/gallery/vythiri/4.jpg'],
+      date: '21 Jun 2025',
+      attendees: 40
+    },
+    {
+      title: 'Koodaranji Program',
+      description: 'LifeLinER training at Koodaranji Grama Panchayat',
+      images: ['/gallery/koodaranji/1.jpg', '/gallery/koodaranji/2.jpg', '/gallery/koodaranji/3.jpg'],
+      date: '20 Jun 2025',
+      attendees: 132
+    },
+    {
+      title: 'JDT  Event',
+      description: 'LifeLinER training at JDT Islam Arts & Science College',
+      images: ['/gallery/jdt/1.jpg', '/gallery/jdt/2.jpg', '/gallery/jdt/3.jpg', '/gallery/jdt/4.jpg'],
+      date: '17 Jun 2025',
+      attendees: 100
+    },
+    {
+      title: 'Nadakkavu Girls School',
+      description: 'LifeLinER training for students of Nadakkavu Girls School',
+      images: ['/gallery/nadakav/1.jpg', '/gallery/nadakav/2.jpg', '/gallery/nadakav/3.jpg', '/gallery/nadakav/4.jpg', '/gallery/nadakav/5.jpg', '/gallery/nadakav/6.jpg'],
+      date: '12 Jun 2025',
+      attendees: 91
+    },
+    {
+      title: 'Training at Mahe Dental College',
+      description: 'LifeLinER program at Mahe Dental college',
+      images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg'],
+      date: '3 Jun 2025'
+    },
+    {
+      title: 'Launch Event',
+      description: 'Launch event conducted at Hilite Mall, Kozhikode on 25th May 2025',
+      images: ['/gallery/launch/1.jpg', '/gallery/launch/2.jpg', '/gallery/launch/3.jpg'],
+      date: '25 May 2025'
     }
-  ]
+]
+
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
