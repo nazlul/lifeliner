@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Training at Shanthigiri College',
+      description: 'LifeLinER training at Shanthigiri College, Vazhithala',
+      images: ['/gallery/vazhithala/1.jpg', '/gallery/vazhithala/2.jpg', '/gallery/vazhithala/3.jpg', '/gallery/vazhithala/4.jpg', '/gallery/vazhithala/5.jpg', '/gallery/vazhithala/6.jpg', '/gallery/vazhithala/7.jpg'],
+      date: '4 Jul 2025',
+      attendees: 200
+    },
+    {
       title: 'Training at Nahla Poly Clinic',
       description: 'LifeLinER training program in association with Nahla Poly Clinic vellamunda',
       images: ['/gallery/nahla/1.jpg', '/gallery/nahla/2.jpg', '/gallery/nahla/3.jpg'],
