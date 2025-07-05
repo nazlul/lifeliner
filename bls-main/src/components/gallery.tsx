@@ -23,7 +23,7 @@ export default function GalleryPage() {
       title: 'Training at Benhill English Medium School',
       description: 'LifeLinER training program at Benhill English Medium School, Iritty',
       images: ['/gallery/benhill/1.jpg', '/gallery/benhill/2.jpg', '/gallery/benhill/3.jpg', '/gallery/benhill/4.jpg'],
-      date: '3 Jul 2025'
+      date: '5 Jul 2025'
     },
     {
       title: 'Training at Shanthigiri College',
