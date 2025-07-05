@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Training at Benhill English Medium School',
+      description: 'LifeLinER training program at Benhill English Medium School, Iritty',
+      images: ['/gallery/benhill/1.jpg', '/gallery/benhill/2.jpg', '/gallery/benhill/3.jpg', '/gallery/benhill/4.jpg'],
+      date: '3 Jul 2025'
+    },
+    {
       title: 'Training at Shanthigiri College',
       description: 'LifeLinER training at Shanthigiri College, Vazhithala',
       images: ['/gallery/vazhithala/1.jpg', '/gallery/vazhithala/2.jpg', '/gallery/vazhithala/3.jpg', '/gallery/vazhithala/4.jpg', '/gallery/vazhithala/5.jpg', '/gallery/vazhithala/6.jpg', '/gallery/vazhithala/7.jpg'],
