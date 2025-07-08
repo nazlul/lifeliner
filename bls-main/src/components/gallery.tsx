@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Training program for AOCTA ',
+      description: 'LifeLinER program for AOCTA ( Ambulance Owners Captians and Technicians ) and their families of Calicut region',
+      images: ['/gallery/aocta/1.jpg', '/gallery/aocta/2.jpg', '/gallery/aocta/3.jpg', '/gallery/aocta/4.jpg'],
+      date: '8 Jul 2025'
+    },
+    {
       title: 'Training at Benhill English Medium School',
       description: 'LifeLinER training program at Benhill English Medium School, Iritty',
       images: ['/gallery/benhill/1.jpg', '/gallery/benhill/2.jpg', '/gallery/benhill/3.jpg', '/gallery/benhill/4.jpg'],
