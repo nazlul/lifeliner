@@ -22,7 +22,7 @@ export default function GalleryPage() {
     {
       title: 'Training program for AOCTA ',
       description: 'LifeLinER program for AOCTA ( Ambulance Owners Captians and Technicians ) and their families of Calicut region',
-      images: ['/gallery/aocta/1.jpg', '/gallery/aocta/2.jpg', '/gallery/aocta/3.jpg', '/gallery/aocta/4.jpg'],
+      images: ['/gallery/aocta/1.jpg', '/gallery/aocta/2.jpg', '/gallery/aocta/3.jpg'],
       date: '8 Jul 2025'
     },
     {
