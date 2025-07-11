@@ -40,7 +40,7 @@ export default function GalleryPage() {
       images: ['/gallery/iskra/1.jpg', '/gallery/iskra/2.jpg', '/gallery/iskra/3.jpg']
     },
     {
-      title: 'Training program - Janamythri Police Station, Adimaly',
+      title: 'Janamythri Police Station, Adimaly',
       description: 'LifeLinER and Privilege card Distribution at Janamythri Police Station, Adimaly',
       images: ['/gallery/adimaly/1.jpg', '/gallery/adimaly/2.jpg', '/gallery/adimaly/3.jpg', '/gallery/adimaly/4.jpg', '/gallery/adimaly/5.jpg', '/gallery/adimaly/6.jpg'],
       date: '11 Jul 2025'
