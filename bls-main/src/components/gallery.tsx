@@ -22,22 +22,26 @@ export default function GalleryPage() {
     {
       title: 'Autobahn trucking corporation',
       description: 'LifeLinER training at Autobahn trucking corporation',
-      images: ['/gallery/autobahn/1.jpg', '/gallery/autobahn/2.jpg', '/gallery/autobahn/3.jpg']
+      images: ['/gallery/autobahn/1.jpg', '/gallery/autobahn/2.jpg', '/gallery/autobahn/3.jpg'],
+      date: '11 Jul 2025'
     },
     {
       title: 'Oriental School of Hotel Management',
       description: 'LifeLinER training at Oriental School of Hotel Management, Lakkidi',
-      images: ['/gallery/oriental/1.jpg', '/gallery/oriental/2.jpg', '/gallery/oriental/3.jpg']
+      images: ['/gallery/oriental/1.jpg', '/gallery/oriental/2.jpg', '/gallery/oriental/3.jpg'],
+      date: '11 Jul 2025'
     },
     {
       title: 'Training program - RCHS School',
       description: 'LifeLinER training for NCC& JRC Cadets at RCHS School, Chundale',
-      images: ['/gallery/rchs/1.jpg', '/gallery/rchs/2.jpg']
+      images: ['/gallery/rchs/1.jpg', '/gallery/rchs/2.jpg'],
+      date: '11 Jul 2025'
     },
     {
       title: 'Training program at ISKRA',
       description: 'LifeLinER training at ISKRA Charitable Society, Nellikode',
-      images: ['/gallery/iskra/1.jpg', '/gallery/iskra/2.jpg', '/gallery/iskra/3.jpg']
+      images: ['/gallery/iskra/1.jpg', '/gallery/iskra/2.jpg', '/gallery/iskra/3.jpg'],
+      date: '11 Jul 2025'
     },
     {
       title: 'Janamythri Police Station, Adimaly',
