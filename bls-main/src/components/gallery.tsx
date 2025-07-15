@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'St.George church,Periyambra',
+      description: 'LifeLinER training and Privilege card Distribution at St.George church, Periyambra',
+      images: ['/gallery/stgeorge/1.jpg', '/gallery/stgeorge/2.jpg', '/gallery/stgeorge/3.jpg', '/gallery/stgeorge/4.jpg', '/gallery/stgeorge/5.jpg', '/gallery/stgeorge/6.jpg'],
+      date: '13 Jul 2025',
+      attendees: 150
+    },
+    {
       title: 'Autobahn trucking corporation',
       description: 'LifeLinER training at Autobahn trucking corporation',
       images: ['/gallery/autobahn/1.jpg', '/gallery/autobahn/2.jpg', '/gallery/autobahn/3.jpg'],
