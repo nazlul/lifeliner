@@ -20,6 +20,30 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'DE Earth Architect Pvt.Ltd, Kozhikode',
+      description: 'LifeLinER training at DE Earth Architect Pvt.Ltd, Kozhikode',
+      images: ['/gallery/dearch/1.jpg', '/gallery/dearch/2.jpg', '/gallery/dearch/3.jpg', '/gallery/dearch/4.jpg'],
+      date: '18 Jul 2025'
+    },
+    {
+      title: 'Lazaro Academy, Payyanur',
+      description: 'LifeLinER training at Lazaro Academy, Payyanur',
+      images: ['/gallery/lazaro/1.jpg', '/gallery/lazaro/2.jpg', '/gallery/lazaro/3.jpg', '/gallery/lazaro/4.jpg'],
+      date: '18 Jul 2025'
+    },
+    {
+      title: 'GHSS, Thariode',
+      description: 'LifeLinER training for SPC, Social science service club Membes at Govt. Higher secondary school, Thariode',
+      images: ['/gallery/thariode/1.jpg', '/gallery/thariode/2.jpg', '/gallery/thariode/3.jpg'],
+      date: '16 Jul 2025'
+    },
+    {
+      title: 'GUPS Chennalod',
+      description: 'LifeLinER training or JRC Cadets at GUPS Chennalod',
+      images: ['/gallery/gups/1.jpg', '/gallery/gups/2.jpg', '/gallery/gups/3.jpg', '/gallery/gups/4.jpg'],
+      date: '16 Jul 2025'
+    },
+    {
       title: 'St.George church,Periyambra',
       description: 'LifeLinER training and Privilege card Distribution at St.George church, Periyambra',
       images: ['/gallery/stgeorge/1.jpg', '/gallery/stgeorge/2.jpg', '/gallery/stgeorge/3.jpg', '/gallery/stgeorge/4.jpg', '/gallery/stgeorge/5.jpg', '/gallery/stgeorge/6.jpg'],
@@ -39,7 +63,7 @@ export default function GalleryPage() {
       date: '11 Jul 2025'
     },
     {
-      title: 'Training program - RCHS School',
+      title: 'RCHS School',
       description: 'LifeLinER training for NCC& JRC Cadets at RCHS School, Chundale',
       images: ['/gallery/rchs/1.jpg', '/gallery/rchs/2.jpg'],
       date: '11 Jul 2025'
@@ -63,32 +87,32 @@ export default function GalleryPage() {
       date: '8 Jul 2025'
     },
     {
-      title: 'Training at Benhill English Medium School',
+      title: 'Benhill English Medium School',
       description: 'LifeLinER training program at Benhill English Medium School, Iritty',
       images: ['/gallery/benhill/1.jpg', '/gallery/benhill/2.jpg', '/gallery/benhill/3.jpg', '/gallery/benhill/4.jpg'],
       date: '5 Jul 2025'
     },
     {
-      title: 'Training at Shanthigiri College',
+      title: 'Shanthigiri College',
       description: 'LifeLinER training at Shanthigiri College, Vazhithala',
       images: ['/gallery/vazhithala/1.jpg', '/gallery/vazhithala/2.jpg', '/gallery/vazhithala/3.jpg', '/gallery/vazhithala/4.jpg', '/gallery/vazhithala/5.jpg', '/gallery/vazhithala/6.jpg', '/gallery/vazhithala/7.jpg'],
       date: '4 Jul 2025',
       attendees: 200
     },
     {
-      title: 'Training at Nahla Poly Clinic',
+      title: 'Nahla Poly Clinic',
       description: 'LifeLinER training program in association with Nahla Poly Clinic vellamunda',
       images: ['/gallery/nahla/1.jpg', '/gallery/nahla/2.jpg', '/gallery/nahla/3.jpg'],
       date: '3 Jul 2025'
     },
     {
-      title: 'Training at St. Vincent HSS',
+      title: 'St. Vincent HSS',
       description: 'LifeLinER training for students at St. Vincent Higher Secondary School',
       images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg'],
       date: '3 Jul 2025'
     },
     {
-      title: 'Training at Calicut Medical College',
+      title: 'Calicut Medical College',
       description: 'LifeLinER program for Ambulance drivers and their families of Calicut Medical College region.Session led by Dr. Rinoob',
       images: ['/gallery/calicutmedical/1.jpg', '/gallery/calicutmedical/2.jpg', '/gallery/calicutmedical/3.jpg', '/gallery/calicutmedical/4.jpg'],
       date: '29 Jun 2025',
@@ -109,7 +133,7 @@ export default function GalleryPage() {
       attendees: 145
     },
     {
-      title: 'Training at Alif International School',
+      title: 'Alif International School',
       description: 'LifeLinER training For Students at  Alif International School, Knowledge City, Kaithapoyil',
       images: ['/gallery/alif/1.jpg', '/gallery/alif/2.jpg', '/gallery/alif/3.jpg', '/gallery/alif/4.jpg', '/gallery/alif/5.jpg'],
       date: '28 Jun 2025',
@@ -144,7 +168,7 @@ export default function GalleryPage() {
       attendees: 132
     },
     {
-      title: 'JDT  Event',
+      title: 'JDT Event',
       description: 'LifeLinER training at JDT Islam Arts & Science College',
       images: ['/gallery/jdt/1.jpg', '/gallery/jdt/2.jpg', '/gallery/jdt/3.jpg', '/gallery/jdt/4.jpg'],
       date: '17 Jun 2025',
@@ -158,7 +182,7 @@ export default function GalleryPage() {
       attendees: 91
     },
     {
-      title: 'Training at Mahe Dental College',
+      title: 'Mahe Dental College',
       description: 'LifeLinER program at Mahe Dental college',
       images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg'],
       date: '3 Jun 2025'

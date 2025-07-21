@@ -144,7 +144,7 @@ export default function Home() {
         <div className="flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
           <CountUpStat number={1271} label="People Trained" />
           <CountUpStat number={1429} label="Pledges Taken" />
-          <CountUpStat number={29} label="Sessions Organized" />
+          <CountUpStat number={32} label="Sessions Organized" />
         </div>
         <p className="text-xs text-gray-500 mt-1">*since the launch of LifeLinER in May 2025.</p>
       </div>
