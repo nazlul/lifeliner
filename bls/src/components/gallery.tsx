@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Swiggy Delivery Executives',
+      description: 'LifeLinER training for Swiggy delivery executives. Session led by Dr. Rinoop',
+      images: ['/gallery/swiggy/1.jpg', '/gallery/swiggy/2.jpg', '/gallery/swiggy/3.jpg'],
+      date: '21 Jul 2025'
+    },
+    {
       title: 'DE Earth Architect Pvt.Ltd, Kozhikode',
       description: 'LifeLinER training at DE Earth Architect Pvt.Ltd, Kozhikode',
       images: ['/gallery/dearch/1.jpg', '/gallery/dearch/2.jpg', '/gallery/dearch/3.jpg', '/gallery/dearch/4.jpg'],
