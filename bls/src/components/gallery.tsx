@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'GHSS Panthalayani',
+      description: 'LifeLinER training at at GHSS Panthalayani, Kozhikode',
+      images: ['/gallery/panthalayani/1.jpg', '/gallery/panthalayani/2.jpg', '/gallery/panthalayani/3.jpg', '/gallery/panthalayani/4.jpg'],
+      date: '21 Jul 2025'
+    },
+    {
       title: 'Swiggy Delivery Executives',
       description: 'LifeLinER training for Swiggy delivery executives. Session led by Dr. Rinoop',
       images: ['/gallery/swiggy/1.jpg', '/gallery/swiggy/2.jpg', '/gallery/swiggy/3.jpg'],
