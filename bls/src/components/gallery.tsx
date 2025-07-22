@@ -259,7 +259,7 @@ export default function GalleryPage() {
   return (
     <section className="p-8 bg-gray-100">
       <h1 className="text-[#005AAC] text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-center mb-12">
-        Image <span className="text-[#EE5A22]">Gallery</span>
+        LifeLinER <span className="text-[#EE5A22]">In Action</span>
       </h1>
 
       <div className="relative px-4 md:px-12">
