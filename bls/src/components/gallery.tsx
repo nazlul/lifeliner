@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Kanhangad',
+      description: 'LifeLinER training programme at Kanhangad',
+      images: ['/gallery/kanhangad/1.jpg', '/gallery/kanhangad/2.jpg'],
+      date: '23 Jul 2025'
+    },
+    {
+      title: 'Abate College',
+      description: 'LifeLinER training at Abate College, Kozhikode',
+      images: ['/gallery/abate/1.jpg', '/gallery/abate/2.jpg', '/gallery/abate/3.jpg', '/gallery/abate/4.jpg', '/gallery/abate/5.jpg'],
+      date: '23 Jul 2025'
+    },
+    {
+      title: 'IHRD College',
+      description: 'LifeLinER training program at IHRD College for NSS Students',
+      images: ['/gallery/ihrd/1.jpg', '/gallery/ihrd/2.jpg'],
+      date: '23 Jul 2025'
+    },
+    {
       title: 'GHSS Panthalayani',
       description: 'LifeLinER training at at GHSS Panthalayani, Kozhikode',
       images: ['/gallery/panthalayani/1.jpg', '/gallery/panthalayani/2.jpg', '/gallery/panthalayani/3.jpg', '/gallery/panthalayani/4.jpg'],
@@ -29,13 +47,15 @@ export default function GalleryPage() {
       title: 'Swiggy Delivery Executives',
       description: 'LifeLinER training for Swiggy delivery executives. Session led by Dr. Rinoop',
       images: ['/gallery/swiggy/1.jpg', '/gallery/swiggy/2.jpg', '/gallery/swiggy/3.jpg'],
-      date: '21 Jul 2025'
+      date: '21 Jul 2025',
+      attendees: 32
     },
     {
       title: 'DE Earth Architect Pvt.Ltd, Kozhikode',
       description: 'LifeLinER training at DE Earth Architect Pvt.Ltd, Kozhikode',
       images: ['/gallery/dearch/1.jpg', '/gallery/dearch/2.jpg', '/gallery/dearch/3.jpg', '/gallery/dearch/4.jpg'],
-      date: '18 Jul 2025'
+      date: '18 Jul 2025',
+      attendees: 30
     },
     {
       title: 'Lazaro Academy, Payyanur',
@@ -66,25 +86,29 @@ export default function GalleryPage() {
       title: 'Autobahn trucking corporation',
       description: 'LifeLinER training at Autobahn trucking corporation',
       images: ['/gallery/autobahn/1.jpg', '/gallery/autobahn/2.jpg', '/gallery/autobahn/3.jpg'],
-      date: '11 Jul 2025'
+      date: '11 Jul 2025',
+      attendees: 70
     },
     {
       title: 'Oriental School of Hotel Management',
       description: 'LifeLinER training at Oriental School of Hotel Management, Lakkidi',
       images: ['/gallery/oriental/1.jpg', '/gallery/oriental/2.jpg', '/gallery/oriental/3.jpg'],
-      date: '11 Jul 2025'
+      date: '11 Jul 2025',
+      attendees: 70
     },
     {
       title: 'RCHS School',
       description: 'LifeLinER training for NCC& JRC Cadets at RCHS School, Chundale',
       images: ['/gallery/rchs/1.jpg', '/gallery/rchs/2.jpg'],
-      date: '11 Jul 2025'
+      date: '11 Jul 2025',
+      attendees: 65
     },
     {
       title: 'Training program at ISKRA',
       description: 'LifeLinER training at ISKRA Charitable Society, Nellikode',
       images: ['/gallery/iskra/1.jpg', '/gallery/iskra/2.jpg', '/gallery/iskra/3.jpg'],
-      date: '11 Jul 2025'
+      date: '11 Jul 2025',
+      attendees: 68
     },
     {
       title: 'Janamythri Police Station, Adimaly',
@@ -96,7 +120,8 @@ export default function GalleryPage() {
       title: 'Training program for AOCTA ',
       description: 'LifeLinER program for AOCTA ( Ambulance Owners Captians and Technicians ) and their families of Calicut region',
       images: ['/gallery/aocta/1.jpg', '/gallery/aocta/2.jpg', '/gallery/aocta/3.jpg'],
-      date: '8 Jul 2025'
+      date: '8 Jul 2025',
+      attendees: 60
     },
     {
       title: 'Benhill English Medium School',
@@ -115,13 +140,15 @@ export default function GalleryPage() {
       title: 'Nahla Poly Clinic',
       description: 'LifeLinER training program in association with Nahla Poly Clinic vellamunda',
       images: ['/gallery/nahla/1.jpg', '/gallery/nahla/2.jpg', '/gallery/nahla/3.jpg'],
-      date: '3 Jul 2025'
+      date: '3 Jul 2025',
+      attendees: 42
     },
     {
       title: 'St. Vincent HSS',
       description: 'LifeLinER training for students at St. Vincent Higher Secondary School',
       images: ['/gallery/vincent/1.jpg', '/gallery/vincent/2.jpg', '/gallery/vincent/3.jpg'],
-      date: '3 Jul 2025'
+      date: '3 Jul 2025',
+      attendees: 214
     },
     {
       title: 'Calicut Medical College',
