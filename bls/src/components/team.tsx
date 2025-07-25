@@ -12,6 +12,7 @@ const profiles = [
   { image: '/dr/6.png', name: 'Dr. Reshma B K', profession: 'Specialist in Emergency Medicine' },
   { image: '/dr/7.png', name: 'Dr. Faisal Basheer', profession: 'Associate Consultant' },
   { image: '/dr/8.png', name: 'Dr. Drishya S', profession: 'Associate Consultant' },
+  { image: '/dr/9.png', name: 'Dr. Anisha K', profession: 'Specialist' },
 ]
 
 export default function TeamCards() {
