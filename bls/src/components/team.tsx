@@ -4,15 +4,15 @@ import React, { useRef } from 'react'
 import Image from 'next/image'
 
 const profiles = [
-  { image: '/dr/1.jpg', name: 'Dr. Fabith Moideen V M', profession: 'Chief - Emergency Medicine' },
-  { image: '/dr/2.png', name: 'Dr. Rinoop Ramachandran', profession: 'Dy. Chief & Senior Consultant' },
+  { image: '/dr/1.jpg', name: 'Dr. Fabith Moideen V M', profession: 'Cluster Head - Emergency Medicine' },
+  { image: '/dr/2.png', name: 'Dr. Rinoop Ramachandran', profession: 'Consultant & ED Chief' },
   { image: '/dr/3.png', name: 'Dr. Sanooj O P', profession: 'Senior Consultant' },
   { image: '/dr/4.png', name: 'Dr. Priya Padmanabhan', profession: 'Consultant' },
   { image: '/dr/5.png', name: 'Dr. Ajay Solomon Linson', profession: 'Specialist in Emergency Medicine' },
   { image: '/dr/6.png', name: 'Dr. Reshma B K', profession: 'Specialist in Emergency Medicine' },
   { image: '/dr/7.png', name: 'Dr. Faisal Basheer', profession: 'Associate Consultant' },
   { image: '/dr/8.png', name: 'Dr. Drishya S', profession: 'Associate Consultant' },
-  { image: '/dr/9.png', name: 'Dr. Anisha K', profession: 'Specialist' },
+  { image: '/dr/9.png', name: 'Dr. Anisha K', profession: 'Specialist in Emergency Medicine' },
 ]
 
 export default function TeamCards() {
