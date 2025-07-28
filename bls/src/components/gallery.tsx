@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Ambulance Drivers Pattambi',
+      description: 'LifeLinER training program for Ambulance drivers at Pattambi',
+      images: ['/gallery/pattambi/1.jpg', '/gallery/pattambi/2.jpg'],
+      date: '26 Jul 2025'
+    },
+    {
+      title: 'Kannur Doctors talk',
+      description: 'LifeLinER Doctors Talk on Stroke Management by Jisa Mary Joy, in association with Friends of Kannur Trust. Introduced the BMH Family Connect Card',
+      images: ['/gallery/kannurtrust/1.jpg'],
+      date: '26 Jul 2025'
+    },
+    {
+      title: 'Thalassery SH School',
+      description: 'LifeLinER training programme at Thalassery SH School',
+      images: ['/gallery/thalassery/1.jpg', '/gallery/thalassery/2.jpg'],
+      date: '26 Jul 2025'
+    },
+    {
       title: 'Kanhangad',
       description: 'LifeLinER training programme at Kanhangad',
       images: ['/gallery/kanhangad/1.jpg', '/gallery/kanhangad/2.jpg'],
