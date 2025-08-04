@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'CMHS Mannur School',
+      description: 'LifeLinER training for Scouts and Guides students and their parents at CMHS Mannur School, Kadalundi',
+      images: ['/gallery/mannur/1.jpg', '/gallery/mannur/2.jpg', '/gallery/mannur/3.jpg'],
+      date: '2 Aug 2025'
+    },
+    {
+      title: 'Young Seniors Club',
+      description: 'LifeLinER training for Young Seniors Club',
+      images: ['/gallery/ys/1.jpg', '/gallery/ys/2.jpg', '/gallery/ys/3.jpg'],
+      date: '2 Aug 2025'
+    },
+    {
+      title: 'GHSS Tharuvana',
+      description: 'LifeLinER training for SPC cadets at GHSS Tharuvana',
+      images: ['/gallery/tharuvana/1.jpg', '/gallery/tharuvana/2.jpg', '/gallery/tharuvana/3.jpg', '/gallery/tharuvana/4.jpg'],
+      date: '2 Aug 2025'
+    },
+    {
       title: 'Ambulance Drivers Pattambi',
       description: 'LifeLinER training program for Ambulance drivers at Pattambi',
       images: ['/gallery/pattambi/1.jpg', '/gallery/pattambi/2.jpg'],
@@ -57,7 +75,7 @@ export default function GalleryPage() {
     },
     {
       title: 'GHSS Panthalayani',
-      description: 'LifeLinER training at at GHSS Panthalayani, Kozhikode',
+      description: 'LifeLinER training at GHSS Panthalayani, Kozhikode',
       images: ['/gallery/panthalayani/1.jpg', '/gallery/panthalayani/2.jpg', '/gallery/panthalayani/3.jpg', '/gallery/panthalayani/4.jpg'],
       date: '21 Jul 2025'
     },
