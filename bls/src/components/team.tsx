@@ -13,6 +13,15 @@ const profiles = [
   { image: '/dr/7.png', name: 'Dr. Faisal Basheer', profession: 'Associate Consultant' },
   { image: '/dr/8.png', name: 'Dr. Drishya S', profession: 'Associate Consultant' },
   { image: '/dr/9.png', name: 'Dr. Anisha K', profession: 'Specialist in Emergency Medicine' },
+  { image: '/dr/10.png', name: 'Dr. Anitha Ann John', profession: 'Senior Medical Officer' },
+  { image: '/dr/17.png', name: 'Dr. Vishal Abraham', profession: 'Chief' },
+  { image: '/dr/11.png', name: 'Dr. Asish Kishore', profession: 'Specialist' },
+  { image: '/dr/12.png', name: 'Dr. Muad', profession: 'Specialist' },
+  { image: '/dr/13.png', name: 'Dr. Nithin Akkal', profession: 'Associate Consultant' },
+  { image: '/dr/14.png', name: 'Dr. Sarath Narayan', profession: 'Specialist' },
+  { image: '/dr/15.png', name: 'Dr. Shaheer Sulaiman', profession: 'Specialist' },
+  { image: '/dr/16.png', name: 'Dr. Sumin Jacob', profession: 'Specialist' },
+  { image: '/dr/18.png', name: 'Dr. Vivek Krishnan S', profession: 'Specialist' },
 ]
 
 export default function TeamCards() {
