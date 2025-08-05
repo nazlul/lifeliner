@@ -105,7 +105,7 @@ export default function TestimonialsPage() {
       <div className="relative w-full flex items-center justify-center mt-8 md:mt-16 select-none">
         <button
           onClick={handlePrev}
-          className="absolute left-2 md:left-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/40 backdrop-blur-sm shadow-lg hover:bg-white/60 transition-all duration-300"
+          className="absolute cursor-pointer left-2 md:left-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/40 backdrop-blur-sm shadow-lg hover:bg-white/60 transition-all duration-300"
           style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
           <img src="/arrow.svg" alt="Previous" className="w-6 h-6 md:w-8 md:h-8 rotate-180 group-hover/button:scale-110 transition-transform duration-300" />
@@ -185,7 +185,7 @@ export default function TestimonialsPage() {
         </div>
         <button
           onClick={handleNext}
-          className="absolute right-2 md:right-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/40 backdrop-blur-sm shadow-lg hover:bg-white/60 transition-all duration-300"
+          className="absolute cursor-pointer right-2 md:right-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/40 backdrop-blur-sm shadow-lg hover:bg-white/60 transition-all duration-300"
           style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
           <img src="/arrow.svg" alt="Next" className="w-6 h-6 md:w-8 md:h-8 group-hover/button:scale-110 transition-transform duration-300" />
