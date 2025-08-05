@@ -48,7 +48,7 @@ export default function TeamCards() {
   }
 
   return (
-    <section className="relative w-full font-sans px-6 md:px-25 pt-12 pb-10 bg-gray-100">
+    <section className="relative w-full font-sans px-6 md:px-25 pt-12 pb-10 bg-[#E0F5FE]">
       <h3 className="text-3xl md:text-4xl lg:text-5xl text-[#005AAC] text-center mb-10 font-bold">
         Our <span className="text-[#EE5A22]">Team</span>
       </h3>

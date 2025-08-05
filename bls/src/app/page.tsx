@@ -10,6 +10,7 @@ import Home from '@/components/Home';
 import Team from '@/components/team';
 import Goals from '@/components/goals';
 import Gallery from '@/components/gallery';
+import Testimonials from '@/components/testimonial';
 
 export default function HomePage() {
   return (
@@ -38,6 +39,9 @@ export default function HomePage() {
       </section>
       <section>
         <Count />
+      </section>
+      <section>
+        <Testimonials />
       </section>
       <section id="blogs">
         <Blog />
