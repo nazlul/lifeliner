@@ -98,14 +98,14 @@ export default function TestimonialsPage() {
   const visible = [prevIdx, centerIdx, nextIdx];
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-start">
-      <div className="w-full text-center pt-4 pb-2 md:pt-8 md:pb-4 z-10">
+    <div className="min-h-screen bg-[#E0F5FE] flex flex-col items-center justify-start">
+      <div className="w-full text-center -py-10 z-10">
         <h1 className="text-3xl md:text-6xl font-nyght font-bold text-[#EE5A22]">Testimonials</h1>
       </div>
       <div className="relative w-full flex items-center justify-center mt-8 md:mt-16 select-none">
         <button
           onClick={handlePrev}
-          className="absolute left-2 md:left-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/80 backdrop-blur-sm shadow-lg hover:bg-white transition-all duration-300"
+          className="absolute left-2 md:left-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/40 backdrop-blur-sm shadow-lg hover:bg-white/60 transition-all duration-300"
           style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
           <img src="/arrow.svg" alt="Previous" className="w-6 h-6 md:w-8 md:h-8 rotate-180 group-hover/button:scale-110 transition-transform duration-300" />
@@ -174,7 +174,7 @@ export default function TestimonialsPage() {
                     className="absolute inset-0 flex items-center justify-center bg-black/20 rounded-3xl transition-opacity duration-200 hover:bg-black/30"
                     style={{ opacity: isPlaying ? 0 : 1, pointerEvents: isPlaying ? 'none' : 'auto' }}
                   >
-                    <div className="w-16 h-16 md:w-20 md:h-20 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg">
+                    <div className="w-16 h-16 bg-white/40 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg">
                       <div className="w-0 h-0 border-l-[16px] md:border-l-[20px] border-l-black border-t-[12px] md:border-t-[15px] border-t-transparent border-b-[12px] md:border-b-[15px] border-b-transparent ml-1"></div>
                     </div>
                   </button>
@@ -185,7 +185,7 @@ export default function TestimonialsPage() {
         </div>
         <button
           onClick={handleNext}
-          className="absolute right-2 md:right-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/80 backdrop-blur-sm shadow-lg hover:bg-white transition-all duration-300"
+          className="absolute right-2 md:right-8 z-20 flex h-12 w-12 md:h-16 md:w-16 items-center justify-center rounded-full bg-white/40 backdrop-blur-sm shadow-lg hover:bg-white/60 transition-all duration-300"
           style={{ top: '50%', transform: 'translateY(-50%)' }}
         >
           <img src="/arrow.svg" alt="Next" className="w-6 h-6 md:w-8 md:h-8 group-hover/button:scale-110 transition-transform duration-300" />
