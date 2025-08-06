@@ -22,6 +22,7 @@ const profiles = [
   { image: '/dr/15.png', name: 'Dr. Shaheer Sulaiman', profession: 'Specialist' },
   { image: '/dr/16.png', name: 'Dr. Sumin Jacob', profession: 'Specialist' },
   { image: '/dr/18.png', name: 'Dr. Vivek Krishnan S', profession: 'Specialist' },
+  { image: '/dr/19.png', name: 'Dr. Hirash P K', profession: 'Specialist' },
 ]
 
 export default function TeamCards() {
