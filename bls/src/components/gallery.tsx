@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'BMH Kannur',
+      description: 'LifeLinER training for New joinees at BMH Kannur',
+      images: ['/gallery/kannur1/1.jpg', '/gallery/kannur1/2.jpg'],
+      date: '6 Aug 2025',
+      attendees: 40
+    },
+    {
       title: 'CMHS Mannur School',
       description: 'LifeLinER training for Scouts and Guides students and their parents at CMHS Mannur School, Kadalundi',
       images: ['/gallery/mannur/1.jpg', '/gallery/mannur/2.jpg', '/gallery/mannur/3.jpg'],
