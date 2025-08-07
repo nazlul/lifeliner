@@ -28,6 +28,10 @@ const testimonials: Testimonial[] = [
   {
     id: 5,
     videoSrc: '/testimonial/5.mp4'
+  },
+  {
+    id: 6,
+    videoSrc: '/testimonial/6.mp4'
   }
 ];
 
