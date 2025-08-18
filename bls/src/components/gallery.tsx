@@ -20,6 +20,36 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Firstcry Intellitots Preschool',
+      description: 'LifeLinER training for staffs and teachers of Firstcry Intellitots Preschool',
+      images: ['/gallery/firstcry/1.jpg', '/gallery/firstcry/2.jpg'],
+      date: '13 Aug 2025'
+    },
+    {
+      title: 'Chinmaya Women\'s College',
+      description: 'LifeLinER (Organ Donation Awareness Talk By Dr. Shabeen kumar Consultant Nephrologist) In association with Chinmaya Women\'s College chala, kannur',
+      images: ['/gallery/chinmaya/1.jpg', '/gallery/chinmaya/2.jpg', '/gallery/chinmaya/3.jpg', '/gallery/chinmaya/4.jpg'],
+      date: '12 Aug 2025'
+    },
+    {
+      title: 'CH Center Perinthalmanna',
+      description: 'LifeLinER training for female volunteers at CH Center Perinthalmanna',
+      images: ['/gallery/chcentre/1.jpg', '/gallery/chcentre/2.jpg', '/gallery/chcentre/3.jpg', '/gallery/chcentre/4.jpg'],
+      date: '12 Aug 2025'
+    },
+    {
+      title: 'BEM UP School',
+      description: 'LifeLinER training at BEM UP School Koyilandy',
+      images: ['/gallery/bem/1.jpg', '/gallery/bem/2.jpg', '/gallery/bem/3.jpg', '/gallery/bem/4.jpg'],
+      date: '12 Aug 2025'
+    },
+    {
+      title: 'Talk By Dr. Mithun Ramesh',
+      description: 'LifeLinER (Organ Donation Awareness Talk By Dr. Mithun Ramesh, Senior Consultant - Nephrology) In association with Kannur College of Commerce',
+      images: ['/gallery/drmithun/1.jpg'],
+      date: '11 Aug 2025'
+    },
+    {
       title: 'BMH Kannur',
       description: 'LifeLinER training for New joinees at BMH Kannur',
       images: ['/gallery/kannur1/1.jpg', '/gallery/kannur1/2.jpg'],
@@ -30,7 +60,7 @@ export default function GalleryPage() {
       title: 'CMHS Mannur School',
       description: 'LifeLinER training for Scouts and Guides students and their parents at CMHS Mannur School, Kadalundi',
       images: ['/gallery/mannur/1.jpg', '/gallery/mannur/2.jpg', '/gallery/mannur/3.jpg'],
-      date: '2 Aug 2025'
+      date: '3 Aug 2025'
     },
     {
       title: 'Young Seniors Club',
