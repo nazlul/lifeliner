@@ -19,6 +19,27 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
+     {
+      title: 'Perukoni Residence Association',
+      description: ' LifeLinER Training and privilage card distribution at Perukoni Residence Association, Olamattom',
+      images: ['/gallery/perukoni/1.jpg', '/gallery/perukoni/2.jpg', '/gallery/perukoni/3.jpg', '/gallery/perukoni/4.jpg', '/gallery/perukoni/5.jpg', '/gallery/perukoni/6.jpg', '/gallery/perukoni/7.jpg', '/gallery/perukoni/8.jpg'],
+      date: '17 Aug 2025',
+      attendees: 69
+    },
+    {
+      title: 'Govt. High school, Kallarukutty',
+      description: 'LifeLinER Training at Govt. High school, Kallarukutty',
+      images: ['/gallery/kallarkutty/1.jpg', '/gallery/kallarkutty/2.jpg', '/gallery/kallarkutty/3.jpg', '/gallery/kallarkutty/4.jpg', '/gallery/kallarkutty/5.jpg', '/gallery/kallarkutty/6.jpg', '/gallery/kallarkutty/7.jpg'],
+      date: '14 Aug 2025',
+      attendees: 66
+    },
+    {
+      title: 'Govt. Higher Secondary School, Rajakkad',
+      description: 'Awarness class and LifeLinER Training at Govt. Higher Secondary School, Rajakkad',
+      images: ['/gallery/rajakkad/1.jpg', '/gallery/rajakkad/2.jpg', '/gallery/rajakkad/3.jpg', '/gallery/rajakkad/4.jpg', '/gallery/rajakkad/5.jpg', '/gallery/rajakkad/6.jpg', '/gallery/rajakkad/7.jpg', '/gallery/rajakkad/8.jpg'],
+      date: '14 Aug 2025',
+      attendees: 147
+    },
     {
       title: 'Firstcry Intellitots Preschool',
       description: 'LifeLinER training for staffs and teachers of Firstcry Intellitots Preschool',
@@ -35,11 +56,12 @@ export default function GalleryPage() {
       title: 'CH Center Perinthalmanna',
       description: 'LifeLinER training for female volunteers at CH Center Perinthalmanna',
       images: ['/gallery/chcentre/1.jpg', '/gallery/chcentre/2.jpg', '/gallery/chcentre/3.jpg', '/gallery/chcentre/4.jpg'],
-      date: '12 Aug 2025'
+      date: '12 Aug 2025',
+      attendees: 51
     },
     {
       title: 'BEM UP School',
-      description: 'LifeLinER training at BEM UP School Koyilandy',
+      description: 'LifeLinER training at BEM UP School, Koyilandy',
       images: ['/gallery/bem/1.jpg', '/gallery/bem/2.jpg', '/gallery/bem/3.jpg', '/gallery/bem/4.jpg'],
       date: '12 Aug 2025'
     },
@@ -66,7 +88,8 @@ export default function GalleryPage() {
       title: 'Young Seniors Club',
       description: 'LifeLinER training for Young Seniors Club',
       images: ['/gallery/ys/1.jpg', '/gallery/ys/2.jpg', '/gallery/ys/3.jpg'],
-      date: '2 Aug 2025'
+      date: '2 Aug 2025',
+      attendees: 40
     },
     {
       title: 'GHSS Tharuvana',
@@ -87,28 +110,32 @@ export default function GalleryPage() {
       date: '26 Jul 2025'
     },
     {
-      title: 'Thalassery SH School',
-      description: 'LifeLinER training programme at Thalassery SH School',
+      title: 'Thalassery Sacred Heart School',
+      description: 'LifeLinER training programme at Sacred Heart Girls\' Higher Secondary School, Thalassery',
       images: ['/gallery/thalassery/1.jpg', '/gallery/thalassery/2.jpg'],
-      date: '26 Jul 2025'
+      date: '26 Jul 2025',
+      attendees: 100
     },
     {
       title: 'Kanhangad',
       description: 'LifeLinER training programme at Kanhangad',
       images: ['/gallery/kanhangad/1.jpg', '/gallery/kanhangad/2.jpg'],
-      date: '23 Jul 2025'
+      date: '23 Jul 2025',
+      attendees: 50
     },
     {
       title: 'Abate College',
       description: 'LifeLinER training at Abate College, Kozhikode',
       images: ['/gallery/abate/1.jpg', '/gallery/abate/2.jpg', '/gallery/abate/3.jpg', '/gallery/abate/4.jpg', '/gallery/abate/5.jpg'],
-      date: '23 Jul 2025'
+      date: '23 Jul 2025',
+      attendees: 146
     },
     {
       title: 'IHRD College',
       description: 'LifeLinER training program at IHRD College for NSS Students',
       images: ['/gallery/ihrd/1.jpg', '/gallery/ihrd/2.jpg'],
-      date: '23 Jul 2025'
+      date: '23 Jul 2025',
+      attendees: 60
     },
     {
       title: 'GHSS Panthalayani',
@@ -134,7 +161,8 @@ export default function GalleryPage() {
       title: 'Lazaro Academy, Payyanur',
       description: 'LifeLinER training at Lazaro Academy, Payyanur',
       images: ['/gallery/lazaro/1.jpg', '/gallery/lazaro/2.jpg', '/gallery/lazaro/3.jpg', '/gallery/lazaro/4.jpg'],
-      date: '18 Jul 2025'
+      date: '18 Jul 2025',
+      attendees: 50
     },
     {
       title: 'GHSS, Thariode',
@@ -149,7 +177,7 @@ export default function GalleryPage() {
       date: '16 Jul 2025'
     },
     {
-      title: 'St.George church,Periyambra',
+      title: 'St.George church, Periyambra',
       description: 'LifeLinER training and Privilege card Distribution at St.George church, Periyambra',
       images: ['/gallery/stgeorge/1.jpg', '/gallery/stgeorge/2.jpg', '/gallery/stgeorge/3.jpg', '/gallery/stgeorge/4.jpg', '/gallery/stgeorge/5.jpg', '/gallery/stgeorge/6.jpg'],
       date: '13 Jul 2025',
@@ -187,7 +215,8 @@ export default function GalleryPage() {
       title: 'Janamythri Police Station, Adimaly',
       description: 'LifeLinER and Privilege card Distribution at Janamythri Police Station, Adimaly',
       images: ['/gallery/adimaly/1.jpg', '/gallery/adimaly/2.jpg', '/gallery/adimaly/3.jpg', '/gallery/adimaly/4.jpg', '/gallery/adimaly/5.jpg', '/gallery/adimaly/6.jpg'],
-      date: '11 Jul 2025'
+      date: '11 Jul 2025',
+      attendees: 26
     },
     {
       title: 'Training program for AOCTA ',
@@ -297,7 +326,8 @@ export default function GalleryPage() {
       title: 'Mahe Dental College',
       description: 'LifeLinER program at Mahe Dental college',
       images: ['/gallery/mahe/1.jpg', '/gallery/mahe/2.jpg', '/gallery/mahe/3.jpg'],
-      date: '3 Jun 2025'
+      date: '3 Jun 2025',
+      attendees: 40
     },
     {
       title: 'Launch Event',
