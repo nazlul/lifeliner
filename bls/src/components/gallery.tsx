@@ -19,7 +19,39 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
-     {
+    {
+      title: 'Redemption Poly Clinic, Kambalakkad',
+      description: ' LifeLinER Training for nurses and staffs in Redemption Poly Clinic, Kambalakkad',
+      images: ['/gallery/kambalakkad/1.jpg', '/gallery/kambalakkad/2.jpg', '/gallery/kambalakkad/3.jpg'],
+      date: '21 Aug 2025'
+    },
+    {
+      title: 'CM College, Nadavayal',
+      description: ' LifeLinER Training at CM College Nadavayal, conducted for their NSS volunteers',
+      images: ['/gallery/nadavayal/1.jpg', '/gallery/nadavayal/2.jpg', '/gallery/nadavayal/3.jpg', '/gallery/nadavayal/4.jpg', '/gallery/nadavayal/5.jpg'],
+      date: '21 Aug 2025'
+    },
+    {
+      title: 'Naher College, Kanjirode',
+      description: 'LifeLinER Training at Naher college, Kanjirode',
+      images: ['/gallery/naher/1.jpg', '/gallery/naher/2.jpg', '/gallery/naher/3.jpg'],
+      date: '21 Aug 2025'
+    },
+    {
+      title: 'Kaniv Rubber Tappers Association',
+      description: ' LifeLinER Training and privilage card distribution at Kaniv Rubber Tappers Association, Moolamattom',
+      images: ['/gallery/kaniv/1.jpg', '/gallery/kaniv/2.jpg', '/gallery/kaniv/3.jpg', '/gallery/kaniv/4.jpg', '/gallery/kaniv/5.jpg', '/gallery/kaniv/6.jpg'],
+      date: '20 Aug 2025',
+      attendees: 158
+    },
+    {
+      title: 'Nalanda Institute, Echoor',
+      description: 'LifeLinER Training at Nalanda Institute, Echoor',
+      images: ['/gallery/echoor/1.jpg'],
+      date: '19 Aug 2025',
+      attendees: 42
+    },
+    {
       title: 'Perukoni Residence Association',
       description: ' LifeLinER Training and privilage card distribution at Perukoni Residence Association, Olamattom',
       images: ['/gallery/perukoni/1.jpg', '/gallery/perukoni/2.jpg', '/gallery/perukoni/3.jpg', '/gallery/perukoni/4.jpg', '/gallery/perukoni/5.jpg', '/gallery/perukoni/6.jpg', '/gallery/perukoni/7.jpg', '/gallery/perukoni/8.jpg'],
