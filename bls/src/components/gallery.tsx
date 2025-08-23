@@ -73,16 +73,18 @@ export default function GalleryPage() {
       attendees: 147
     },
     {
+      title: 'Chinmaya Women\'s College',
+      description: 'LifeLinER (Organ Donation Awareness Talk By Dr. Shabeen kumar Consultant Nephrologist) In association with Chinmaya Women\'s College Chala, Kannur',
+      images: ['/gallery/chinmaya/1.jpg', '/gallery/chinmaya/2.jpg', '/gallery/chinmaya/3.jpg', '/gallery/chinmaya/4.jpg'],
+      date: '14 Aug 2025',
+      attendees: 100
+    },
+    {
       title: 'Firstcry Intellitots Preschool',
       description: 'LifeLinER training for staffs and teachers of Firstcry Intellitots Preschool',
       images: ['/gallery/firstcry/1.jpg', '/gallery/firstcry/2.jpg'],
-      date: '13 Aug 2025'
-    },
-    {
-      title: 'Chinmaya Women\'s College',
-      description: 'LifeLinER (Organ Donation Awareness Talk By Dr. Shabeen kumar Consultant Nephrologist) In association with Chinmaya Women\'s College chala, kannur',
-      images: ['/gallery/chinmaya/1.jpg', '/gallery/chinmaya/2.jpg', '/gallery/chinmaya/3.jpg', '/gallery/chinmaya/4.jpg'],
-      date: '12 Aug 2025'
+      date: '13 Aug 2025',
+      attendees: 46
     },
     {
       title: 'CH Center Perinthalmanna',
@@ -114,7 +116,8 @@ export default function GalleryPage() {
       title: 'CMHS Mannur School',
       description: 'LifeLinER training for Scouts and Guides students and their parents at CMHS Mannur School, Kadalundi',
       images: ['/gallery/mannur/1.jpg', '/gallery/mannur/2.jpg', '/gallery/mannur/3.jpg'],
-      date: '3 Aug 2025'
+      date: '3 Aug 2025',
+      attendees: 88
     },
     {
       title: 'Young Seniors Club',
@@ -133,7 +136,8 @@ export default function GalleryPage() {
       title: 'Ambulance Drivers Pattambi',
       description: 'LifeLinER training program for Ambulance drivers at Pattambi',
       images: ['/gallery/pattambi/1.jpg', '/gallery/pattambi/2.jpg'],
-      date: '26 Jul 2025'
+      date: '26 Jul 2025',
+      attendees: 52
     },
     {
       title: 'Kannur Doctors talk',
