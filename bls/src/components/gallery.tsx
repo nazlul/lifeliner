@@ -20,14 +20,26 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'LifeLinER - Inhouse',
+      description: 'LifeLinER Training Inhouse for BMH Staffs and Nurses',
+      images: ['/gallery/inhouse/1.jpg', '/gallery/inhouse/2.jpg', '/gallery/inhouse/3.jpg', '/gallery/inhouse/4.jpg'],
+      date: '27 Aug 2025'
+    },
+    {
+      title: 'Care and Cure Clinic, Parakkadav',
+      description: 'LifeLinER Training at Care and Cure Clinic, Parakkadav',
+      images: ['/gallery/parakkadav/1.jpg'],
+      date: '25 Aug 2025'
+    },
+    {
       title: 'Redemption Poly Clinic, Kambalakkad',
-      description: ' LifeLinER Training for nurses and staffs in Redemption Poly Clinic, Kambalakkad',
+      description: 'LifeLinER Training for nurses and staffs in Redemption Poly Clinic, Kambalakkad',
       images: ['/gallery/kambalakkad/1.jpg', '/gallery/kambalakkad/2.jpg', '/gallery/kambalakkad/3.jpg'],
       date: '21 Aug 2025'
     },
     {
       title: 'CM College, Nadavayal',
-      description: ' LifeLinER Training at CM College Nadavayal, conducted for their NSS volunteers',
+      description: 'LifeLinER Training at CM College Nadavayal, conducted for their NSS volunteers',
       images: ['/gallery/nadavayal/1.jpg', '/gallery/nadavayal/2.jpg', '/gallery/nadavayal/3.jpg', '/gallery/nadavayal/4.jpg', '/gallery/nadavayal/5.jpg'],
       date: '21 Aug 2025'
     },
@@ -39,7 +51,7 @@ export default function GalleryPage() {
     },
     {
       title: 'Kaniv Rubber Tappers Association',
-      description: ' LifeLinER Training and privilage card distribution at Kaniv Rubber Tappers Association, Moolamattom',
+      description: 'LifeLinER Training and privilage card distribution at Kaniv Rubber Tappers Association, Moolamattom',
       images: ['/gallery/kaniv/1.jpg', '/gallery/kaniv/2.jpg', '/gallery/kaniv/3.jpg', '/gallery/kaniv/4.jpg', '/gallery/kaniv/5.jpg', '/gallery/kaniv/6.jpg'],
       date: '20 Aug 2025',
       attendees: 158
@@ -53,7 +65,7 @@ export default function GalleryPage() {
     },
     {
       title: 'Perukoni Residence Association',
-      description: ' LifeLinER Training and privilage card distribution at Perukoni Residence Association, Olamattom',
+      description: 'LifeLinER Training and privilage card distribution at Perukoni Residence Association, Olamattom',
       images: ['/gallery/perukoni/1.jpg', '/gallery/perukoni/2.jpg', '/gallery/perukoni/3.jpg', '/gallery/perukoni/4.jpg', '/gallery/perukoni/5.jpg', '/gallery/perukoni/6.jpg', '/gallery/perukoni/7.jpg', '/gallery/perukoni/8.jpg'],
       date: '17 Aug 2025',
       attendees: 69
