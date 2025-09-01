@@ -20,6 +20,31 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'LifeLinER healthy Onam in association with Mathrubhumi',
+      description: 'LifeLinER healthy Onam in association with Mathrubhumi at 7 venues',
+      images: ['/gallery/onam/1.jpg', '/gallery/onam/2.jpg', '/gallery/onam/3.jpg', '/gallery/onam/4.jpg', '/gallery/onam/5.jpg', '/gallery/onam/6.jpg', '/gallery/onam/7.jpg', '/gallery/onam/8.jpg', '/gallery/onam/9.jpg', '/gallery/onam/10.jpg', '/gallery/onam/11.jpg', '/gallery/onam/12.jpg', '/gallery/onam/13.jpg', '/gallery/onam/14.jpg'],
+      date: '28 Aug 2025'
+    },
+    {
+      title: 'St Joseph\'s College, Moolamattom',
+      description: 'LifelinER training at St Joseph\'s College, Moolamattom',
+      images: ['/gallery/stjoseph/1.jpg', '/gallery/stjoseph/2.jpg', '/gallery/stjoseph/3.jpg', '/gallery/stjoseph/4.jpg', '/gallery/stjoseph/5.jpg', '/gallery/stjoseph/6.jpg', '/gallery/stjoseph/7.jpg'],
+      date: '29 Aug 2025',
+      attendees: 60
+    },
+    {
+      title: 'Medical College Campus School',
+      description: 'LifelinER training for Scouts and Guides of Medical College Campus School',
+      images: ['/gallery/medschool/1.jpg', '/gallery/medschool/2.jpg', '/gallery/medschool/3.jpg', '/gallery/medschool/4.jpg'],
+      date: '28 Aug 2025'
+    },
+    {
+      title: 'Chala Higher Secondary School',
+      description: 'LifeLinER Training programme at Chala Higher Secondary School',
+      images: ['/gallery/chala/1.jpg'],
+      date: '28 Aug 2025'
+    },
+    {
       title: 'LifeLinER - Inhouse',
       description: 'LifeLinER Training Inhouse for BMH Staffs and Nurses',
       images: ['/gallery/inhouse/1.jpg', '/gallery/inhouse/2.jpg', '/gallery/inhouse/3.jpg', '/gallery/inhouse/4.jpg'],
