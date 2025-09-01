@@ -21,9 +21,9 @@ export default function GalleryPage() {
   const sets: ImageSet[] = [
     {
       title: 'LifeLinER healthy Onam in association with Mathrubhumi',
-      description: 'LifeLinER healthy Onam in association with Mathrubhumi at 7 venues',
+      description: 'LifeLinER healthy Onam in association with Mathrubhumi at 10 venues',
       images: ['/gallery/onam/1.jpg', '/gallery/onam/2.jpg', '/gallery/onam/3.jpg', '/gallery/onam/4.jpg', '/gallery/onam/5.jpg', '/gallery/onam/6.jpg', '/gallery/onam/7.jpg', '/gallery/onam/8.jpg', '/gallery/onam/9.jpg', '/gallery/onam/10.jpg', '/gallery/onam/11.jpg', '/gallery/onam/12.jpg', '/gallery/onam/13.jpg', '/gallery/onam/14.jpg'],
-      date: '28 Aug 2025'
+      date: '30 Aug 2025 - 1 Sep 2025',
     },
     {
       title: 'St Joseph\'s College, Moolamattom',
