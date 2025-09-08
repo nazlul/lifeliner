@@ -12,9 +12,9 @@ interface Stat {
 
 export default function StatsRow() {
   const stats: Stat[] = [
-    { icon: '/count/1.svg', number: 7110, label: 'People trained' },
-    { icon: '/count/2.svg', number: 7624, label: 'Pledges Taken' },
-    { icon: '/count/3.svg', number: 102, label: 'Sessions Organized' },
+    { icon: '/count/1.svg', number: 7301, label: 'People trained' },
+    { icon: '/count/2.svg', number: 7924, label: 'Pledges Taken' },
+    { icon: '/count/3.svg', number: 105, label: 'Sessions Organized' },
   ]
 
   return (
