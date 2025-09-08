@@ -7,11 +7,13 @@ const phoneNumbers = {
   kozhikode: { label: 'Kozhikode', number: '+91 974 720 0002' },
   kannur: { label: 'Kannur', number: '+91 974 706 0006' },
   thodupuzha: { label: 'Thodupuzha', number: '+91 920 772 4727' },
+  payyannur: { label: 'Payyannur', number: '04985 215 500' },
+  vadakara: { label: 'Vadakara', number: '0496 351 9999' },
 }
 
 export default function Blinking() {
   const [showFirst, setShowFirst] = useState(true)
-  const [location, setLocation] = useState<'kozhikode' | 'kannur' | 'thodupuzha'>('kozhikode')
+  const [location, setLocation] = useState<'kozhikode' | 'kannur' | 'thodupuzha'| 'payyannur'| 'vadakara'>('kozhikode')
 
   useEffect(() => {
     const interval = setInterval(() => {
