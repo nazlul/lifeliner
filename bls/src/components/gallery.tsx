@@ -20,6 +20,41 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'AKASGVHS School, Payyanur',
+      description: 'LifelinER training at AKASGVHS School, Payyanur',
+      images: ['/gallery/akasgvhs/1.jpg', '/gallery/akasgvhs/2.jpg', '/gallery/akasgvhs/3.jpg', '/gallery/akasgvhs/4.jpg'],
+      date: '12 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Govt Arts & Science College, Kondotty',
+      description: 'LifelinER training for NSS Students at Govt Arts & Science College, Kondotty',
+      images: ['/gallery/nssarts/1.jpg', '/gallery/nssarts/2.jpg'],
+      date: '12 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Chinmaya Women\'s College Chala, Kannur',
+      description: 'LifelinER program in association with Nss unit - Chinmaya Women\'s College Chala, Kannur',
+      images: ['/gallery/chinmaya-1/1.jpg'],
+      date: '12 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'MG College, Iritty',
+      description: 'LifelinER program at MG College, Iritty',
+      images: ['/gallery/mg/1.jpg', '/gallery/mg/2.jpg', '/gallery/mg/3.jpg', '/gallery/mg/4.jpg'],
+      date: '11 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'JCI Cherupuzha',
+      description: 'LifelinER program in association with JCI Cherupuzha',
+      images: ['/gallery/jci/1.jpg', '/gallery/jci/2.jpg', '/gallery/jci/3.jpg'],
+      date: '11 Sep 2025',
+      attendees: 80
+    },
+    {
       title: 'LifeLinER healthy Onam in association with Mathrubhumi',
       description: 'LifeLinER healthy Onam in association with Mathrubhumi at 10 venues',
       images: ['/gallery/onam/1.jpg', '/gallery/onam/2.jpg', '/gallery/onam/3.jpg', '/gallery/onam/4.jpg', '/gallery/onam/5.jpg', '/gallery/onam/6.jpg', '/gallery/onam/7.jpg', '/gallery/onam/8.jpg', '/gallery/onam/9.jpg', '/gallery/onam/10.jpg', '/gallery/onam/11.jpg', '/gallery/onam/12.jpg', '/gallery/onam/13.jpg', '/gallery/onam/14.jpg'],
