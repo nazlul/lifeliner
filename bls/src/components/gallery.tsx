@@ -20,10 +20,23 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Sand Sculpture - Calicut Beach',
+      description: 'LifeLinER Sand sculpture at Calicut Beach',
+      images: ['/gallery/sand/1.jpeg'],
+      date: '14 Sep 2025'
+    },
+    {
+      title: 'Perinthalmanna',
+      description: 'LifeLinER Program with Perinthalmanna MLA, Shri. Najeeb Kanthapuram',
+      images: ['/gallery/perinth/1.jpeg', '/gallery/perinth/2.jpeg', '/gallery/perinth/3.jpeg', '/gallery/perinth/4.jpeg', '/gallery/perinth/5.jpeg', '/gallery/perinth/6.jpeg', '/gallery/perinth/7.jpeg', '/gallery/perinth/8.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 80
+    },
+    {
       title: 'WHO and KCDC - Vadakara',
       description: 'LifeLinER event at Vadakara with WHO and KCDC',
       images: ['/gallery/who/1.jpeg'],
-      date: '13 Sep 2025',
+      date: '14 Sep 2025',
       attendees: 80
     },
     {
