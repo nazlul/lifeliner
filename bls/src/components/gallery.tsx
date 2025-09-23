@@ -20,6 +20,69 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'WHO and KCDC - Vadakara',
+      description: 'LifeLinER event at Vadakara with WHO and KCDC',
+      images: ['/gallery/who/1.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Colours of Care - Hite Mall, Calicut',
+      description: 'LifeLinER Colours of care painting competition at Hite Mall, Calicut on World First Aid Day',
+      images: ['/gallery/hilite/1.jpeg', '/gallery/hilite/2.jpeg', '/gallery/hilite/3.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 331
+    },
+    {
+      title: 'Thodupuzha Soccer School',
+      description: 'Awarness class and lifeliner at Soccer school, Thodupuzha (for football players) ',
+      images: ['/gallery/soccer/1.jpeg', '/gallery/soccer/2.jpeg', '/gallery/soccer/3.jpeg', '/gallery/soccer/4.jpeg', '/gallery/soccer/5.jpeg', '/gallery/soccer/6.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 32
+    },
+    {
+      title: 'Colours of Care - Thodupuzha',
+      description: 'Painting competition and BLS training program for children and parents at held at Municipal Park at Thodupuzha',
+      images: ['/gallery/coc3/1.jpeg', '/gallery/coc3/2.jpeg', '/gallery/coc3/3.jpeg', '/gallery/coc3/4.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 192
+    },
+    {
+      title: 'Colours of Care - BMH Payyannur',
+      description: 'LifeLinER Colours of care painting competition',
+      images: ['/gallery/coc2/1.jpeg', '/gallery/coc2/2.jpeg', '/gallery/coc2/3.jpeg', '/gallery/coc2/4.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 75
+    },
+    {
+      title: 'Sadgramam - Perinthalmanna',
+      description: 'As part of the Sadgramam initiative, the LifelinER program was conducted at Perinthalmanna exclusively for the residents of the ward. The program was inaugurated by MLA Mr. Najeeb Kanthapuram',
+      images: ['/gallery/sadgramam/1.jpeg', '/gallery/sadgramam/2.jpeg', '/gallery/sadgramam/3.jpeg'],
+      date: '13 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Colours of Care painting competition',
+      description: 'LifeLinER Colours of care painting competition',
+      images: ['/gallery/coc1/1.jpg', '/gallery/coc1/2.jpg', '/gallery/coc1/3.jpg', '/gallery/coc1/4.jpg', '/gallery/coc1/5.jpg'],
+      date: '13 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'BMH Calicut',
+      description: 'As part of World First aid Day celebrations, BMH Calicut conducted a LifeLinER Program',
+      images: ['/gallery/aidcalicut/1.jpg', '/gallery/aidcalicut/2.jpg'],
+      date: '13 Sep 2025',
+      attendees: 30
+    },
+    {
+      title: 'Koduvally Grampanchayat',
+      description: 'As part of World First aid Day celebrations, BMH conducted a LifeLinER training for PTH Members at Koduvally Grampanchayat',
+      images: ['/gallery/pth/1.jpg', '/gallery/pth/2.jpg'],
+      date: '13 Sep 2025',
+      attendees: 80
+    },
+    {
       title: 'AKASGVHS School, Payyanur',
       description: 'LifelinER training at AKASGVHS School, Payyanur',
       images: ['/gallery/akasgvhs/1.jpg', '/gallery/akasgvhs/2.jpg', '/gallery/akasgvhs/3.jpg', '/gallery/akasgvhs/4.jpg'],
