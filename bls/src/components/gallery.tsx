@@ -20,6 +20,154 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Muzhappilangad grama panchayatht',
+      description: 'LifelinER programme at muzhappilangad grama panchayath family health centre',
+      images: ['/gallery/muzhappilangad/1.jpeg', '/gallery/muzhappilangad/2.jpeg'],
+      date: '29 Sep 2025'
+    },
+    {
+      title: 'Kappad live charitable trust',
+      description: 'Participating in charitable activities of kappad live charitable trust under LifeLinER',
+      images: ['/gallery/kappad/1.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Secura Mall',
+      description: 'Hridyamee Hridayam as part of World Heart day at Secura Mall',
+      images: ['/gallery/heartday8/1.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Muzhuppilangadu Beach',
+      description: 'Hridyamee Hridayam as part of World Heart day at Muzhuppilangadu Beach',
+      images: ['/gallery/heartday7/1.jpeg', '/gallery/heartday7/2.jpeg', '/gallery/heartday7/3.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Thalassery new Bus stand',
+      description: 'Hridyamee Hridayam as part of World Heart day at Thalassery new Bus stand',
+      images: ['/gallery/heartday6/1.jpeg', '/gallery/heartday6/2.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Quiz Competition',
+      description: 'World Heart Day Quiz Competition as a part of Hridyamee Hridayam on World Heart day',
+      images: ['/gallery/heartday5/1.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Free ECG check ups',
+      description: 'Free ECG check ups on the Go as a part of Hridyamee Hridayam on World Heart day',
+      images: ['/gallery/heartday4/1.jpeg', '/gallery/heartday4/2.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - swanthanam old age home',
+      description: 'Hridyamee Hridayam as part of World Heart day at swanthanam old age home',
+      images: ['/gallery/heartday3/1.jpeg', '/gallery/heartday3/2.jpeg', '/gallery/heartday3/3.jpeg', '/gallery/heartday3/4.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Kannur KSRTC stand',
+      description: 'Hridyamee Hridayam as part of World Heart day at Kannur KSRTC stand',
+      images: ['/gallery/heartday2/1.jpeg', '/gallery/heartday2/2.jpeg', '/gallery/heartday2/3.jpeg', '/gallery/heartday2/4.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Hridyamee Hridayam - Inauguration',
+      description: 'Inauguration of World heart day celebrations',
+      images: ['/gallery/heartday1/1.jpeg', '/gallery/heartday1/2.jpeg', '/gallery/heartday1/3.jpeg', '/gallery/heartday1/4.jpeg', '/gallery/heartday1/5.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Uruvachal medical camp inaguration',
+      description: 'Uruvachal medical camp inaguration',
+      images: ['/gallery/Uruvachal/1.jpeg'],
+      date: '28 Sep 2025'
+    },
+    {
+      title: 'Sanjose welfare society, Kelakam',
+      description: 'Conducted LifelinER BLS training in association with Sanjose welfare society Kelakam And distributed Privilege card to members',
+      images: ['/gallery/sanjose/1.jpeg', '/gallery/sanjose/2.jpeg', '/gallery/sanjose/3.jpeg', '/gallery/sanjose/4.jpeg'],
+      date: '27 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Sree Narayana HSS, Vadakara',
+      description: 'Conducted LifelinER training for students at Sree Narayana HSS, Vadakara',
+      images: ['/gallery/snhss/1.jpeg', '/gallery/snhss/2.jpeg', '/gallery/snhss/3.jpeg', '/gallery/snhss/4.jpeg', '/gallery/snhss/5.jpeg'],
+      date: '25 Sep 2025',
+      attendees: 51
+    },
+    {
+      title: 'Arown Academy Event',
+      description: 'LifelinER in association with Arown academy for 30+ companies across Calicut City ( Lulu Mall staffs, Hilite Mall staffs, MyG , Eham Digital, TVS , Nandilath, etc ) at IMA Hall Calicut',
+      images: ['/gallery/arown/1.jpeg', '/gallery/arown/2.jpeg', '/gallery/arown/3.jpeg'],
+      date: '25 Sep 2025',
+      attendees: 180
+    },
+    {
+      title: 'Colours of Care Prize distribution',
+      description: 'Colours of Care Prize distribution',
+      images: ['/gallery/coc4/1.jpeg', '/gallery/coc4/2.jpeg', '/gallery/coc4/3.jpeg', '/gallery/coc4/4.jpeg'],
+      date: '25 Sep 2025'
+    },
+    {
+      title: 'Mar Athanatious college, Kothamangalam',
+      description: 'LifeLinER training for NSS students at Mar Athanatious college, Kothamangalam',
+      images: ['/gallery/marath/1.jpeg', '/gallery/marath/2.jpeg', '/gallery/marath/3.jpeg', '/gallery/marath/4.jpeg', '/gallery/marath/5.jpeg'],
+      date: '25 Sep 2025',
+      attendees: 183
+    },
+    {
+      title: 'SES College, Sreekandapuram',
+      description: 'LifeLinER training in SES College, Sreekandapuram',
+      images: ['/gallery/ses/1.jpeg', '/gallery/ses/2.jpeg', '/gallery/ses/3.jpeg'],
+      date: '25 Sep 2025',
+      attendees: 80
+    },
+     {
+      title: 'Sevabarathi - Kothuparamba',
+      description: 'LifeLinER program in Assosiation with Sevabarathi in Kothuparamba',
+      images: ['/gallery/seva/1.jpeg'],
+      date: '21 Sep 2025',
+      attendees: 30
+    },
+    {
+      title: 'Rotary Midtown, Payyanur',
+      description: 'Medical camp and LifeLinER awareness talk by Dr.Vishnu Santhosh in association with Rotary midtown, Payyanur',
+      images: ['/gallery/rotary/1.jpeg', '/gallery/rotary/2.jpeg'],
+      date: '21 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Vimaljyothi College, Chemperi',
+      description: 'LifeLinER training at Vimaljyothi College, Chemperi',
+      images: ['/gallery/vimal/1.jpeg', '/gallery/vimal/2.jpeg', '/gallery/vimal/3.jpeg', '/gallery/vimal/4.jpeg'],
+      date: '18 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Mathruboomi - Family Connect',
+      description: 'Lifeliner program and community connect for Mathruboomi staff and family members',
+      images: ['/gallery/Mathruboomi/1.jpeg'],
+      date: '16 Sep 2025'
+    },
+    {
+      title: 'MG College, Iritty',
+      description: 'LifeLinER Awareness Talk by Dr Soya Gopakumar in MG College, Iritty',
+      images: ['/gallery/iritty/1.jpeg', '/gallery/iritty/2.jpeg', '/gallery/iritty/3.jpeg'],
+      date: '15 Sep 2025',
+      attendees: 80
+    },
+    {
+      title: 'Anti-Terrorism Squad, Calicut Hub',
+      description: 'LifeLinER training for Anti-Terrorism Squad, Calicut Hub',
+      images: ['/gallery/terror/1.jpeg', '/gallery/terror/2.jpeg'],
+      date: '15 Sep 2025',
+      attendees: 20
+    },
+    {
       title: 'Sand Sculpture - Calicut Beach',
       description: 'LifeLinER Sand sculpture at Calicut Beach',
       images: ['/gallery/sand/1.jpeg'],
