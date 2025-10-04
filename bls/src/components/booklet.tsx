@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { FileText, Download, Heart, AlertCircle } from 'lucide-react';
+import { FileText, Heart, AlertCircle } from 'lucide-react';
 
 export default function Booklet() {
   return (
