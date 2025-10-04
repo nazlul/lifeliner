@@ -7,7 +7,6 @@ export default function BookletPage() {
   return (
     <div className="min-h-screen bg-[#E0F5FE]">
       <NavBar />
-
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-15">
       <Link 
         href="/"
@@ -21,8 +20,8 @@ export default function BookletPage() {
             <div className="w-40 h-56 sm:w-48 sm:h-64 mx-auto bg-gradient-to-br from-red-600 to-blue-900 rounded-lg shadow-2xl flex items-center justify-center relative overflow-hidden">
               <div className="absolute inset-0 bg-white opacity-10"></div>
               <div className="relative z-10 text-white">
-                <FileText className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4" />
-                <div className="text-sm font-semibold">FIRST AID</div>
+                    <FileText className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4" />
+                  <div className="text-sm font-semibold">FIRST AID</div>
                 <div className="text-xs mt-1">GUIDE</div>
               </div>
             </div>

@@ -11,6 +11,7 @@ import Team from '@/components/team';
 import Goals from '@/components/goals';
 import Gallery from '@/components/gallery';
 import Testimonials from '@/components/testimonial';
+import Booklet from '@/components/booklet';
 
 export default function HomePage() {
   return (
@@ -30,6 +31,9 @@ export default function HomePage() {
       </section>
       <section id="gallery">
         <Gallery />
+      </section>
+      <section>
+        <Booklet />
       </section>
       <section>
         <Join />

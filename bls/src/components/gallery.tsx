@@ -20,6 +20,27 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Chelannur Gramapanchayat',
+      description: 'LifeLinER training session for Chelannur Gramapanchayat',
+      images: ['/gallery/chelannur/1.jpeg', '/gallery/chelannur/2.jpeg', '/gallery/chelannur/3.jpeg'],
+      date: '4 Oct 2025',
+      attendees: 28
+    },
+    {
+      title: 'Mary Matha Hospital, Vazhithala',
+      description: 'Awareness class and LifeLinER for staffs at Mary Matha Hospital, Vazhithala',
+      images: ['/gallery/mary/1.jpeg', '/gallery/mary/2.jpeg'],
+      date: '1 Oct 2025',
+      attendees: 22
+    },
+    {
+      title: 'NIT Calicut',
+      description: 'LifelinER training session at Calicut NIT for students, faculty and staff',
+      images: ['/gallery/nitc/1.jpeg', '/gallery/nitc/2.jpeg', '/gallery/nitc/3.jpeg', '/gallery/nitc/4.jpeg', '/gallery/nitc/5.jpeg'],
+      date: '30 Sep 2025',
+      attendees: 80
+    },
+    {
       title: 'Muzhappilangad grama panchayatht',
       description: 'LifelinER programme at muzhappilangad grama panchayath family health centre',
       images: ['/gallery/muzhappilangad/1.jpeg', '/gallery/muzhappilangad/2.jpeg'],
