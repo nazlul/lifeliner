@@ -1,6 +1,7 @@
 import React from 'react';
 import { Download, FileText, ArrowLeft } from 'lucide-react';
 import NavBar from '@/components/NavBar';
+import Link from 'next/link';
 
 export default function BookletPage() {
   return (
@@ -8,12 +9,12 @@ export default function BookletPage() {
       <NavBar />
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-15">
-      <a 
+      <Link 
         href="/"
         className="inline-flex items-center justify-center w-12 h-12 bg-[#EE5A22] hover:bg-[#d94f1c] text-white rounded-full transition shadow-md hover:shadow-lg mt-13"
         >
         <ArrowLeft className="w-6 h-6" />
-        </a>
+        </Link>
 
         <div className="text-center">
           <div className="mb-8 inline-block">
