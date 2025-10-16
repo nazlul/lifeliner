@@ -20,6 +20,112 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'SH Hospital, Manimooly',
+      description: 'LifelinER in association with SH Hospital Manimooly for nursing and paramedical staffs',
+      images: ['/gallery/manimooly/1.jpeg', '/gallery/manimooly/2.jpeg', '/gallery/manimooly/3.jpeg', '/gallery/manimooly/4.jpeg'],
+      date: '15 Oct 2025'
+    },
+    {
+      title: 'CDS Kannur district conference',
+      description: 'LifeLinER breast cancer awareness talk by Dr.Vishnu Santhosh Menon at CDS Kannur district conference',
+      images: ['/gallery/cds/1.jpeg'],
+      date: '15 Oct 2025'
+    },
+    {
+      title: 'Don Bosco Arts and sciences College, Angadikkadavu',
+      description: 'LifelinER training session at Don Bosco Arts and sciences College, Angadikkadavu',
+      images: ['/gallery/bosco/1.jpeg', '/gallery/bosco/2.jpeg', '/gallery/bosco/3.jpeg'],
+      date: '14 Oct 2025'
+    },
+    {
+      title: 'Silver Hills Public School, Kozhikode',
+      description: ' LifeLinER training session at Silver Hills Public School, Kozhikode',
+      images: ['/gallery/silver/1.jpeg', '/gallery/silver/2.jpeg', '/gallery/silver/3.jpeg', '/gallery/silver/4.jpeg'],
+      date: '13 Oct 2025'
+    },
+    {
+      title: 'Mukkilangadi Fest, Koduvally',
+      description: 'LifelinER provided to Mukkilangadi Panchayath residents on the occassion of Mukkilangadi Fest 2025 at Koduvally',
+      images: ['/gallery/mukkilangadi/1.jpeg', '/gallery/mukkilangadi/2.jpeg', '/gallery/mukkilangadi/3.jpeg'],
+      date: '13 Oct 2025'
+    },
+    {
+      title: 'Kannur Dist Dairy development expo, Payynur',
+      description: 'LifeLinER (Medical Support) at Kannur Dist Diary development expo and conference at Payynur',
+      images: ['/gallery/dairy/1.jpeg', '/gallery/dairy/2.jpeg'],
+      date: '12 Oct 2025'
+    },
+    {
+      title: 'Assumption Convent, Kozhikode',
+      description: 'LifeLinER training session at Assumption Convent, Kozhikode',
+      images: ['/gallery/assumption/1.jpeg', '/gallery/assumption/2.jpeg', '/gallery/assumption/3.jpeg'],
+      date: '11 Oct 2025'
+    },
+    {
+      title: 'St.George HS, Muthalakodam',
+      description: ' Medical Support and LifelinER for Students at St.George HS, Muthalakodam',
+      images: ['/gallery/muthalakodam2/1.jpeg'],
+      date: '10 Oct 2025',
+      attendees: 48
+    },
+    {
+      title: 'Alphonsa College, Thiruvambadi',
+      description: 'LifeLinER training session at Alphonsa College, Thiruvambadi',
+      images: ['/gallery/alphonsa/1.jpeg', '/gallery/alphonsa/2.jpeg', '/gallery/alphonsa/3.jpeg', '/gallery/alphonsa/4.jpeg'],
+      date: '10 Oct 2025'
+    },
+    {
+      title: 'Nirmalagiri College, Kuthuparamba',
+      description: 'LifeLinER training session at Nirmalagiri College, Kuthuparamba',
+      images: ['/gallery/kuthuparamba/1.jpeg'],
+      date: '9 Oct 2025'
+    },
+    {
+      title: 'National College, Taliparamb',
+      description: 'LifeLinER training session at National College, Taliparamb',
+      images: ['/gallery/taliparamb/1.jpeg'],
+      date: '8 Oct 2025'
+    },
+    {
+      title: 'Community Health Centre, Cheruvady',
+      description: 'LifeLinER training session at Community Health Centre, Cheruvady',
+      images: ['/gallery/cheruvady/1.jpeg', '/gallery/cheruvady/2.jpeg'],
+      date: '7 Oct 2025'
+    },
+    {
+      title: 'St.George HSS, Parathodu',
+      description: 'LifelinER training at St.George HSS, Parathodu',
+      images: ['/gallery/parathodu/1.jpeg', '/gallery/parathodu/2.jpeg', '/gallery/parathodu/3.jpeg', '/gallery/parathodu/4.jpeg', '/gallery/parathodu/5.jpeg', '/gallery/parathodu/6.jpeg', '/gallery/parathodu/7.jpeg'],
+      date: '7 Oct 2025',
+      attendees: 300
+    },
+    {
+      title: 'St.George HS, Muthalakodam',
+      description: 'Medical Support and LifelinER for Teachers / Parents at St.George HS, Muthalakodam',
+      images: ['/gallery/muthalakodam/1.jpeg', '/gallery/muthalakodam/2.jpeg', '/gallery/muthalakodam/3.jpeg', '/gallery/muthalakodam/4.jpeg'],
+      date: '7 Oct 2025',
+      attendees: 23
+    },
+    {
+      title: 'CH center Marakkara',
+      description: 'LifelinER training at CH center Marakkara',
+      images: ['/gallery/marakkara/1.jpeg', '/gallery/marakkara/2.jpeg', '/gallery/marakkara/3.jpeg', '/gallery/marakkara/4.jpeg', '/gallery/marakkara/5.jpeg'],
+      date: '6 Oct 2025'
+    },
+    {
+      title: 'Sreekanth Eye Hospital',
+      description: 'LifelinER training in association with Sreekanth Eye Hospital for their staffs',
+      images: ['/gallery/sreekanth/1.jpeg', '/gallery/sreekanth/2.jpeg', '/gallery/sreekanth/3.jpeg', '/gallery/sreekanth/4.jpeg', '/gallery/sreekanth/5.jpeg'],
+      date: '5 Oct 2025',
+      attendees: 60
+    },
+    {
+      title: 'Oruma resident association, Chala',
+      description: 'LifeLinER and community connect with Oruma resident association, Chala',
+      images: ['/gallery/chala2/1.jpeg', '/gallery/chala2/2.jpeg'],
+      date: '5 Oct 2025'
+    },
+    {
       title: 'Chelannur Gramapanchayat',
       description: 'LifeLinER training session for Chelannur Gramapanchayat',
       images: ['/gallery/chelannur/1.jpeg', '/gallery/chelannur/2.jpeg', '/gallery/chelannur/3.jpeg'],
