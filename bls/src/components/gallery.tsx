@@ -19,6 +19,50 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
+     {
+      title: 'Pushparam ITI, Iritty',
+      description: 'Conducted LifeLinER BLS at Pushparam ITI, Iritty',
+      images: ['/gallery/Pushparam/1.jpeg'],
+      date: '21 Oct 2025'
+    },
+    {
+      title: 'Chelora HSS',
+      description: 'LifeLinER awareness  class about menstrual cup hygiene compained with Chelora HSS - Nss unit',
+      images: ['/gallery/chelora/1.jpeg'],
+      date: '21 Oct 2025'
+    },
+    {
+      title: 'Grihalakshmi Vanitha Vedi Members',
+      description: 'In house LifeLinER awareness talk by Dr Krishnakumar to Grihalakshmi Vanitha Vedi members',
+      images: ['/gallery/vanitha/1.jpeg', '/gallery/vanitha/2.jpeg'],
+      date: '19 Oct 2025'
+    },
+    {
+      title: 'Narikode, Kuppam',
+      description: 'LifeLinER BLS programme conducted at Narikode, Kuppam in association with Vanitha Leagu',
+      images: ['/gallery/kuppam/1.jpeg', '/gallery/kuppam/2.jpeg', '/gallery/kuppam/3.jpeg', '/gallery/kuppam/4.jpeg'],
+      date: '18 Oct 2025'
+    },
+    {
+      title: 'BMH Kannur',
+      description: 'Emergency awareness class for BMH Kannur staffs and nurses',
+      images: ['/gallery/kannur2/1.jpeg', '/gallery/kannur2/2.jpeg'],
+      date: '18 Oct 2025'
+    },
+    {
+      title: 'Govt. Tribal HSS, Kattappana',
+      description: 'LifeLinER and Awareness class for NSS students',  
+      images: ['/gallery/Kattappana/1.jpeg', '/gallery/Kattappana/2.jpeg', '/gallery/Kattappana/3.jpeg', '/gallery/Kattappana/4.jpeg', '/gallery/Kattappana/5.jpeg', '/gallery/Kattappana/6.jpeg'],
+      date: '17 Oct 2025',
+      attendees: 105
+    },
+    {
+      title: 'Kunnamangalam block panchayat',
+      description: 'BMH conducted a LifeLinER training session at kunnamangalam block panchayat as part of World CPR day in association with Kerala Government initiative  Jeevathalam Project - "Spandanam"',
+      images: ['/gallery/spandanam/1.jpeg', '/gallery/spandanam/2.jpeg'],
+      date: '16 Oct 2025',
+      attendees: 108
+    },
     {
       title: 'SH Hospital, Manimooly',
       description: 'LifelinER in association with SH Hospital Manimooly for nursing and paramedical staffs',
@@ -40,7 +84,7 @@ export default function GalleryPage() {
     {
       title: 'Silver Hills Public School, Kozhikode',
       description: ' LifeLinER training session at Silver Hills Public School, Kozhikode',
-      images: ['/gallery/silver/1.jpeg', '/gallery/silver/2.jpeg', '/gallery/silver/3.jpeg', '/gallery/silver/4.jpeg'],
+      images: ['/gallery/silver/1.jpeg', '/gallery/silver/2.jpeg', '/gallery/silver/4.jpeg', '/gallery/silver/3.jpeg'],
       date: '13 Oct 2025'
     },
     {
