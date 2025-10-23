@@ -19,7 +19,31 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
-     {
+    {
+      title: 'PKM College of Education, Madambam',
+      description: 'BMH conducted a LifeLinER training session at PKM College of Education, Madambam',
+      images: ['/gallery/madambam/1.jpeg'],
+      date: '23 Oct 2025'
+    },
+    {
+      title: 'Farook College, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Farook College Kozhikode',
+      images: ['/gallery/farook/1.jpeg', '/gallery/farook/2.jpeg', '/gallery/farook/3.jpeg'],
+      date: '22 Oct 2025'
+    },
+    {
+      title: 'GHSS Paleri',
+      description: 'BMH conducted a LifeLinER training session for Students Police Cadets at GHSS Paleri',
+      images: ['/gallery/paleri/1.jpeg', '/gallery/paleri/2.jpeg', '/gallery/paleri/3.jpeg'],
+      date: '22 Oct 2025'
+    },
+    {
+      title: 'Akashavani Kozhikode',
+      description: 'LifeLinER training session at Akashavani Kozhikode',
+      images: ['/gallery/akashavani/1.jpeg', '/gallery/akashavani/2.jpeg', '/gallery/akashavani/3.jpeg'],
+      date: '21 Oct 2025'
+    },
+    {
       title: 'Pushparam ITI, Iritty',
       description: 'Conducted LifeLinER BLS at Pushparam ITI, Iritty',
       images: ['/gallery/Pushparam/1.jpeg'],
@@ -39,7 +63,7 @@ export default function GalleryPage() {
     },
     {
       title: 'Narikode, Kuppam',
-      description: 'LifeLinER BLS programme conducted at Narikode, Kuppam in association with Vanitha Leagu',
+      description: 'LifeLinER BLS programme conducted at Narikode, Kuppam in association with Vanitha League',
       images: ['/gallery/kuppam/1.jpeg', '/gallery/kuppam/2.jpeg', '/gallery/kuppam/3.jpeg', '/gallery/kuppam/4.jpeg'],
       date: '18 Oct 2025'
     },
