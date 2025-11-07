@@ -23,6 +23,10 @@ const profiles = [
   { image: '/dr/16.png', name: 'Dr. Sumin Jacob', profession: 'Specialist' },
   { image: '/dr/18.png', name: 'Dr. Vivek Krishnan S', profession: 'Specialist' },
   { image: '/dr/19.png', name: 'Dr. Hirash P K', profession: 'Specialist' },
+  { image: '/dr/20.png', name: 'Dr. Shameel Usman Moidoo', profession: 'Team Lead Consultant' },
+  { image: '/dr/21.png', name: 'Dr. Noushad T P', profession: 'Consultant' },
+  { image: '/dr/22.png', name: 'Dr. Nithin K', profession: 'Associate Consultant' },
+  { image: '/dr/23.png', name: 'Dr. Sruthi Ajith Kumar ', profession: 'Associate Consultant' },
 ]
 
 export default function TeamCards() {
