@@ -20,6 +20,66 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Public Health Centre, Karassery',
+      description: 'BMH conducted a LifeLinER training session at Karassery Public Health Centre.The participants included Asha workers Pre-primary teachers and PHC staff.',
+      images: ['/gallery/Karassery/1.jpeg', '/gallery/Karassery/2.jpeg', '/gallery/Karassery/3.jpeg'],
+      date: '28 Oct 2025'
+    },
+    {
+      title: 'Public Health Centre, Perumanna',
+      description: 'BMH conducted a LifeLinER training session at Public Health Centre Perumanna',
+      images: ['/gallery/Perumanna/1.jpeg', '/gallery/Perumanna/2.jpeg'],
+      date: '28 Oct 2025'
+    },
+    {
+      title: 'Perumbadavu',
+      description: 'BMH conducted a LifeLinER training session at Perumbadavu',
+      images: ['/gallery/Perumbadavu/1.jpeg', '/gallery/Perumbadavu/2.jpeg', '/gallery/Perumbadavu/3.jpeg', '/gallery/Perumbadavu/4.jpeg', '/gallery/Perumbadavu/5.jpeg'],
+      date: '28 Oct 2025'
+    },
+    {
+      title: 'Awareness Talk by Dr Sruthi M Kumar',
+      description: 'Awareness Talk by Dr Sruthi M Kumar',
+      images: ['/gallery/sruthi/1.jpeg'],
+      date: '27 Oct 2025'
+    },
+    {
+      title: 'Kerala youth seva samathi, Kannur',
+      description: 'Medical support for Kerala youth seva samathi (football and cricket tournament) in Kannur',
+      images: ['/gallery/sevasamathi/1.jpeg', '/gallery/sevasamathi/2.jpeg'],
+      date: '26 Oct 2025'
+    },
+    {
+      title: 'Sevabarathi, Mattannur',
+      description: 'LifelinER BLS training programme accompained with Sevabarathi Mattannur',
+      images: ['/gallery/mattannur/1.jpeg', '/gallery/mattannur/2.jpeg'],
+      date: '26 Oct 2025'
+    },
+    {
+      title: 'Pratheeksha Pain and Palliative Center Munniyoor',
+      description: 'BMH conducted a LifeLinER training session at Pratheeksha Pain and Palliative Center Munniyoor',
+      images: ['/gallery/Munniyoor/1.jpeg', '/gallery/Munniyoor/2.jpeg', '/gallery/Munniyoor/3.jpeg', '/gallery/Munniyoor/4.jpeg'],
+      date: '25 Oct 2025'
+    },
+    {
+      title: 'Kattangal Grama panchayat',
+      description: 'BMH conducted a LifeLinER training session at Kattangal Grama panchayat',
+      images: ['/gallery/kattangal/1.jpeg', '/gallery/kattangal/2.jpeg', '/gallery/kattangal/3.jpeg'],
+      date: '24 Oct 2025'
+    },
+    {
+      title: 'Kuruvattoor Grampanchayat',
+      description: 'BMH conducted a LifeLinER training session at Kuruvattoor Grampanchayat',
+      images: ['/gallery/Kuruvattoor/1.jpeg', '/gallery/Kuruvattoor/2.jpeg', '/gallery/Kuruvattoor/3.jpeg', '/gallery/Kuruvattoor/4.jpeg', '/gallery/Kuruvattoor/5.jpeg'],
+      date: '24 Oct 2025'
+    },
+    {
+      title: 'BMH Kannur',
+      description: 'Infection prevention and control week closing ceremony at BMH Kannur',
+      images: ['/gallery/kannur3/1.jpeg', '/gallery/kannur3/2.jpeg'],
+      date: '24 Oct 2025'
+    },
+    {
       title: 'PKM College of Education, Madambam',
       description: 'BMH conducted a LifeLinER training session at PKM College of Education, Madambam',
       images: ['/gallery/madambam/1.jpeg'],
