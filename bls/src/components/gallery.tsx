@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Edakkad',
+      description: 'LifeLinER medical support for marathon in association with edakkad police station and spc cadets to create awareness against drugs',
+      images: ['/gallery/edakkad/1.jpeg'],
+      date: '31 Oct 2025'
+    },
+    {
       title: 'Public Health Centre, Karassery',
       description: 'BMH conducted a LifeLinER training session at Karassery Public Health Centre.The participants included Asha workers Pre-primary teachers and PHC staff.',
       images: ['/gallery/Karassery/1.jpeg', '/gallery/Karassery/2.jpeg', '/gallery/Karassery/3.jpeg'],
