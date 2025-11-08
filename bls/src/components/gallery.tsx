@@ -20,6 +20,60 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Sree Narayanaguru College, Thottada',
+      description: 'BMH conducted a LifeLinER training sessiont at Sree Narayanaguru College, Thottada',
+      images: ['/gallery/sn/1.jpeg'],
+      date: '7 Nov 2025'
+    },
+    {
+      title: 'Vimal Jyothi college',
+      description: 'BMH conducted a LifeLinER training sessiont at Vimal Jyothi college',
+      images: ['/gallery/vimal2/1.jpeg', '/gallery/vimal2/2.jpeg'],
+      date: '6 Nov 2025'
+    },
+    {
+      title: 'Rahmaniya Public School',
+      description: 'BMH conducted a LifeLinER training sessiont at Rahmaniya Public School',
+      images: ['/gallery/rahmaniya/1.jpeg', '/gallery/rahmaniya/2.jpeg'],
+      date: '6 Nov 2025'
+    },
+    {
+      title: 'NTTF, Thalaserry',
+      description: 'BMH conducted a LifeLinER training sessiont at NTTF, Thalaserry',
+      images: ['/gallery/nttf/1.jpeg'],
+      date: '5 Nov 2025'
+    },
+    {
+      title: 'District Police Headquarters, Calicut',
+      description: 'BMH conducted a LifeLinER training sessiont at District Police Headquarters, Calicut',
+      images: ['/gallery/policeclt/1.jpeg', '/gallery/policeclt/2.jpeg', '/gallery/policeclt/3.jpeg', '/gallery/policeclt/4.jpeg'],
+      date: '5 Nov 2025'
+    },
+    {
+      title: 'Public Health Centre, Peruvayal Grampanchayat',
+      description: 'BMH conducted a LifeLinER training session at the Public Health Centre, Peruvayal Grampanchayat',
+      images: ['/gallery/peruvayal/1.jpeg', '/gallery/peruvayal/2.jpeg', '/gallery/peruvayal/3.jpeg'],
+      date: '5 Nov 2025'
+    },
+    {
+      title: 'Holy family college meethalepeedika, Dharmadom',
+      description: 'LifelinER BLS training programme combined with Holy family college meethalepeedika, Dharmadom',
+      images: ['/gallery/Dharmadom/1.jpeg'],
+      date: '4 Nov 2025'
+    },
+    {
+      title: 'Hilite Mall, Calicut',
+      description: 'BMH conducted a LifeLinER event at Hilite Mall, Calicut as part of World Stroke Day 2025',
+      images: ['/gallery/hilite2/1.jpeg', '/gallery/hilite2/2.jpeg', '/gallery/hilite2/3.jpeg', '/gallery/hilite2/4.jpeg', '/gallery/hilite2/5.jpeg', '/gallery/hilite2/6.jpeg'],
+      date: '2 Nov 2025'
+    },
+    {
+      title: 'MAM UP School, Arakkal',
+      description: 'BMH conducted a LifeLinER training session at MAM UP School Arakkal',
+      images: ['/gallery/arakkal/1.jpeg', '/gallery/arakkal/2.jpeg', '/gallery/arakkal/3.jpeg'],
+      date: '1 Nov 2025'
+    },
+    {
       title: 'Edakkad',
       description: 'LifeLinER medical support for marathon in association with edakkad police station and spc cadets to create awareness against drugs',
       images: ['/gallery/edakkad/1.jpeg'],
@@ -27,7 +81,7 @@ export default function GalleryPage() {
     },
     {
       title: 'Public Health Centre, Karassery',
-      description: 'BMH conducted a LifeLinER training session at Karassery Public Health Centre.The participants included Asha workers Pre-primary teachers and PHC staff.',
+      description: 'BMH conducted a LifeLinER training session at Karassery Public Health Centre.The participants included Asha workers Pre-primary teachers and PHC staff',
       images: ['/gallery/Karassery/1.jpeg', '/gallery/Karassery/2.jpeg', '/gallery/Karassery/3.jpeg'],
       date: '28 Oct 2025'
     },
