@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Skill Apex Acadamy, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Skill Apex Acadamy, Kozhikode',
+      images: ['/gallery/Apex/1.jpeg', '/gallery/Apex/2.jpeg', '/gallery/Apex/3.jpeg'],
+      date: '10 Nov 2025'
+    },
+    {
+      title: 'Kottiyur',
+      description: 'BMH conducted a LifeLinER training sessiont at Kottiyur',
+      images: ['/gallery/Kottiyur/1.jpeg', '/gallery/Kottiyur/2.jpeg'],
+      date: '10 Nov 2025'
+    },
+    {
+      title: 'Thrikkannapuram',
+      description: 'LifeLinER Cancer Awareness Talk and BLS Training session were successfully conducted at Thrikkannapuram',
+      images: ['/gallery/Thrikkannapuram/1.jpeg', '/gallery/Thrikkannapuram/2.jpeg'],
+      date: '9 Nov 2025'
+    },
+    {
       title: 'Sree Narayanaguru College, Thottada',
       description: 'BMH conducted a LifeLinER training sessiont at Sree Narayanaguru College, Thottada',
       images: ['/gallery/sn/1.jpeg'],
