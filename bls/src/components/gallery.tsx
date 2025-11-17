@@ -20,6 +20,30 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'EK Nayanar, Vengad',
+      description: 'LifeLinER  medical support for school fest in EK Nayanar Vengad',
+      images: ['/gallery/pearl/1.jpeg', '/gallery/pearl/2.jpeg', '/gallery/pearl/3.jpeg', '/gallery/pearl/4.jpeg', '/gallery/pearl/5.jpeg'],
+      date: '10 Nov 2025'
+    },
+    {
+      title: 'EK Nayanar, Vengad',
+      description: 'LifeLinER  medical support for school fest in EK Nayanar Vengad',
+      images: ['/gallery/vengad/1.jpeg', '/gallery/vengad/2.jpeg', '/gallery/vengad/3.jpeg', '/gallery/vengad/4.jpeg', '/gallery/vengad/5.jpeg', '/gallery/vengad/6.jpeg', '/gallery/vengad/7jpeg', '/gallery/vengad/8.jpeg'],
+      date: '10 Nov 2025'
+    },
+    {
+      title: 'Gov. Polytechnic, Thottada',
+      description: 'BMH conducted a LifeLinER training session at Gov. Polytechnic, Thottada',
+      images: ['/gallery/thottada/1.jpeg', '/gallery/thottada/2.jpeg', '/gallery/thottada/3.jpeg'],
+      date: '10 Nov 2025'
+    },
+    {
+      title: 'Gudallur Vidyodaya/Adivasi Primary School',
+      description: 'CPR Literacy India Expedition Update: First CPR Session For Teaching & Non-Teaching Staff @ Gudallur Vidyodaya/Adivasi Primary School',
+      images: ['/gallery/Gudallur/1.jpeg'],
+      date: '10 Nov 2025'
+    },
+    {
       title: 'Skill Apex Acadamy, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Skill Apex Acadamy, Kozhikode',
       images: ['/gallery/Apex/1.jpeg', '/gallery/Apex/2.jpeg', '/gallery/Apex/3.jpeg'],
