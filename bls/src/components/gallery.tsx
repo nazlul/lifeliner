@@ -19,9 +19,54 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
+     {
+      title: 'Rims School',
+      description: 'LifelinER awareness talk about diabetics by dr keertha in rims school for parents',
+      images: ['/gallery/rims/1.jpeg', '/gallery/rims/2.jpeg'],
+      date: '19 Nov 2025',
+      attendees: 125
+    },
+    {
+      title: 'St. Marys college ground, Sulthan Bathery',
+      description: 'LifelinER training for wayanad tennis ball cricket association players and owners at st. Marys college ground, sulthan bathery',
+      images: ['/gallery/bathery/1.jpeg', '/gallery/bathery/2.jpeg', '/gallery/bathery/3.jpeg'],
+      date: '18 Nov 2025'
+    },
+    {
+      title: 'Sarvodhaya HSS, Echome',
+      description: 'LifelinER training for  JRC, little kites, scout and guides cadets at Sarvodhaya Higher Secondary school, Echome',
+      images: ['/gallery/Echome2/1.jpeg', '/gallery/Echome2/2.jpeg', '/gallery/Echome2/3.jpeg', '/gallery/Echome2/4.jpeg'],
+      date: '18 Nov 2025'
+    },
+    {
+      title: 'Sarvodhaya HSS, Echome',
+      description: 'LifelinER training for SPC, NCC, Haritha Sena cadets at Sarvodhaya Higher Secondary school, Echome',
+      images: ['/gallery/Echome/1.jpeg', '/gallery/Echome/2.jpeg'],
+      date: '18 Nov 2025',
+      attendees: 96
+    },
+    {
+      title: 'Zamorins HSS, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session for the JRC students of Zamorins HSS, Kozhikode',
+      images: ['/gallery/Zamorins/1.jpeg', '/gallery/Zamorins/2.jpeg', '/gallery/Zamorins/3.jpeg'],
+      date: '18 Nov 2025'
+    },
+    {
+      title: 'Clan Fitness Center, Calicut',
+      description: 'Conducted LifelinER at Clan Fitness Center Calicut. Gave a session on detailed BLS training and Basic First Aid as well',
+      images: ['/gallery/clan/1.jpeg', '/gallery/clan/2.jpeg', '/gallery/clan/3.jpeg'],
+      date: '18 Nov 2025'
+    },
+    {
+      title: 'SH Hospital Manimooly, Nilambur',
+      description: 'BMH conducted LifelinER training session in association with SH Hospital Manimooly, Nilambur',
+      images: ['/gallery/manimooly2/1.jpeg', '/gallery/manimooly2/2.jpeg', '/gallery/manimooly2/3.jpeg'],
+      date: '18 Nov 2025',
+      attendees: 60
+    },
     {
       title: 'PEARL, BMH Payyannur',
-      description: 'LifeLinER Children\'s day Celebration at BMH Payyanur',
+      description: 'LifeLinER Children\'s day Celebration at BMH Payyannur',
       images: ['/gallery/pearl/1.jpeg', '/gallery/pearl/2.jpeg', '/gallery/pearl/3.jpeg', '/gallery/pearl/4.jpeg', '/gallery/pearl/5.jpeg'],
       date: '15 Nov 2025'
     },
