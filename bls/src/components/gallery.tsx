@@ -20,7 +20,7 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
-      title: ', BMH Payyannur',
+      title: 'PEARL, BMH Payyannur',
       description: 'LifeLinER Children\'s day Celebration at BMH Payyanur',
       images: ['/gallery/pearl/1.jpeg', '/gallery/pearl/2.jpeg', '/gallery/pearl/3.jpeg', '/gallery/pearl/4.jpeg', '/gallery/pearl/5.jpeg'],
       date: '15 Nov 2025'
