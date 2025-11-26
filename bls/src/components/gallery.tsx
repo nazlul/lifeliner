@@ -20,6 +20,42 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Community Health Centre, Narikkuni',
+      description: 'BMH conducted a LifeLinER training session at the Community Health Centre, Narikkuni, as part of the Government initiative Hridayathalam project',
+      images: ['/gallery/Narikkuni/1.jpeg', '/gallery/Narikkuni/2.jpeg', '/gallery/Narikkuni/3.jpeg', '/gallery/Narikkuni/4.jpeg'],
+      date: '26 Nov 2025'
+    },
+    {
+      title: 'Marygiri HSS, Podikalam',
+      description: 'BMH conducted a LifeLinER training session at Marygiri HSS, Podikalam',
+      images: ['/gallery/Marygiri/1.jpeg', '/gallery/Marygiri/2.jpeg'],
+      date: '26 Nov 2025'
+    },
+    {
+      title: 'Govt. College of Teacher Education, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Govt. College of Teacher education, Kozhikode',
+      images: ['/gallery/teacher/1.jpeg', '/gallery/teacher/2.jpeg', '/gallery/teacher/3.jpeg'],
+      date: '26 Nov 2025'
+    },
+    {
+      title: 'NIT Kozhikode',
+      description: 'BMH conducted a LifeLinER training session for the security officers of NIT Kozhikode',
+      images: ['/gallery/nitc2/1.jpeg', '/gallery/nitc2/2.jpeg', '/gallery/nitc2/3.jpeg'],
+      date: '25 Nov 2025'
+    },
+    {
+      title: 'Mathruboomi',
+      description: 'LifelinER BLS class by Dr.Nithin in association with Mathruboomi for their employees',
+      images: ['/gallery/Mathruboomi/1.jpeg'],
+      date: '24 Nov 2025'
+    },
+    {
+      title: 'KINFRA Industrial Park, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session for the employees  of ESCLA PVT LTD, at KINFRA Industrial Park, Kozhikode',
+      images: ['/gallery/escla/1.jpeg', '/gallery/escla/2.jpeg', '/gallery/escla/3.jpeg', '/gallery/escla/4.jpeg'],
+      date: '24 Nov 2025'
+    },
+    {
       title: 'Hilite White School',
       description: 'BMH conducted a LifeLinER PEARL training session for parents at Hilite White School, focusing on Pediatric Emergency Response and First-Aid awareness. The session was led by Dr. Febna Rahman',
       images: ['/gallery/pearl1/1.jpeg', '/gallery/pearl1/2.jpeg', '/gallery/pearl1/3.jpeg', '/gallery/pearl1/4.jpeg'],
@@ -40,7 +76,7 @@ export default function GalleryPage() {
     },
     {
       title: 'IMA Kannur',
-      description: 'LifelinER awareness talk about Stroke management and guidelines  by Dr. Jisa merin joy in association with IMA Kannur',
+      description: 'LifelinER awareness talk about Stroke management and guidelines  by Dr.Jisa merin joy in association with IMA Kannur',
       images: ['/gallery/ima/1.jpeg'],
       date: '20 Nov 2025'
     },
