@@ -20,22 +20,22 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
-      title: 'EK Nayanar, Vengad',
-      description: 'LifeLinER  medical support for school fest in EK Nayanar Vengad',
+      title: ', BMH Payyannur',
+      description: 'LifeLinER Children\'s day Celebration at BMH Payyanur',
       images: ['/gallery/pearl/1.jpeg', '/gallery/pearl/2.jpeg', '/gallery/pearl/3.jpeg', '/gallery/pearl/4.jpeg', '/gallery/pearl/5.jpeg'],
-      date: '10 Nov 2025'
+      date: '15 Nov 2025'
     },
     {
       title: 'EK Nayanar, Vengad',
-      description: 'LifeLinER  medical support for school fest in EK Nayanar Vengad',
+      description: 'LifeLinER medical support for school fest in EK Nayanar Vengad',
       images: ['/gallery/vengad/1.jpeg', '/gallery/vengad/2.jpeg', '/gallery/vengad/3.jpeg', '/gallery/vengad/4.jpeg', '/gallery/vengad/5.jpeg', '/gallery/vengad/6.jpeg', '/gallery/vengad/7jpeg', '/gallery/vengad/8.jpeg'],
-      date: '10 Nov 2025'
+      date: '13 Nov 2025'
     },
     {
       title: 'Gov. Polytechnic, Thottada',
       description: 'BMH conducted a LifeLinER training session at Gov. Polytechnic, Thottada',
       images: ['/gallery/thottada/1.jpeg', '/gallery/thottada/2.jpeg', '/gallery/thottada/3.jpeg'],
-      date: '10 Nov 2025'
+      date: '12 Nov 2025'
     },
     {
       title: 'Gudallur Vidyodaya/Adivasi Primary School',
