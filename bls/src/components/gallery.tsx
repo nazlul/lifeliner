@@ -19,7 +19,44 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
-     {
+    {
+      title: 'Hilite White School',
+      description: 'BMH conducted a LifeLinER PEARL training session for parents at Hilite White School, focusing on Pediatric Emergency Response and First-Aid awareness. The session was led by Dr. Febna Rahman',
+      images: ['/gallery/pearl1/1.jpeg', '/gallery/pearl1/2.jpeg', '/gallery/pearl1/3.jpeg', '/gallery/pearl1/4.jpeg'],
+      date: '22 Nov 2025'
+    },
+    {
+      title: 'Enbridge International Training Campus',
+      description: 'LifelinER training for Enbridge International Training Campus',
+      images: ['/gallery/Enbridge/1.jpeg', '/gallery/Enbridge/2.jpeg', '/gallery/Enbridge/3.jpeg', '/gallery/Enbridge/4.jpeg', '/gallery/Enbridge/5.jpeg', '/gallery/Enbridge/6.jpeg'],
+      date: '20 Nov 2025',
+      attendees: 35
+    },
+    {
+      title: 'IMA Iritty',
+      description: 'LifelinER awareness talk by Dr.Krishnakumar and Dr.Midhun Ramesh in association with IMA Iritty',
+      images: ['/gallery/ima2/2.jpeg', '/gallery/ima2/3.jpeg'],
+      date: '20 Nov 2025'
+    },
+    {
+      title: 'IMA Kannur',
+      description: 'LifelinER awareness talk about Stroke management and guidelines  by Dr. Jisa merin joy in association with IMA Kannur',
+      images: ['/gallery/ima/1.jpeg'],
+      date: '20 Nov 2025'
+    },
+    {
+      title: 'LBS Acadamy, Nilambur',
+      description: 'BMH conducted a LifeLinER training session at LBS Acadamy, Nilambur',
+      images: ['/gallery/lbs/1.jpeg', '/gallery/lbs/2.jpeg'],
+      date: '20 Nov 2025'
+    },
+    {
+      title: 'BMH Kannur',
+      description: 'Inhouse LifeLinER (BLS) for Ambulance Drivers and ICU Ambulance staff started at BMH Kannur',
+      images: ['/gallery/kannur4/1.jpeg', '/gallery/kannur4/2.jpeg', '/gallery/kannur4/3.jpeg', '/gallery/kannur4/4.jpeg'],
+      date: '20 Nov 2025'
+    },
+    {
       title: 'Rims School',
       description: 'LifelinER awareness talk about diabetics by dr keertha in rims school for parents',
       images: ['/gallery/rims/1.jpeg', '/gallery/rims/2.jpeg'],
