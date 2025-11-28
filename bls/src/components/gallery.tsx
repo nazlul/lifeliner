@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Aswani Diagnostic Centre Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Aswani Diagnostic Centre Kozhikode',
+      images: ['/gallery/Aswani/1.jpeg', '/gallery/Aswani/2.jpeg', '/gallery/Aswani/3.jpeg', '/gallery/Aswani/4.jpeg'],
+      date: '28 Nov 2025'
+    },
+    {
+      title: 'GAGHSS Chalappuram, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode',
+      images: ['/gallery/GAGHSS/2.jpeg', '/gallery/GAGHSS/3.jpeg'],
+      date: '27 Nov 2025'
+    },
+    {
+      title: 'Aralam HSS',
+      description: 'BMH conducted a LifeLinER training session at Aralam HSS',
+      images: ['/gallery/aralam/1.jpeg', '/gallery/aralam/2.jpeg', '/gallery/aralam/3.jpeg'],
+      date: '27 Nov 2025'
+    },
+    {
       title: 'Community Health Centre, Narikkuni',
       description: 'BMH conducted a LifeLinER training session at the Community Health Centre, Narikkuni, as part of the Government initiative Hridayathalam project',
       images: ['/gallery/Narikkuni/1.jpeg', '/gallery/Narikkuni/2.jpeg', '/gallery/Narikkuni/3.jpeg', '/gallery/Narikkuni/4.jpeg'],
@@ -89,7 +107,7 @@ export default function GalleryPage() {
     {
       title: 'BMH Kannur',
       description: 'Inhouse LifeLinER (BLS) for Ambulance Drivers and ICU Ambulance staff started at BMH Kannur',
-      images: ['/gallery/kannur4/1.jpeg', '/gallery/kannur4/2.jpeg', '/gallery/kannur4/3.jpeg', '/gallery/kannur4/4.jpeg'],
+      images: ['/gallery/kannur4/1.jpeg', '/gallery/kannur4/2.jpeg', '/gallery/kannur4/3.jpeg'],
       date: '20 Nov 2025'
     },
     {
