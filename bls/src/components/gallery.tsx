@@ -20,6 +20,18 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'CALIPH LIFE SCHOOL Thamarassery',
+      description: 'BMH conducted a LifeLinER training session at CALIPH LIFE SCHOOL Thamarassery',
+      images: ['/gallery/CALIPH/1.jpeg', '/gallery/CALIPH/2.jpeg', '/gallery/CALIPH/3.jpeg', '/gallery/CALIPH/4.jpeg'],
+      date: '29 Nov 2025'
+    },
+    {
+      title: 'MIHSS Ponnani',
+      description: 'BMH conducted a LifeLinER training session  for NSS volunteers at MIHSS Ponnani',
+      images: ['/gallery/MIHSS/1.jpeg', '/gallery/MIHSS/2.jpeg'],
+      date: '29 Nov 2025'
+    },
+    {
       title: 'Aswani Diagnostic Centre Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Aswani Diagnostic Centre Kozhikode',
       images: ['/gallery/Aswani/1.jpeg', '/gallery/Aswani/2.jpeg', '/gallery/Aswani/3.jpeg', '/gallery/Aswani/4.jpeg'],
