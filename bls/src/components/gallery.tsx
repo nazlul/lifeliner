@@ -22,13 +22,13 @@ export default function GalleryPage() {
     {
       title: 'CALIPH LIFE SCHOOL Thamarassery',
       description: 'BMH conducted a LifeLinER training session at CALIPH LIFE SCHOOL Thamarassery',
-      images: ['/gallery/CALIPH/1.jpeg', '/gallery/CALIPH/2.jpeg', '/gallery/CALIPH/3.jpeg', '/gallery/CALIPH/4.jpeg'],
+      images: ['/gallery/caliph/1.jpeg', '/gallery/caliph/2.jpeg', '/gallery/caliph/3.jpeg', '/gallery/caliph/4.jpeg'],
       date: '29 Nov 2025'
     },
     {
       title: 'MIHSS Ponnani',
       description: 'BMH conducted a LifeLinER training session  for NSS volunteers at MIHSS Ponnani',
-      images: ['/gallery/MIHSS/1.jpeg', '/gallery/MIHSS/2.jpeg'],
+      images: ['/gallery/mihss/1.jpeg', '/gallery/mihss/2.jpeg'],
       date: '29 Nov 2025'
     },
     {
@@ -39,7 +39,7 @@ export default function GalleryPage() {
     },
     {
       title: 'GAGHSS Chalappuram, Kozhikode',
-      description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode.',
+      description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode',
       images: ['/gallery/GAGHSS/2.jpeg', '/gallery/GAGHSS/3.jpeg'],
       date: '27 Nov 2025'
     },
