@@ -39,7 +39,7 @@ export default function GalleryPage() {
     },
     {
       title: 'GAGHSS Chalappuram, Kozhikode',
-      description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode.',
       images: ['/gallery/GAGHSS/2.jpeg', '/gallery/GAGHSS/3.jpeg'],
       date: '27 Nov 2025'
     },
