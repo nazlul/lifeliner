@@ -12,6 +12,7 @@ import Goals from '@/components/goals';
 import Gallery from '@/components/gallery';
 import Testimonials from '@/components/testimonial';
 import Booklet from '@/components/booklet';
+import CPR from '@/components/cpr';
 
 export default function HomePage() {
   return (
@@ -31,6 +32,9 @@ export default function HomePage() {
       </section>
       <section id="gallery">
         <Gallery />
+      </section>
+      <section>
+        <CPR />
       </section>
       <section>
         <Booklet />
