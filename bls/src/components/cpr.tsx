@@ -178,12 +178,25 @@ export default function CPR() {
   return (
     <section className="p-8 bg-blue-50">
       <div className="mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
-            <span className="text-[#005AAC]">CPR Literacy</span>
-          </h1>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#EE5A22]">India Expedition</h2>
+        <div className="flex items-center justify-center mb-12 gap-4">
+            
+            <div className="flex-shrink-0">
+                <Image
+                src="/cpr-logo.png"
+                alt="CPR Logo"
+                width={120}
+                height={120}
+                className="object-contain max-h-[100px] md:max-h-[120px] lg:max-h-[150px]"
+                />
+            </div>
+            <div className="text-center">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
+                <span className="text-[#005AAC]">CPR Literacy</span>
+                </h1>
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#EE5A22]">India Expedition</h2>
+            </div>
         </div>
+
 
         <div className="relative px-4 md:px-12">
           <button onClick={() => scroll('left')} className="hidden sm:block absolute left-0 top-1/2 -translate-y-1/2 rotate-180 z-10">
