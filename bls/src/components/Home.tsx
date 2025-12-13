@@ -151,9 +151,9 @@ export default function Home() {
 
        <div className="absolute top-30 md:top-auto md:bottom-3 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-col items-center justify-center gap-2 md:gap-4">
         <div className="flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
-          <CountUpStat number={15079} label="People Trained" onClick={handleGalleryScroll} />
-          <CountUpStat number={17209} label="Pledges Taken" onClick={handleGalleryScroll} />
-          <CountUpStat number={215} label="Sessions Organized" onClick={handleGalleryScroll} />
+          <CountUpStat number={15608} label="People Trained" onClick={handleGalleryScroll} />
+          <CountUpStat number={17838} label="Pledges Taken" onClick={handleGalleryScroll} />
+          <CountUpStat number={224} label="Sessions Organized" onClick={handleGalleryScroll} />
         </div>
         <p className="text-xs text-gray-500 mt-1">*since the launch of LifeLinER in May 2025.</p>
       </div>
