@@ -20,6 +20,30 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'International Day of Persons with Disabilities',
+      description: 'International Day of Persons with Disabilities celebrated and PEARL LifeLinER initiated to 3 Special school Students, Teachers and Parents. Various programs of inclusions under the initiative “Beyond borders“ has been announced by CEO.',
+      images: ['/gallery/pearl2/1.jpeg', '/gallery/pearl2/2.jpeg', '/gallery/pearl2/3.jpeg', '/gallery/pearl2/4.jpeg', '/gallery/pearl2/5.jpeg'],
+      date: '5 Dec 2025'
+    },
+    {
+      title: 'IQRA Thanal, Malapparamba',
+      description: 'As part of the World Disability Day celebrations, BMH conducted a PEARL awareness training session at Iqra Thanal Early Intervention Center, Malapparamba. Session led by Dr. Febna Rahman, followed by a magic show and various entertainment programs showcasing the talents of differently-abled children',
+      images: ['/gallery/thanal/1.jpeg', '/gallery/thanal/2.jpeg', '/gallery/thanal/3.jpeg', '/gallery/thanal/4.jpeg', '/gallery/thanal/5.jpeg'],
+      date: '3 Dec 2025'
+    },
+    {
+      title: 'MIHSS Ponnani',
+      description: 'BMH conducted a LifeLinER training session at IHRD Vallithodu',
+      images: ['/gallery/ihrd1/1.jpeg', '/gallery/ihrd1/2.jpeg', '/gallery/ihrd1/3.jpeg'],
+      date: '3 Dec 2025'
+    },
+    {
+      title: 'BMH Payyanur',
+      description: 'BMH conducted a LifeLinER training and Traffic Awarness Class at BMH Payyanur',
+      images: ['/gallery/payyannur/1.jpeg', '/gallery/payyannur/2.jpeg', '/gallery/payyannur/3.jpeg', '/gallery/payyannur/4.jpeg', '/gallery/payyannur/5.jpeg', '/gallery/payyannur/6.jpeg'],
+      date: '3 Dec 2025'
+    },
+    {
       title: 'CALIPH LIFE SCHOOL Thamarassery',
       description: 'BMH conducted a LifeLinER training session at CALIPH LIFE SCHOOL Thamarassery',
       images: ['/gallery/caliph/1.jpeg', '/gallery/caliph/2.jpeg', '/gallery/caliph/3.jpeg', '/gallery/caliph/4.jpeg'],
@@ -27,7 +51,7 @@ export default function GalleryPage() {
     },
     {
       title: 'MIHSS Ponnani',
-      description: 'BMH conducted a LifeLinER training session  for NSS volunteers at MIHSS Ponnani',
+      description: 'BMH conducted a LifeLinER training session for NSS volunteers at MIHSS Ponnani',
       images: ['/gallery/mihss/1.jpeg', '/gallery/mihss/2.jpeg'],
       date: '29 Nov 2025'
     },
