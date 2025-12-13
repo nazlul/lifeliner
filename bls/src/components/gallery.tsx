@@ -23,13 +23,15 @@ export default function GalleryPage() {
       title: 'Navaratna(CA) conference Kannur',
       description: 'LifeLinER (Medical Support) Navaratna(CA) conference 6th edition at Kannur',
       images: ['/gallery/Navaratna/1.jpeg'],
-      date: '13 Dec 2025'
+      date: '13 Dec 2025',
+      attendees: 80
     },
     {
       title: 'SUM Bed college, Mamba',
       description: 'BMH conducted a LifeLinER training session at SUM Bed college, Mamba',
       images: ['/gallery/sum/1.jpeg', '/gallery/sum/2.jpeg', '/gallery/sum/3.jpeg'],
-      date: '12 Dec 2025'
+      date: '12 Dec 2025',
+      attendees: 80
     },
     {
       title: 'IMA Kannur',
@@ -39,10 +41,11 @@ export default function GalleryPage() {
       attendees: 40
     },
     {
-      title: 'Veerpad',
-      description: 'BMH conducted a LifeLinER training session at Veerpad',
+      title: 'SN College, Veerpad',
+      description: 'BMH conducted a LifeLinER training session at SN College, Veerpad',
       images: ['/gallery/veerpad/1.jpeg', '/gallery/veerpad/2.jpeg', '/gallery/veerpad/3.jpeg'],
-      date: '8 Dec 2025'
+      date: '8 Dec 2025',
+      attendees: 50
     },
     {
       title: 'Cannanore Cycling club',
@@ -54,97 +57,113 @@ export default function GalleryPage() {
       title: 'International Day of Persons with Disabilities',
       description: 'International Day of Persons with Disabilities celebrated and PEARL LifeLinER initiated to 3 Special school Students, Teachers and Parents. Various programs of inclusions under the initiative “Beyond borders“ has been announced by CEO.',
       images: ['/gallery/pearl2/1.jpeg', '/gallery/pearl2/2.jpeg', '/gallery/pearl2/3.jpeg', '/gallery/pearl2/4.jpeg', '/gallery/pearl2/5.jpeg'],
-      date: '5 Dec 2025'
+      date: '5 Dec 2025',
+      attendees: 80
     },
     {
       title: 'IQRA Thanal, Malapparamba',
       description: 'As part of the World Disability Day celebrations, BMH conducted a PEARL awareness training session at Iqra Thanal Early Intervention Center, Malapparamba. Session led by Dr. Febna Rahman, followed by a magic show and various entertainment programs showcasing the talents of differently-abled children',
       images: ['/gallery/thanal/1.jpeg', '/gallery/thanal/2.jpeg', '/gallery/thanal/3.jpeg', '/gallery/thanal/4.jpeg', '/gallery/thanal/5.jpeg'],
-      date: '3 Dec 2025'
+      date: '3 Dec 2025',
+      attendees: 35
     },
     {
-      title: 'MIHSS Ponnani',
+      title: 'IHRD Vallithodu',
       description: 'BMH conducted a LifeLinER training session at IHRD Vallithodu',
       images: ['/gallery/ihrd1/1.jpeg', '/gallery/ihrd1/2.jpeg', '/gallery/ihrd1/3.jpeg'],
-      date: '3 Dec 2025'
+      date: '3 Dec 2025',
+      attendees: 60
     },
     {
       title: 'BMH Payyanur',
       description: 'BMH conducted a LifeLinER training and Traffic Awarness Class at BMH Payyanur',
       images: ['/gallery/payyannur/1.jpeg', '/gallery/payyannur/2.jpeg', '/gallery/payyannur/3.jpeg', '/gallery/payyannur/4.jpeg', '/gallery/payyannur/5.jpeg', '/gallery/payyannur/6.jpeg'],
-      date: '3 Dec 2025'
+      date: '3 Dec 2025',
+      attendees: 80
     },
     {
       title: 'CALIPH LIFE SCHOOL Thamarassery',
       description: 'BMH conducted a LifeLinER training session at CALIPH LIFE SCHOOL Thamarassery',
       images: ['/gallery/caliph/1.jpeg', '/gallery/caliph/2.jpeg', '/gallery/caliph/3.jpeg', '/gallery/caliph/4.jpeg'],
-      date: '29 Nov 2025'
+      date: '29 Nov 2025',
+      attendees: 60
     },
     {
       title: 'MIHSS Ponnani',
       description: 'BMH conducted a LifeLinER training session for NSS volunteers at MIHSS Ponnani',
       images: ['/gallery/mihss/1.jpeg', '/gallery/mihss/2.jpeg'],
-      date: '29 Nov 2025'
+      date: '29 Nov 2025',
+      attendees: 102
     },
     {
       title: 'Aswani Diagnostic Centre Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Aswani Diagnostic Centre Kozhikode',
       images: ['/gallery/Aswani/1.jpeg', '/gallery/Aswani/2.jpeg', '/gallery/Aswani/3.jpeg', '/gallery/Aswani/4.jpeg'],
-      date: '28 Nov 2025'
+      date: '28 Nov 2025',
+      attendees: 26
     },
     {
       title: 'GAGHSS Chalappuram, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode',
       images: ['/gallery/GAGHSS/2.jpeg', '/gallery/GAGHSS/3.jpeg'],
-      date: '27 Nov 2025'
+      date: '27 Nov 2025',
+      attendees: 80
     },
     {
       title: 'Aralam HSS',
       description: 'BMH conducted a LifeLinER training session at Aralam HSS',
       images: ['/gallery/aralam/1.jpeg', '/gallery/aralam/2.jpeg', '/gallery/aralam/3.jpeg'],
-      date: '27 Nov 2025'
+      date: '27 Nov 2025',
+      attendees: 46
     },
     {
       title: 'Community Health Centre, Narikkuni',
       description: 'BMH conducted a LifeLinER training session at the Community Health Centre, Narikkuni, as part of the Government initiative Hridayathalam project',
       images: ['/gallery/Narikkuni/1.jpeg', '/gallery/Narikkuni/2.jpeg', '/gallery/Narikkuni/3.jpeg', '/gallery/Narikkuni/4.jpeg'],
-      date: '26 Nov 2025'
+      date: '26 Nov 2025',
+      attendees: 51
     },
     {
       title: 'Marygiri HSS, Podikalam',
       description: 'BMH conducted a LifeLinER training session at Marygiri HSS, Podikalam',
       images: ['/gallery/Marygiri/1.jpeg', '/gallery/Marygiri/2.jpeg'],
-      date: '26 Nov 2025'
+      date: '26 Nov 2025',
+      attendees: 52
     },
     {
       title: 'Govt. College of Teacher Education, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Govt. College of Teacher education, Kozhikode',
       images: ['/gallery/teacher/1.jpeg', '/gallery/teacher/2.jpeg', '/gallery/teacher/3.jpeg'],
-      date: '26 Nov 2025'
+      date: '26 Nov 2025',
+      attendees: 54
     },
     {
       title: 'NIT Kozhikode',
       description: 'BMH conducted a LifeLinER training session for the security officers of NIT Kozhikode',
       images: ['/gallery/nitc2/1.jpeg', '/gallery/nitc2/2.jpeg', '/gallery/nitc2/3.jpeg'],
-      date: '25 Nov 2025'
+      date: '25 Nov 2025',
+      attendees: 73
     },
     {
       title: 'Mathruboomi',
       description: 'LifelinER BLS class by Dr.Nithin in association with Mathruboomi for their employees',
       images: ['/gallery/Mathruboomi/1.jpeg'],
-      date: '24 Nov 2025'
+      date: '24 Nov 2025',
+      attendees: 40
     },
     {
       title: 'KINFRA Industrial Park, Kozhikode',
       description: 'BMH conducted a LifeLinER training session for the employees  of ESCLA PVT LTD, at KINFRA Industrial Park, Kozhikode',
       images: ['/gallery/escla/1.jpeg', '/gallery/escla/2.jpeg', '/gallery/escla/3.jpeg', '/gallery/escla/4.jpeg'],
-      date: '24 Nov 2025'
+      date: '24 Nov 2025',
+      attendees: 30
     },
     {
       title: 'Hilite White School',
       description: 'BMH conducted a LifeLinER PEARL training session for parents at Hilite White School, focusing on Pediatric Emergency Response and First-Aid awareness. The session was led by Dr. Febna Rahman',
       images: ['/gallery/pearl1/1.jpeg', '/gallery/pearl1/2.jpeg', '/gallery/pearl1/3.jpeg', '/gallery/pearl1/4.jpeg'],
-      date: '22 Nov 2025'
+      date: '22 Nov 2025',
+      attendees: 54
     },
     {
       title: 'Enbridge International Training Campus',
@@ -157,25 +176,29 @@ export default function GalleryPage() {
       title: 'IMA Iritty',
       description: 'LifelinER awareness talk by Dr.Krishnakumar and Dr.Midhun Ramesh in association with IMA Iritty',
       images: ['/gallery/ima2/2.jpeg', '/gallery/ima2/3.jpeg'],
-      date: '20 Nov 2025'
+      date: '20 Nov 2025',
+      attendees: 40
     },
     {
       title: 'IMA Kannur',
       description: 'LifelinER awareness talk about Stroke management and guidelines  by Dr.Jisa merin joy in association with IMA Kannur',
       images: ['/gallery/ima/1.jpeg'],
-      date: '20 Nov 2025'
+      date: '20 Nov 2025',
+      attendees: 32
     },
     {
       title: 'LBS Acadamy, Nilambur',
       description: 'BMH conducted a LifeLinER training session at LBS Acadamy, Nilambur',
       images: ['/gallery/lbs/1.jpeg', '/gallery/lbs/2.jpeg'],
-      date: '20 Nov 2025'
+      date: '20 Nov 2025',
+      attendees: 40
     },
     {
       title: 'BMH Kannur',
       description: 'Inhouse LifeLinER (BLS) for Ambulance Drivers and ICU Ambulance staff started at BMH Kannur',
       images: ['/gallery/kannur4/1.jpeg', '/gallery/kannur4/2.jpeg', '/gallery/kannur4/3.jpeg'],
-      date: '20 Nov 2025'
+      date: '20 Nov 2025',
+      attendees: 65
     },
     {
       title: 'Rims School',
@@ -188,13 +211,15 @@ export default function GalleryPage() {
       title: 'St. Marys college ground, Sulthan Bathery',
       description: 'LifelinER training for wayanad tennis ball cricket association players and owners at st. Marys college ground, sulthan bathery',
       images: ['/gallery/bathery/1.jpeg', '/gallery/bathery/2.jpeg', '/gallery/bathery/3.jpeg'],
-      date: '18 Nov 2025'
+      date: '18 Nov 2025',
+      attendees: 70
     },
     {
       title: 'Sarvodhaya HSS, Echome',
       description: 'LifelinER training for  JRC, little kites, scout and guides cadets at Sarvodhaya Higher Secondary school, Echome',
       images: ['/gallery/Echome2/1.jpeg', '/gallery/Echome2/2.jpeg', '/gallery/Echome2/3.jpeg', '/gallery/Echome2/4.jpeg'],
-      date: '18 Nov 2025'
+      date: '18 Nov 2025',
+      attendees: 102
     },
     {
       title: 'Sarvodhaya HSS, Echome',
@@ -206,14 +231,16 @@ export default function GalleryPage() {
     {
       title: 'Zamorins HSS, Kozhikode',
       description: 'BMH conducted a LifeLinER training session for the JRC students of Zamorins HSS, Kozhikode',
-      images: ['/gallery/Zamorins/1.jpeg', '/gallery/Zamorins/2.jpeg', '/gallery/Zamorins/3.jpeg'],
-      date: '18 Nov 2025'
+      images: ['/gallery/zamorins/1.jpeg', '/gallery/zamorins/2.jpeg', '/gallery/zamorins/3.jpeg'],
+      date: '18 Nov 2025',
+      attendees: 54
     },
     {
       title: 'Clan Fitness Center, Calicut',
       description: 'Conducted LifelinER at Clan Fitness Center Calicut. Gave a session on detailed BLS training and Basic First Aid as well',
       images: ['/gallery/clan/1.jpeg', '/gallery/clan/2.jpeg', '/gallery/clan/3.jpeg'],
-      date: '18 Nov 2025'
+      date: '18 Nov 2025',
+      attendees: 36
     },
     {
       title: 'SH Hospital Manimooly, Nilambur',
@@ -238,73 +265,85 @@ export default function GalleryPage() {
       title: 'Gov. Polytechnic, Thottada',
       description: 'BMH conducted a LifeLinER training session at Gov. Polytechnic, Thottada',
       images: ['/gallery/thottada/1.jpeg', '/gallery/thottada/2.jpeg', '/gallery/thottada/3.jpeg'],
-      date: '12 Nov 2025'
+      date: '12 Nov 2025',
+      attendees: 53
     },
     {
       title: 'Gudallur Vidyodaya/Adivasi Primary School',
       description: 'CPR Literacy India Expedition Update: First CPR Session For Teaching & Non-Teaching Staff @ Gudallur Vidyodaya/Adivasi Primary School',
       images: ['/gallery/Gudallur/1.jpeg'],
-      date: '10 Nov 2025'
+      date: '10 Nov 2025',
+      attendees: 60
     },
     {
       title: 'Skill Apex Acadamy, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Skill Apex Acadamy, Kozhikode',
       images: ['/gallery/Apex/1.jpeg', '/gallery/Apex/2.jpeg', '/gallery/Apex/3.jpeg'],
-      date: '10 Nov 2025'
+      date: '10 Nov 2025',
+      attendees: 23
     },
     {
       title: 'Kottiyur',
       description: 'BMH conducted a LifeLinER training sessiont at Kottiyur',
       images: ['/gallery/Kottiyur/1.jpeg', '/gallery/Kottiyur/2.jpeg'],
-      date: '10 Nov 2025'
+      date: '10 Nov 2025',
+      attendees: 60
     },
     {
       title: 'Thrikkannapuram',
       description: 'LifeLinER Cancer Awareness Talk and BLS Training session were successfully conducted at Thrikkannapuram',
       images: ['/gallery/Thrikkannapuram/1.jpeg', '/gallery/Thrikkannapuram/2.jpeg'],
-      date: '9 Nov 2025'
+      date: '9 Nov 2025',
+      attendees: 40
     },
     {
       title: 'Sree Narayanaguru College, Thottada',
       description: 'BMH conducted a LifeLinER training sessiont at Sree Narayanaguru College, Thottada',
       images: ['/gallery/sn/1.jpeg'],
-      date: '7 Nov 2025'
+      date: '7 Nov 2025',
+      attendees: 63
     },
     {
       title: 'Vimal Jyothi college',
       description: 'BMH conducted a LifeLinER training sessiont at Vimal Jyothi college',
       images: ['/gallery/vimal2/1.jpeg', '/gallery/vimal2/2.jpeg'],
-      date: '6 Nov 2025'
+      date: '6 Nov 2025',
+      attendees: 53
     },
     {
       title: 'Rahmaniya Public School',
       description: 'BMH conducted a LifeLinER training sessiont at Rahmaniya Public School',
       images: ['/gallery/rahmaniya/1.jpeg', '/gallery/rahmaniya/2.jpeg'],
-      date: '6 Nov 2025'
+      date: '6 Nov 2025',
+      attendees: 150
     },
     {
       title: 'NTTF, Thalaserry',
       description: 'BMH conducted a LifeLinER training sessiont at NTTF, Thalaserry',
       images: ['/gallery/nttf/1.jpeg'],
-      date: '5 Nov 2025'
+      date: '5 Nov 2025',
+      attendees: 50
     },
     {
       title: 'District Police Headquarters, Calicut',
       description: 'BMH conducted a LifeLinER training sessiont at District Police Headquarters, Calicut',
       images: ['/gallery/policeclt/1.jpeg', '/gallery/policeclt/2.jpeg', '/gallery/policeclt/3.jpeg', '/gallery/policeclt/4.jpeg'],
-      date: '5 Nov 2025'
+      date: '5 Nov 2025',
+      attendees: 35
     },
     {
       title: 'Public Health Centre, Peruvayal Grampanchayat',
       description: 'BMH conducted a LifeLinER training session at the Public Health Centre, Peruvayal Grampanchayat',
       images: ['/gallery/peruvayal/1.jpeg', '/gallery/peruvayal/2.jpeg', '/gallery/peruvayal/3.jpeg'],
-      date: '5 Nov 2025'
+      date: '5 Nov 2025',
+      attendees: 66
     },
     {
       title: 'Holy family college meethalepeedika, Dharmadom',
       description: 'LifelinER BLS training programme combined with Holy family college meethalepeedika, Dharmadom',
-      images: ['/gallery/Dharmadom/1.jpeg'],
-      date: '4 Nov 2025'
+      images: ['/gallery/dharmadom/1.jpeg'],
+      date: '4 Nov 2025',
+      attendees: 58
     },
     {
       title: 'Hilite Mall, Calicut',
@@ -316,7 +355,8 @@ export default function GalleryPage() {
       title: 'MAM UP School, Arakkal',
       description: 'BMH conducted a LifeLinER training session at MAM UP School Arakkal',
       images: ['/gallery/arakkal/1.jpeg', '/gallery/arakkal/2.jpeg', '/gallery/arakkal/3.jpeg'],
-      date: '1 Nov 2025'
+      date: '1 Nov 2025',
+      attendees: 54
     },
     {
       title: 'Edakkad',
@@ -328,25 +368,29 @@ export default function GalleryPage() {
       title: 'Public Health Centre, Karassery',
       description: 'BMH conducted a LifeLinER training session at Karassery Public Health Centre.The participants included Asha workers Pre-primary teachers and PHC staff',
       images: ['/gallery/Karassery/1.jpeg', '/gallery/Karassery/2.jpeg', '/gallery/Karassery/3.jpeg'],
-      date: '28 Oct 2025'
+      date: '28 Oct 2025',
+      attendees: 54
     },
     {
       title: 'Public Health Centre, Perumanna',
       description: 'BMH conducted a LifeLinER training session at Public Health Centre Perumanna',
       images: ['/gallery/Perumanna/1.jpeg', '/gallery/Perumanna/2.jpeg'],
-      date: '28 Oct 2025'
+      date: '28 Oct 2025',
+      attendees: 68
     },
     {
       title: 'Perumbadavu',
       description: 'BMH conducted a LifeLinER training session at Perumbadavu',
       images: ['/gallery/Perumbadavu/1.jpeg', '/gallery/Perumbadavu/2.jpeg', '/gallery/Perumbadavu/3.jpeg', '/gallery/Perumbadavu/4.jpeg', '/gallery/Perumbadavu/5.jpeg'],
-      date: '28 Oct 2025'
+      date: '28 Oct 2025',
+      attendees: 62
     },
     {
       title: 'Awareness Talk by Dr Sruthi M Kumar',
       description: 'Awareness Talk by Dr Sruthi M Kumar',
       images: ['/gallery/sruthi/1.jpeg'],
-      date: '27 Oct 2025'
+      date: '27 Oct 2025',
+      attendees: 56
     },
     {
       title: 'Kerala youth seva samathi, Kannur',
@@ -358,25 +402,29 @@ export default function GalleryPage() {
       title: 'Sevabarathi, Mattannur',
       description: 'LifelinER BLS training programme accompained with Sevabarathi Mattannur',
       images: ['/gallery/mattannur/1.jpeg', '/gallery/mattannur/2.jpeg'],
-      date: '26 Oct 2025'
+      date: '26 Oct 2025',
+      attendees: 25
     },
     {
       title: 'Pratheeksha Pain and Palliative Center Munniyoor',
       description: 'BMH conducted a LifeLinER training session at Pratheeksha Pain and Palliative Center Munniyoor',
       images: ['/gallery/Munniyoor/1.jpeg', '/gallery/Munniyoor/2.jpeg', '/gallery/Munniyoor/3.jpeg', '/gallery/Munniyoor/4.jpeg'],
-      date: '25 Oct 2025'
+      date: '25 Oct 2025',
+      attendees: 86
     },
     {
       title: 'Kattangal Grama panchayat',
       description: 'BMH conducted a LifeLinER training session at Kattangal Grama panchayat',
       images: ['/gallery/kattangal/1.jpeg', '/gallery/kattangal/2.jpeg', '/gallery/kattangal/3.jpeg'],
-      date: '24 Oct 2025'
+      date: '24 Oct 2025',
+      attendees: 84
     },
     {
       title: 'Kuruvattoor Grampanchayat',
       description: 'BMH conducted a LifeLinER training session at Kuruvattoor Grampanchayat',
       images: ['/gallery/Kuruvattoor/1.jpeg', '/gallery/Kuruvattoor/2.jpeg', '/gallery/Kuruvattoor/3.jpeg', '/gallery/Kuruvattoor/4.jpeg', '/gallery/Kuruvattoor/5.jpeg'],
-      date: '24 Oct 2025'
+      date: '24 Oct 2025',
+      attendees: 78
     },
     {
       title: 'BMH Kannur',
@@ -388,55 +436,64 @@ export default function GalleryPage() {
       title: 'PKM College of Education, Madambam',
       description: 'BMH conducted a LifeLinER training session at PKM College of Education, Madambam',
       images: ['/gallery/madambam/1.jpeg'],
-      date: '23 Oct 2025'
+      date: '23 Oct 2025',
+      attendees: 65
     },
     {
       title: 'Farook College, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Farook College Kozhikode',
       images: ['/gallery/farook/1.jpeg', '/gallery/farook/2.jpeg', '/gallery/farook/3.jpeg'],
-      date: '22 Oct 2025'
+      date: '22 Oct 2025',
+      attendees: 54
     },
     {
       title: 'GHSS Paleri',
       description: 'BMH conducted a LifeLinER training session for Students Police Cadets at GHSS Paleri',
       images: ['/gallery/paleri/1.jpeg', '/gallery/paleri/2.jpeg', '/gallery/paleri/3.jpeg'],
-      date: '22 Oct 2025'
+      date: '22 Oct 2025',
+      attendees: 88
     },
     {
       title: 'Akashavani Kozhikode',
       description: 'LifeLinER training session at Akashavani Kozhikode',
       images: ['/gallery/akashavani/1.jpeg', '/gallery/akashavani/2.jpeg', '/gallery/akashavani/3.jpeg'],
-      date: '21 Oct 2025'
+      date: '21 Oct 2025',
+      attendees: 37
     },
     {
       title: 'Pushparam ITI, Iritty',
       description: 'Conducted LifeLinER BLS at Pushparam ITI, Iritty',
       images: ['/gallery/Pushparam/1.jpeg'],
-      date: '21 Oct 2025'
+      date: '21 Oct 2025',
+      attendees: 36
     },
     {
       title: 'Chelora HSS',
       description: 'LifeLinER awareness  class about menstrual cup hygiene compained with Chelora HSS - Nss unit',
       images: ['/gallery/chelora/1.jpeg'],
-      date: '21 Oct 2025'
+      date: '21 Oct 2025',
+      attendees: 55
     },
     {
       title: 'Grihalakshmi Vanitha Vedi Members',
       description: 'In house LifeLinER awareness talk by Dr Krishnakumar to Grihalakshmi Vanitha Vedi members',
       images: ['/gallery/vanitha/1.jpeg', '/gallery/vanitha/2.jpeg'],
-      date: '19 Oct 2025'
+      date: '19 Oct 2025',
+      attendees: 35
     },
     {
       title: 'Narikode, Kuppam',
       description: 'LifeLinER BLS programme conducted at Narikode, Kuppam in association with Vanitha League',
       images: ['/gallery/kuppam/1.jpeg', '/gallery/kuppam/2.jpeg', '/gallery/kuppam/3.jpeg', '/gallery/kuppam/4.jpeg'],
-      date: '18 Oct 2025'
+      date: '18 Oct 2025',
+      attendees: 60
     },
     {
       title: 'BMH Kannur',
       description: 'Emergency awareness class for BMH Kannur staffs and nurses',
       images: ['/gallery/kannur2/1.jpeg', '/gallery/kannur2/2.jpeg'],
-      date: '18 Oct 2025'
+      date: '18 Oct 2025',
+      attendees: 48
     },
     {
       title: 'Govt. Tribal HSS, Kattappana',
@@ -456,31 +513,36 @@ export default function GalleryPage() {
       title: 'SH Hospital, Manimooly',
       description: 'LifelinER in association with SH Hospital Manimooly for nursing and paramedical staffs',
       images: ['/gallery/manimooly/1.jpeg', '/gallery/manimooly/2.jpeg', '/gallery/manimooly/3.jpeg', '/gallery/manimooly/4.jpeg'],
-      date: '15 Oct 2025'
+      date: '15 Oct 2025',
+      attendees: 120
     },
     {
       title: 'CDS Kannur district conference',
       description: 'LifeLinER breast cancer awareness talk by Dr.Vishnu Santhosh Menon at CDS Kannur district conference',
       images: ['/gallery/cds/1.jpeg'],
-      date: '15 Oct 2025'
+      date: '15 Oct 2025',
+      attendees: 26
     },
     {
       title: 'Don Bosco Arts and sciences College, Angadikkadavu',
       description: 'LifelinER training session at Don Bosco Arts and sciences College, Angadikkadavu',
       images: ['/gallery/bosco/1.jpeg', '/gallery/bosco/2.jpeg', '/gallery/bosco/3.jpeg'],
-      date: '14 Oct 2025'
+      date: '14 Oct 2025',
+      attendees: 84
     },
     {
       title: 'Silver Hills Public School, Kozhikode',
       description: ' LifeLinER training session at Silver Hills Public School, Kozhikode',
       images: ['/gallery/silver/1.jpeg', '/gallery/silver/2.jpeg', '/gallery/silver/4.jpeg', '/gallery/silver/3.jpeg'],
-      date: '13 Oct 2025'
+      date: '13 Oct 2025',
+      attendees: 400
     },
     {
       title: 'Mukkilangadi Fest, Koduvally',
       description: 'LifelinER provided to Mukkilangadi Panchayath residents on the occassion of Mukkilangadi Fest 2025 at Koduvally',
       images: ['/gallery/mukkilangadi/1.jpeg', '/gallery/mukkilangadi/2.jpeg', '/gallery/mukkilangadi/3.jpeg'],
-      date: '13 Oct 2025'
+      date: '13 Oct 2025',
+      attendees: 60
     },
     {
       title: 'Kannur Dist Dairy development expo, Payynur',
@@ -505,25 +567,29 @@ export default function GalleryPage() {
       title: 'Alphonsa College, Thiruvambadi',
       description: 'LifeLinER training session at Alphonsa College, Thiruvambadi',
       images: ['/gallery/alphonsa/1.jpeg', '/gallery/alphonsa/2.jpeg', '/gallery/alphonsa/3.jpeg', '/gallery/alphonsa/4.jpeg'],
-      date: '10 Oct 2025'
+      date: '10 Oct 2025',
+      attendees: 52
     },
     {
       title: 'Nirmalagiri College, Kuthuparamba',
       description: 'LifeLinER training session at Nirmalagiri College, Kuthuparamba',
       images: ['/gallery/kuthuparamba/1.jpeg'],
-      date: '9 Oct 2025'
+      date: '9 Oct 2025',
+      attendees: 47
     },
     {
       title: 'National College, Taliparamb',
       description: 'LifeLinER training session at National College, Taliparamb',
       images: ['/gallery/taliparamb/1.jpeg'],
-      date: '8 Oct 2025'
+      date: '8 Oct 2025',
+      attendees: 30
     },
     {
       title: 'Community Health Centre, Cheruvady',
       description: 'LifeLinER training session at Community Health Centre, Cheruvady',
       images: ['/gallery/cheruvady/1.jpeg', '/gallery/cheruvady/2.jpeg'],
-      date: '7 Oct 2025'
+      date: '7 Oct 2025',
+      attendees: 78
     },
     {
       title: 'St.George HSS, Parathodu',
@@ -543,7 +609,8 @@ export default function GalleryPage() {
       title: 'CH center Marakkara',
       description: 'LifelinER training at CH center Marakkara',
       images: ['/gallery/marakkara/1.jpeg', '/gallery/marakkara/2.jpeg', '/gallery/marakkara/3.jpeg', '/gallery/marakkara/4.jpeg', '/gallery/marakkara/5.jpeg'],
-      date: '6 Oct 2025'
+      date: '6 Oct 2025',
+      attendees: 58
     },
     {
       title: 'Sreekanth Eye Hospital',
@@ -556,7 +623,8 @@ export default function GalleryPage() {
       title: 'Oruma resident association, Chala',
       description: 'LifeLinER and community connect with Oruma resident association, Chala',
       images: ['/gallery/chala2/1.jpeg', '/gallery/chala2/2.jpeg'],
-      date: '5 Oct 2025'
+      date: '5 Oct 2025',
+      attendees: 22
     },
     {
       title: 'Chelannur Gramapanchayat',
@@ -583,13 +651,15 @@ export default function GalleryPage() {
       title: 'Muzhappilangad grama panchayatht',
       description: 'LifelinER programme at muzhappilangad grama panchayath family health centre',
       images: ['/gallery/muzhappilangad/1.jpeg', '/gallery/muzhappilangad/2.jpeg'],
-      date: '29 Sep 2025'
+      date: '29 Sep 2025',
+      attendees: 65
     },
     {
       title: 'Kappad live charitable trust',
       description: 'Participating in charitable activities of kappad live charitable trust under LifeLinER',
       images: ['/gallery/kappad/1.jpeg'],
-      date: '28 Sep 2025'
+      date: '28 Sep 2025',
+      attendees: 35
     },
     {
       title: 'Hridyamee Hridayam - Secura Mall',
@@ -643,7 +713,8 @@ export default function GalleryPage() {
       title: 'Uruvachal medical camp inaguration',
       description: 'Uruvachal medical camp inaguration',
       images: ['/gallery/Uruvachal/1.jpeg'],
-      date: '28 Sep 2025'
+      date: '28 Sep 2025',
+      attendees: 12
     },
     {
       title: 'Sanjose welfare society, Kelakam',
