@@ -20,6 +20,37 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Navaratna(CA) conference Kannur',
+      description: 'LifeLinER (Medical Support) Navaratna(CA) conference 6th edition at Kannur',
+      images: ['/gallery/Navaratna/1.jpeg'],
+      date: '13 Dec 2025'
+    },
+    {
+      title: 'SUM Bed college, Mamba',
+      description: 'BMH conducted a LifeLinER training session at SUM Bed college, Mamba',
+      images: ['/gallery/sum/1.jpeg', '/gallery/sum/2.jpeg', '/gallery/sum/3.jpeg'],
+      date: '12 Dec 2025'
+    },
+    {
+      title: 'IMA Kannur',
+      description: 'Lifeliner cme talk by dr Deepak Raju in ima Kannur attended by more than 40 doctors',
+      images: ['/gallery/ima3/1.jpeg', '/gallery/ima3/2.jpeg', '/gallery/ima3/3.jpeg'],
+      date: '11 Dec 2025',
+      attendees: 40
+    },
+    {
+      title: 'Veerpad',
+      description: 'BMH conducted a LifeLinER training session at Veerpad',
+      images: ['/gallery/veerpad/1.jpeg', '/gallery/veerpad/2.jpeg', '/gallery/veerpad/3.jpeg'],
+      date: '8 Dec 2025'
+    },
+    {
+      title: 'Cannanore Cycling club',
+      description: 'LifelinER medical support for cycling by Cannanore Cycling club',
+      images: ['/gallery/cycling/1.jpeg', '/gallery/cycling/2.jpeg', '/gallery/cycling/3.jpeg'],
+      date: '7 Dec 2025'
+    },
+    {
       title: 'International Day of Persons with Disabilities',
       description: 'International Day of Persons with Disabilities celebrated and PEARL LifeLinER initiated to 3 Special school Students, Teachers and Parents. Various programs of inclusions under the initiative “Beyond borders“ has been announced by CEO.',
       images: ['/gallery/pearl2/1.jpeg', '/gallery/pearl2/2.jpeg', '/gallery/pearl2/3.jpeg', '/gallery/pearl2/4.jpeg', '/gallery/pearl2/5.jpeg'],
