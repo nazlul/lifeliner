@@ -463,7 +463,7 @@ export default function GalleryPage() {
     {
       title: 'Pushparam ITI, Iritty',
       description: 'Conducted LifeLinER BLS at Pushparam ITI, Iritty',
-      images: ['/gallery/Pushparam/1.jpeg'],
+      images: ['/gallery/pushparam/1.jpeg'],
       date: '21 Oct 2025',
       attendees: 36
     },
@@ -918,7 +918,7 @@ export default function GalleryPage() {
     {
       title: 'St Joseph\'s College, Moolamattom',
       description: 'LifelinER training at St Joseph\'s College, Moolamattom',
-      images: ['/gallery/stjoseph/1.jpg', '/gallery/stjoseph/2.jpg', '/gallery/stjoseph/3.jpg', '/gallery/stjoseph/4.jpg', '/gallery/stjoseph/5.jpg', '/gallery/stjoseph/6.jpg', '/gallery/stjoseph/7.jpg'],
+      images: ['/gallery/stjoseph/1.jpg', '/gallery/stjoseph/3.jpg', '/gallery/stjoseph/4.jpg', '/gallery/stjoseph/5.jpg', '/gallery/stjoseph/6.jpg', '/gallery/stjoseph/7.jpg'],
       date: '29 Aug 2025',
       attendees: 60
     },
