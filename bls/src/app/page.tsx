@@ -13,6 +13,7 @@ import Gallery from '@/components/gallery';
 import Testimonials from '@/components/testimonial';
 import Booklet from '@/components/booklet';
 import CPR from '@/components/cpr';
+import Quiz from '@/components/quiz';
 
 export default function HomePage() {
   return (
@@ -36,6 +37,9 @@ export default function HomePage() {
       <section>
         <CPR />
       </section>
+      {/* <section>
+        <Quiz />
+      </section> */}
       <section>
         <Booklet />
       </section>
