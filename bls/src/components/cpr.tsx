@@ -199,7 +199,7 @@ export default function CPR() {
 
 
         <div className="relative px-4 md:px-12">
-          <button onClick={() => scroll('left')} className="hidden sm:block absolute left-0 top-1/2 -translate-y-1/2 rotate-180 z-10">
+          <button onClick={() => scroll('left')} className="hidden sm:block absolute left-0 top-1/2 -translate-y-1/2 rotate-180">
             <Image src="/arrow.svg" alt="Left" width={24} height={24} />
           </button>
 
@@ -247,7 +247,7 @@ export default function CPR() {
             ))}
           </div>
 
-          <button onClick={() => scroll('right')} className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2 z-10">
+          <button onClick={() => scroll('right')} className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2">
             <Image src="/arrow.svg" alt="Right" width={24} height={24} />
           </button>
         </div>
