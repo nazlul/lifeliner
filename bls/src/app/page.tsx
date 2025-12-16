@@ -13,7 +13,7 @@ import Gallery from '@/components/gallery';
 import Testimonials from '@/components/testimonial';
 import Booklet from '@/components/booklet';
 import CPR from '@/components/cpr';
-import Quiz from '@/components/quiz';
+//import Quiz from '@/components/quiz';
 
 export default function HomePage() {
   return (
