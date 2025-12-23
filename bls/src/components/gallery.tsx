@@ -20,18 +20,74 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Thalassery',
+      description: 'KOM and Insurance agents meet up at Thalassery',
+      images: ['/gallery/thalassery3/1.jpeg', '/gallery/thalassery3/2.jpeg'],
+      date: '18 Dec 2025',
+      attendees: 42
+    },
+    {
+      title: 'Rajakkad Medical Center',
+      description: 'BMH conducted a LifeLinER training session at Rajakkad Medical Center',
+      images: ['/gallery/rajakkad2/1.jpeg', '/gallery/rajakkad2/2.jpeg', '/gallery/rajakkad2/3.jpeg', '/gallery/rajakkad2/4.jpeg', '/gallery/rajakkad2/5.jpeg', '/gallery/rajakkad2/6.jpeg', '/gallery/rajakkad2/7.jpeg'],
+      date: '18 Dec 2025', 
+      attendees: 70
+    },
+    {
+      title: 'IHRD College, Pinarayi',
+      description: 'BMH conducted a LifeLinER training session at IHRD College, Pinarayi',
+      images: ['/gallery/ihrd2/1.jpeg'],
+      date: '18 Dec 2025',
+      attendees: 60
+    },
+    {
+      title: 'ULCyber park, Thondayad',
+      description: 'BMH conducted a LifelinER program and provided medical support for the cultural event at ULCyber park at Thondayad',
+      images: ['/gallery/cyber/1.jpeg', '/gallery/cyber/2.jpeg', '/gallery/cyber/3.jpeg', '/gallery/cyber/4.jpeg', '/gallery/cyber/5.jpeg'],
+      date: '18 Dec 2025',
+      attendees: 67
+    },
+    {
+      title: 'IMA Payyanur',
+      description: 'Talk by Dr.Santhosh P.S (Neuro) at Payyanur IMA CME',
+      images: ['/gallery/ima4/1.jpeg'],
+      date: '18 Dec 2025',
+      attendees: 44
+    },
+    {
+      title: 'Ambulance Drivers meet up, Thalassery',
+      description: 'Dr Hirash\'s talk at Ambulance Drivers meet up Thalassery',
+      images: ['/gallery/thalassery2/1.jpeg', '/gallery/thalassery2/2.jpeg', '/gallery/thalassery2/3.jpeg'],
+      date: '17 Dec 2025',
+      attendees: 24
+    },
+    {
+      title: 'Navajyothi Kala Samskarika Kendra, Irikoor',
+      description: 'A LifelinER Cancer Awareness Talk and Medical Camp conducted at Navajyothi Kala Samskarika Kendra, Irikoor',
+      images: ['/gallery/irikoor/1.jpeg', '/gallery/irikoor/2.jpeg', '/gallery/irikoor/3.jpeg', '/gallery/irikoor/4.jpeg', '/gallery/irikoor/5.jpeg'],
+      date: '14 Dec 2025',
+      attendees: 45
+    },
+    {
+      title: 'Spring Wood Primary School',
+      description: 'BMH conducted PEARL training sessions at Spring Wood primary school Kozhikode',
+      images: ['/gallery/spring/1.jpeg', '/gallery/spring/2.jpeg'],
+      date: '13 Dec 2025',
+      attendees: 50
+    },
+    {
       title: 'Navaratna(CA) conference Kannur',
       description: 'LifeLinER (Medical Support) Navaratna(CA) conference 6th edition at Kannur',
       images: ['/gallery/Navaratna/1.jpeg'],
       date: '13 Dec 2025',
-      attendees: 80
+      attendees: 55
     },
     {
       title: 'SUM Bed college, Mamba',
       description: 'BMH conducted a LifeLinER training session at SUM Bed college, Mamba',
       images: ['/gallery/sum/1.jpeg', '/gallery/sum/2.jpeg', '/gallery/sum/3.jpeg'],
       date: '12 Dec 2025',
-      attendees: 80
+      attendees: 106
     },
     {
       title: 'IMA Kannur',
@@ -58,7 +114,7 @@ export default function GalleryPage() {
       description: 'International Day of Persons with Disabilities celebrated and PEARL LifeLinER initiated to 3 Special school Students, Teachers and Parents. Various programs of inclusions under the initiative “Beyond borders“ has been announced by CEO.',
       images: ['/gallery/pearl2/1.jpeg', '/gallery/pearl2/2.jpeg', '/gallery/pearl2/3.jpeg', '/gallery/pearl2/4.jpeg', '/gallery/pearl2/5.jpeg'],
       date: '5 Dec 2025',
-      attendees: 80
+      attendees: 65
     },
     {
       title: 'IQRA Thanal, Malapparamba',
