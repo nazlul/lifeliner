@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { useEffect } from 'react'
 import Image from 'next/image'
 
-export default function NewYearResolution() {
+export default function NewYear() {
   useEffect(() => {
     const script = document.createElement('script')
     script.src = 'https://tally.so/widgets/embed.js'
@@ -19,8 +19,7 @@ export default function NewYearResolution() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 px-4 py-16 md:py-24">
-      <div className="max-w-4xl mx-auto">
-        
+      <div className="max-w-4xl mx-auto">        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

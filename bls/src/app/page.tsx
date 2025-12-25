@@ -13,6 +13,7 @@ import Gallery from '@/components/gallery';
 import Testimonials from '@/components/testimonial';
 import Booklet from '@/components/booklet';
 import CPR from '@/components/cpr';
+import Newyear from '@/components/newyear';
 //import Quiz from '@/components/quiz';
 
 export default function HomePage() {
@@ -21,6 +22,9 @@ export default function HomePage() {
       <NavBar />
       <section id="home">
         <Home />
+      </section>
+      <section>
+        <Newyear />
       </section>
       <section id="about">
         <Mission />
