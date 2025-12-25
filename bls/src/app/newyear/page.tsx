@@ -26,9 +26,13 @@ export default function NewYearResolutionPage() {
           className="text-center mb-12"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="text-[#0A68AD]">My LifeLin<span className="text-[#EE5A22]">ER</span> Resolution</span>
+            <span className="text-[#0A68AD]">
+              My LifeLin<span className="text-[#EE5A22]">ER</span> Resolution
+            </span>
             <br />
-            <span className="text-[#0A68AD]">for <span className="text-[#EE5A22]">2026</span></span>
+            <span className="text-[#0A68AD]">
+              for <span className="text-[#EE5A22]">2026</span>
+            </span>
           </h1>
         </motion.div>
 
@@ -42,9 +46,11 @@ export default function NewYearResolutionPage() {
             <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
               Every year, we make promises to ourselves. To be better. Faster. Stronger.
             </p>
+
             <p className="text-white text-xl md:text-2xl font-semibold leading-relaxed mb-6">
-              But this year… what if the promise wasn't about you?
+              But this year… what if the promise wasn&apos;t about you?
             </p>
+
             <p className="text-white text-lg md:text-xl leading-relaxed">
               This year, make a promise for the people who matter most to you.
               Because, <span className="font-bold">the most meaningful promises are made for someone else.</span>
@@ -60,7 +66,7 @@ export default function NewYearResolutionPage() {
                 height="700"
                 title="LifeLinER Resolution Form"
                 className="border-0"
-              ></iframe>
+              />
             </div>
 
             <div className="mt-8 text-center">
