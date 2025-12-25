@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useEffect } from 'react'
+import Image from 'next/image'
 
 export default function NewYearResolutionPage() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function NewYearResolutionPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 px-4 py-16 md:py-24">
       <div className="max-w-4xl mx-auto">
+        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -37,10 +39,26 @@ export default function NewYearResolutionPage() {
         </motion.div>
 
         <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.15 }}
+          className="flex justify-center mb-14"
+        >
+          <Image
+            src="/newyear.png"
+            alt="Make a resolution for the ones who matter most"
+            width={900}
+            height={500}
+            priority
+            className="rounded-2xl object-contain shadow-lg"
+          />
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="bg-white rounded-3xl shadow-2xl overflow-hidden mb-8"
+          transition={{ duration: 0.8, delay: 0.25 }}
+          className="bg-white rounded-3xl shadow-2xl overflow-hidden mb-10"
         >
           <div className="bg-gradient-to-r from-[#0A68AD] to-[#0880D7] p-8 md:p-12">
             <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
@@ -80,7 +98,7 @@ export default function NewYearResolutionPage() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 0.45 }}
           className="bg-gradient-to-r from-[#EE5A22] to-[#FF7040] rounded-3xl shadow-xl p-8 md:p-12 text-center text-white"
         >
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
@@ -90,6 +108,7 @@ export default function NewYearResolutionPage() {
             Join the LifeLinER movement and commit to making 2026 a year of meaningful impact.
           </p>
         </motion.div>
+
       </div>
     </main>
   )
