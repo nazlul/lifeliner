@@ -8,29 +8,20 @@ export default function NewYear() {
   const [showQuiz, setShowQuiz] = useState(false)
 
   useEffect(() => {
-    const loadTally = () => {
-      const existingScript = document.querySelector('script[src="https://tally.so/widgets/embed.js"]')
-      if (!existingScript) {
-        const script = document.createElement('script')
-        script.src = 'https://tally.so/widgets/embed.js'
-        script.async = true
-        document.body.appendChild(script)
-      } else {
-        // @ts-ignore
-        if (typeof Tally !== 'undefined') {
-          // @ts-ignore
-          Tally.loadEmbeds()
-        }
-      }
-    }
+    const script = document.createElement('script')
+    script.src = 'https://tally.so/widgets/embed.js'
+    script.async = true
+    document.body.appendChild(script)
 
-    if (showQuiz) {
-      loadTally()
+    return () => {
+      if (document.body.contains(script)) {
+        document.body.removeChild(script)
+      }
     }
   }, [showQuiz])
 
   return (
-    <main className="min-h-screen bg-white pb-24">
+    <main className="min-h-screen bg-white pb-32">
       <AnimatePresence mode="wait">
         {!showQuiz ? (
           <motion.div
@@ -60,7 +51,7 @@ export default function NewYear() {
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
               
-              <div className="absolute bottom-8 left-0 right-0 flex justify-center">
+              <div className="absolute bottom-8 left-0 right-0 flex justify-center z-1">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -80,23 +71,23 @@ export default function NewYear() {
             transition={{ duration: 0.6 }}
             className="flex flex-col items-center pt-8 px-4"
           >
-            <div className="w-full max-w-4xl bg-white rounded-3xl overflow-hidden shadow-2xl border border-gray-100">
-              <div className="bg-[#0A68AD] p-4 flex justify-between items-center px-8">
-                <span className="text-white font-bold text-lg">My LifeLinER Resolution</span>
+            <div className="w-full max-w-4xl bg-white rounded-3xl overflow-hidden shadow-2xl border border-gray-100 flex flex-col">
+              <div className="bg-[#0A68AD] p-6 flex justify-between items-center px-8 z-1 shrink-0">
+                <span className="text-white font-bold text-xl">My LifeLinER Resolution</span>
                 <button 
                   onClick={() => setShowQuiz(false)}
-                  className="text-white/80 hover:text-white text-sm font-medium"
+                  className="text-white/80 hover:text-white text-sm font-medium bg-white/10 px-3 py-1 rounded-full transition-colors"
                 >
                   ✕ Close
                 </button>
               </div>
-              <div className="w-full min-h-[700px]">
+              <div className="w-full bg-white z-1 p-4">
                 <iframe
                   src="https://tally.so/embed/aQePxv?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
                   width="100%"
-                  height="700"
+                  height="1000"
                   title="LifeLinER Resolution Form"
-                  className="border-0"
+                  className="border-0 w-full"
                 />
               </div>
             </div>
