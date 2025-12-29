@@ -4,6 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
+interface TallyEvent extends MessageEvent {
+  data: string;
+}
+
 export default function NewYear() {
   const [view, setView] = useState<'landing' | 'quiz' | 'thanks'>('landing')
   const [count, setCount] = useState<number | null>(null)
@@ -38,8 +42,7 @@ export default function NewYear() {
     script.async = true
     document.body.appendChild(script)
 
-    const onFormSubmitted = (e: any) => {
-      // Fix: Check if e.data is a string before calling .includes()
+    const onFormSubmitted = (e: MessageEvent) => {
       if (typeof e.data === 'string' && e.data.includes('Tally.FormSubmitted')) {
         setView('thanks')
       }
@@ -156,16 +159,25 @@ export default function NewYear() {
             <div className="bg-green-100 text-green-700 px-4 py-2 rounded-full font-bold mb-6">
               ✓ Resolution Recorded Successfully!
             </div>
-            <h2 className="text-3xl font-bold text-[#0A68AD] mb-4">You’ve taken a powerful resolution.</h2>
+            <h2 className="text-3xl font-bold text-[#0A68AD] mb-4">You&apos;ve taken a powerful resolution.</h2>
             <p className="text-gray-600 mb-8">The next step is learning CPR — because when every second matters, readiness saves lives.</p>
             <div className="w-full mb-8 rounded-2xl overflow-hidden shadow-lg border-4 border-[#0A68AD]/10">
               <Image src="/poster.png" alt="Poster" width={800} height={800} className="w-full h-auto" />
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
-              <a href={`https://wa.me/?text=${encodeURIComponent(shareText + " " + shareUrl)}`} target="_blank" className="flex items-center justify-center bg-[#25D366] text-white font-bold py-3 rounded-xl hover:opacity-90">WhatsApp</a>
-              <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" className="flex items-center justify-center bg-[#1877F2] text-white font-bold py-3 rounded-xl hover:opacity-90">Facebook</a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-4">
+              <a href={`https://wa.me/?text=${encodeURIComponent(shareText + " " + shareUrl)}`} target="_blank" className="flex items-center justify-center bg-[#25D366] text-white font-bold py-3 rounded-xl hover:opacity-90 transition-opacity">WhatsApp</a>
+              <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" className="flex items-center justify-center bg-[#1877F2] text-white font-bold py-3 rounded-xl hover:opacity-90 transition-opacity">Facebook</a>
             </div>
-            <button onClick={() => setView('landing')} className="mt-8 text-[#0A68AD] font-semibold underline">Back to Home</button>
+            
+            <a 
+              href="/lifeliner-booklet.pdf" 
+              download 
+              className="w-full flex items-center justify-center bg-[#0A68AD] text-white font-bold py-3 rounded-xl hover:bg-[#085a96] transition-colors mb-4"
+            >
+              Download LifeLinER Booklet 
+            </a>
+
+            <button onClick={() => setView('landing')} className="mt-4 text-[#0A68AD] font-semibold underline">Back to Home</button>
           </motion.div>
         )}
       </AnimatePresence>
