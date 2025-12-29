@@ -166,7 +166,7 @@ export default function NewYear() {
             </div>
             
             <a 
-              href="/lifeliner-booklet.pdf" 
+              href="/LifeLinER_Booklet.pdf" 
               download 
               className="w-full flex items-center justify-center bg-[#0A68AD] text-white font-bold py-3 rounded-xl hover:bg-[#085a96] transition-colors mb-4"
             >
