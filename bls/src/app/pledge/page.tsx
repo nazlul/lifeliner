@@ -4,10 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
-interface TallyEvent extends MessageEvent {
-  data: string;
-}
-
 export default function NewYear() {
   const [view, setView] = useState<'landing' | 'quiz' | 'thanks'>('landing')
   const [count, setCount] = useState<number | null>(null)
