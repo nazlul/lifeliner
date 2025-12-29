@@ -60,7 +60,7 @@ export default function NewYear() {
   const shareUrl = "https://lifeliner.org"
 
   return (
-    <main className="min-h-screen bg-white flex flex-col items-center pt-6 overflow-x-hidden">
+    <main className="min-h-screen bg-white flex flex-col items-center pt-6 overflow-x-hidden pb-5">
       {view !== 'thanks' && (
         <div className="flex flex-col items-center w-full mb-4 px-4 text-center">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#0A68AD] mb-2 leading-tight">
