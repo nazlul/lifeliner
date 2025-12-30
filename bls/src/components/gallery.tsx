@@ -20,6 +20,53 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Karannur LP School',
+      description: 'BMH conducted a LifeLinER training session for NSS volunteers of IHRD Thiruthiyad as part of a 7-day camp program held at Karannur LP School',
+      images: ['/gallery/karannur/1.jpeg', '/gallery/karannur/2.jpeg', '/gallery/karannur/3.jpeg'],
+      date: '30 Dec 2025'
+    },
+    {
+      title: 'Cherupuzha',
+      description: 'Medical Camp at Cherupuzha',
+      images: ['/gallery/cherupuzha/1.jpeg', '/gallery/cherupuzha/2.jpeg', '/gallery/cherupuzha/3.jpeg'],
+      date: '30 Dec 2025'
+    },
+    {
+      title: 'Central Jail, Kannur',
+      description: 'BMH conducted a LifeLinER training session for Central Jail inmates and community connect Privilege card distrubtion for the jail employees',
+      images: ['/gallery/jail/1.jpeg', '/gallery/jail/2.jpeg'],
+      date: '30 Dec 2025',
+      attendees: 75
+    },
+    {
+      title: 'GVHSS Nadakkavu',
+      description: 'BMH conducted a LifeLinER training session for NSS Volunteers at GVHSS Nadakkavu',
+      images: ['/gallery/gvhss2/1.jpeg', '/gallery/gvhss2/2.jpeg', '/gallery/gvhss2/3.jpeg', '/gallery/gvhss2/4.jpeg'],
+      date: '29 Dec 2025',
+      attendees: 49
+    },
+     {
+      title: 'St. John Baptist Church, Chettiamparambu',
+      description: 'A Health Awareness Talk and Medical Camp was conducted at St. John Baptist Church, Chettiamparambu, Kelakam, in association with the Nirmalagiri NSS Unit',
+      images: ['/gallery/kelakam/1.jpeg', '/gallery/kelakam/2.jpeg', '/gallery/kelakam/3.jpeg', '/gallery/kelakam/4.jpeg', '/gallery/kelakam/5.jpeg'],
+      date: '28 Dec 2025',
+      attendees: 63
+    },
+    {
+      title: 'GVHSS Meenchanda',
+      description: 'BMH conducted a LifeLinER training session at GVHSS Meenchanda',
+      images: ['/gallery/gvhss/1.jpeg', '/gallery/gvhss/2.jpeg', '/gallery/gvhss/3.jpeg', '/gallery/gvhss/4.jpeg'],
+      date: '27 Dec 2025',
+      attendees: 58
+    },
+    {
+      title: 'AKKR Girls HSS Chelannur',
+      description: 'BMH conducted a LifeLinER training session at AKKR Girls HSS Chelannur',
+      images: ['/gallery/akkr/1.jpeg', '/gallery/akkr/2.jpeg', '/gallery/akkr/3.jpeg', '/gallery/akkr/4.jpeg'],
+      date: '24 Dec 2025',
+      attendees: 86
+    },
+    {
       title: 'Thalassery',
       description: 'KOM and Insurance agents meet up at Thalassery',
       images: ['/gallery/thalassery3/1.jpeg', '/gallery/thalassery3/2.jpeg'],
