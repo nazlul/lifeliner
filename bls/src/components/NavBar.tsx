@@ -10,12 +10,26 @@ export default function NavBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 30) 
+      setScrolled(window.scrollY > 30)
     }
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const navLinks = [
+    { label: 'Home', id: 'home' },
+    { label: 'About LifeLinER', id: 'about' },
+    { label: 'Our goals', id: 'goals' },
+    { label: 'Learn', id: 'learn' },
+    { label: 'Take a pledge', id: 'pledge' },
+  ]
+
+  const handleScrollTo = (id: string) => {
+    const el = document.getElementById(id)
+    if (el) el.scrollIntoView({ behavior: 'smooth' })
+    setToggleMenu(false)
+  }
 
   return (
     <>
@@ -35,33 +49,15 @@ export default function NavBar() {
       </div>
 
       <div className="hidden xl:flex fixed font-sans font-semibold top-[32px] left-1/2 transform -translate-x-1/2 gap-12 z-50 w-auto items-center">
-        {[
-          { label: 'Home', id: 'home' },
-          { label: 'About LifeLinER', id: 'about' },
-          { label: 'Our goals', id: 'goals' },
-          { label: 'Learn', id: 'learn' },
-        ].map(({ label, id }) => (
+        {navLinks.map(({ label, id }) => (
           <span
             key={id}
-            onClick={() => {
-              const el = document.getElementById(id)
-              if (el) el.scrollIntoView({ behavior: 'smooth' })
-            }}
+            onClick={() => handleScrollTo(id)}
             className="text-[#0A68AD] font-bold text-sm md:text-base cursor-pointer hover:text-[#EE5A22] transition-colors duration-200"
           >
             {label}
           </span>
         ))}
-
-        <a
-          href="https://wa.me/+918589023000"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="text-[#0A68AD] font-bold text-sm md:text-base cursor-pointer hover:text-[#EE5A22] transition-colors duration-200">
-            Take a pledge
-          </span>
-        </a>
       </div>
 
       <div className="xl:hidden fixed top-0 left-0 w-full h-[80px] flex items-center justify-start px-6 z-40">
@@ -76,44 +72,24 @@ export default function NavBar() {
           </div>
         )}
       </div>
+
       {toggleMenu && (
-  <div className="fixed inset-0 z-50 bg-white/30 backdrop-blur-md font-sans flex flex-col items-center justify-center gap-y-6 transition-all duration-500 ease-in-out">
-    <CloseIcon
-      className="absolute top-6 left-6 text-black w-7 h-7 cursor-pointer z-50"
-      onClick={() => setToggleMenu(false)}
-    />
-    {["Home", "About LifeLinER", "Our Goals", "Learn", "Take a Pledge"].map((item, index) => {
-      const handleClick = () => {
-        if (item === "Take a Pledge") {
-          window.open('https://wa.me/+918589023000', '_blank')
-        } else {
-          const idMap: { [key: string]: string } = {
-            "Home": "home",
-            "About LifeLinER": "about",
-            "Our Goals": "goals",
-            "Learn": "learn",
-          }
-
-          const sectionId = idMap[item]
-          const section = document.getElementById(sectionId)
-          section?.scrollIntoView({ behavior: "smooth" })
-        }
-          setToggleMenu(false)
-          }
-
-          return (
+        <div className="fixed inset-0 z-50 bg-white/30 backdrop-blur-md font-sans flex flex-col items-center justify-center gap-y-6 transition-all duration-500 ease-in-out">
+          <CloseIcon
+            className="absolute top-6 left-6 text-black w-7 h-7 cursor-pointer z-50"
+            onClick={() => setToggleMenu(false)}
+          />
+          {navLinks.map(({ label, id }) => (
             <div
-              key={index}
-              onClick={handleClick}
+              key={id}
+              onClick={() => handleScrollTo(id)}
               className="text-black text-2xl font-semibold cursor-pointer hover:underline"
             >
-              {item}
+              {label}
             </div>
-          )
-        })}
-      </div>
-    )}
-
+          ))}
+        </div>
+      )}
     </>
   )
 }

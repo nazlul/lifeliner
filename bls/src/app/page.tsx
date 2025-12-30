@@ -23,7 +23,7 @@ export default function HomePage() {
       <section id="home">
         <Home />
       </section>
-      <section>
+      <section id="pledge">
         <Newyear />
       </section>
       <section id="about">
