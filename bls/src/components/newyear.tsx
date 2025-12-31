@@ -1,26 +1,13 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
-
-const ALL_QUESTIONS = Array.from({ length: 100 }, (_, i) => ({
-  id: i,
-  question: `Question ${i + 1}: What is the primary goal of LifeLinER?`,
-  options: ['Option A', 'Option B', 'Option C', 'Option D'],
-  answer: 0,
-}))
 
 export default function NewYear() {
   const [view, setView] = useState<'landing' | 'quiz' | 'thanks'>('landing')
   const [count, setCount] = useState<number | null>(null)
   const [loadingCount, setLoadingCount] = useState(true)
-
-  const [questions, setQuestions] = useState<typeof ALL_QUESTIONS>([])
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [timeLeft, setTimeLeft] = useState(30)
-  const [score, setScore] = useState(0)
-  const [isFinished, setIsFinished] = useState(false)
 
   const SHEET_ID = '1Zl-AqNqPBWXB7hnVL45jaTT3OgTJj_uIix_LOywIWf4'
   const SHEET_NAME = 'Sheet1'
@@ -54,30 +41,6 @@ export default function NewYear() {
     }
   }
 
-  const startQuiz = () => {
-    const shuffled = [...ALL_QUESTIONS].sort(() => 0.5 - Math.random())
-    setQuestions(shuffled.slice(0, 10))
-    setView('quiz')
-    setTimeLeft(30)
-    setCurrentIndex(0)
-    setScore(0)
-    setIsFinished(false)
-  }
-
-  const handleNext = useCallback((selectedAnswer?: number) => {
-    if (selectedAnswer === questions[currentIndex]?.answer) {
-      setScore((prev) => prev + 1)
-    }
-
-    if (currentIndex < 9) {
-      setCurrentIndex((prev) => prev + 1)
-      setTimeLeft(30)
-    } else {
-      setIsFinished(true)
-      setView('thanks')
-    }
-  }, [currentIndex, questions])
-
   useEffect(() => {
     fetchCount()
     const interval = setInterval(fetchCount, 60000)
@@ -94,22 +57,6 @@ export default function NewYear() {
       clearInterval(interval)
     }
   }, [])
-
-  useEffect(() => {
-    if (view !== 'quiz' || isFinished) return
-
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          handleNext()
-          return 30
-        }
-        return prev - 1
-      })
-    }, 1000)
-
-    return () => clearInterval(timer)
-  }, [view, isFinished, handleNext])
 
   const shareText = "I just took the LifeLinER CPR Resolution for 2026! Be ready to save a life. Join me at lifeliner.org"
   const shareUrl = "https://lifeliner.org"
@@ -147,7 +94,7 @@ export default function NewYear() {
               className="relative w-full"
             >
               <div className="relative w-full">
-                <div className="md:hidden px-2 py-3">
+                <div className="md:hidden py-3 px-2">
                   <Image src="/pledge2.jpg" alt="Mobile" width={800} height={1200} priority className="w-full h-auto rounded-2xl shadow-lg" />
                 </div>
                 <div className="hidden md:block">
@@ -158,7 +105,7 @@ export default function NewYear() {
                     whileHover={{ scale: 1.02 }} 
                     whileTap={{ scale: 0.98 }} 
                     onClick={() => setView('quiz')} 
-                    className="bg-[#EE5A22] text-white cursor-pointer text-[13px] md:text-lg font-bold py-2.5 px-6 md:py-4 md:px-12 rounded-full shadow-2xl transition-all border border-white/40 backdrop-blur-sm whitespace-nowrap"
+                    className="bg-[#EE5A22] cursor-pointer text-white text-[13px] md:text-lg font-bold py-2.5 px-6 md:py-4 md:px-12 rounded-full shadow-2xl transition-all border border-white/40 backdrop-blur-sm whitespace-nowrap"
                   >
                     Take the LifeLinER 2026 Resolution
                   </motion.button>
