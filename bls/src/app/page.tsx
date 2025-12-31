@@ -20,9 +20,9 @@ export default function HomePage() {
   return (
     <>
       <NavBar />
-      <section id="home">
+      {/* <section id="home">
         <Home />
-      </section>
+      </section> */}
       <section id="pledge">
         <Newyear />
       </section>

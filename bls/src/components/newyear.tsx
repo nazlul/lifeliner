@@ -58,11 +58,11 @@ export default function NewYear() {
     }
   }, [])
 
-  const shareText = "I just took the LifeLinER CPR Resolution for 2026! Be ready to save a life. Join me at lifeliner.org"
+  const shareText = "I just took the LifeLinER CPR Resolution for 2026! Be ready to save a life. Join me at "
   const shareUrl = "https://lifeliner.org"
 
   return (
-    <main className="min-h-screen bg-white flex flex-col items-center pt-6 overflow-x-hidden pb-10">
+    <main className="min-h-screen bg-white flex flex-col items-center pt-26 overflow-x-hidden pb-10">
       {view !== 'thanks' && (
         <div className="flex flex-col items-center w-full mb-6 px-4 text-center">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#0A68AD] mb-3 leading-tight">
@@ -95,10 +95,10 @@ export default function NewYear() {
             >
               <div className="relative w-full">
                 <div className="md:hidden py-3 px-2">
-                  <Image src="/pledge2.jpg" alt="Mobile" width={800} height={1200} priority className="w-full h-auto rounded-2xl shadow-lg" />
+                  <Image src="/pledge/pledge2.jpg" alt="Mobile" width={800} height={1200} priority className="w-full h-auto rounded-2xl shadow-lg" />
                 </div>
                 <div className="hidden md:block">
-                  <Image src="/pledge.jpg" alt="Desktop" width={1920} height={1080} priority className="w-full h-auto rounded-3xl shadow-xl" />
+                  <Image src="/pledge/pledge.jpg" alt="Desktop" width={1920} height={1080} priority className="w-full h-auto rounded-3xl shadow-xl" />
                 </div>
                 <div className="absolute bottom-8 left-0 right-0 flex justify-center z-30 px-4">
                   <motion.button 
@@ -157,17 +157,43 @@ export default function NewYear() {
               </div>
               <h2 className="text-2xl md:text-4xl font-bold text-[#0A68AD] mb-4">You&apos;ve taken a powerful resolution.</h2>
               <p className="text-gray-600 mb-8 text-base md:text-lg">The next step is learning CPR — because when every second matters, readiness saves lives.</p>
-              <div className="w-full mb-8 rounded-2xl overflow-hidden shadow-2xl border-4 border-[#0A68AD]/5 max-w-[280px] md:max-w-[420px]">
-                <Image src="/pledge.png" alt="Resolution Poster" width={500} height={750} className="w-full h-auto" priority />
+              
+              <div className="w-full mb-4 rounded-2xl overflow-hidden shadow-2xl border-4 border-[#0A68AD]/5 max-w-[280px] md:max-w-[420px] relative group">
+                <Image src="/pledge/newyear.jpeg" alt="Resolution Poster" width={500} height={750} className="w-full h-auto" priority />
+                
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                   <a 
+                    href="/pledge/newyear.jpeg" 
+                    download="LifeLinER_Resolution_2026.jpg"
+                    className="bg-white text-black px-4 py-2 rounded-lg font-bold flex items-center gap-2 hover:scale-105 transition-transform"
+                   >
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                    Download Poster
+                   </a>
+                </div>
               </div>
+
+              <div className="md:hidden mb-6 w-full max-w-[280px]">
+                <a 
+                    href="/pledge/newyear.jpeg" 
+                    download="LifeLinER_Resolution_2026.jpg"
+                    className="flex items-center justify-center gap-2 text-[#0A68AD] font-bold py-2 border-2 border-[#0A68AD]/20 rounded-xl w-full text-xs"
+                >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                    Download to Gallery
+                </a>
+              </div>
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full mb-6">
-                <a href={`https://wa.me/?text=${encodeURIComponent(shareText + " " + shareUrl)}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-[#25D366] text-white font-bold py-3.5 rounded-xl hover:opacity-90 transition-all shadow-md text-sm">Share on WhatsApp</a>
+                <a href={`https://wa.me/?text=${encodeURIComponent(shareText + shareUrl)}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-[#25D366] text-white font-bold py-3.5 rounded-xl hover:opacity-90 transition-all shadow-md text-sm">Share on WhatsApp</a>
                 <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-[#1877F2] text-white font-bold py-3.5 rounded-xl hover:opacity-90 transition-all shadow-md text-sm">Share on Facebook</a>
               </div>
+
               <div className="flex flex-col gap-3 w-full mb-8">
                 <a href="https://wa.me/918589023000" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center bg-[#EE5A22] text-white font-bold py-4 rounded-xl hover:bg-[#d44d1d] transition-all shadow-md text-sm">Register for a free LifeLinER Training</a>
                 <a href="/LifeLinER_Booklet.pdf" download className="w-full flex items-center justify-center bg-[#0A68AD] text-white font-bold py-4 rounded-xl hover:bg-[#085a96] transition-all shadow-md text-sm">Download LifeLinER Booklet</a>
               </div>
+
               <button onClick={() => setView('landing')} className="text-[#0A68AD] font-bold underline hover:text-[#EE5A22] transition-colors pb-10">Back to Home</button>
             </motion.div>
           )}
