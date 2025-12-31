@@ -99,7 +99,7 @@ export default function NewYear() {
                 priority 
                 className="w-full h-auto rounded-3xl shadow-2xl" 
               />
-              <div className="absolute bottom-6 md:bottom-10 left-0 right-0 flex justify-center z-10 px-4">
+              <div className="absolute bottom-6 md:bottom-10 left-0 right-0 flex justify-center z-1 px-4">
                 <motion.button 
                   whileHover={{ scale: 1.05 }} 
                   whileTap={{ scale: 0.95 }} 
