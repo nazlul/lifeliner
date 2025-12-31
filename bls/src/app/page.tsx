@@ -6,7 +6,7 @@ import Blog from '@/components/blogs';
 import Videos from '@/components/videos';
 import Count from '@/components/count';
 import NavBar from '@/components/NavBar';
-import Home from '@/components/Home';
+//import Home from '@/components/Home';
 import Team from '@/components/team';
 import Goals from '@/components/goals';
 import Gallery from '@/components/gallery';
