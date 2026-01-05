@@ -132,7 +132,7 @@ function NewYearContent() {
                 <div className="hidden md:block">
                   <Image src="/pledge/pledge.jpg" alt="Desktop" width={1920} height={1080} priority className="w-full h-auto rounded-3xl shadow-xl" />
                 </div>
-                <div className="absolute bottom-8 left-0 right-0 flex justify-center z-30 px-4">
+                <div className="absolute bottom-8 left-0 right-0 flex justify-center z-1 px-4">
                   <motion.button 
                     whileHover={{ scale: 1.02 }} 
                     whileTap={{ scale: 0.98 }} 
