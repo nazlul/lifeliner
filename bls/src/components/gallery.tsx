@@ -20,10 +20,36 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Kannur Diocese ENT Camp',
+      description: 'ENT camp for Kairose (Kannur diocese)',
+      images: ['/gallery/karate/1.jpeg', '/gallery/karate/2.jpeg'],
+      date: '02 Jan 2025'
+    },
+    {
+      title: 'Karate academy at Muzhapilangad',
+      description: 'BMH conducted a LifeLinER training session for  Karate academy at Muzhapilangad',
+      images: ['/gallery/karate/1.jpeg', '/gallery/karate/2.jpeg'],
+      date: '02 Jan 2025'
+    },
+    {
+      title: 'Sunrise College, Kuttoor',
+      description: 'BMH conducted a LifeLinER training session for  NSS Students of Sunrise College, Kuttoor',
+      images: ['/gallery/kuttoor/1.jpeg', '/gallery/kuttoor/2.jpeg', '/gallery/kuttoor/3.jpeg', '/gallery/kuttoor/4.jpeg'],
+      date: '02 Jan 2025'
+    },
+    {
+      title: 'Vimalagiri HSS Vazhathoppu',
+      description: 'BMH conducted a LifeLinER training session at Vimalagiri HSS Vazhathoppu',
+      images: ['/gallery/vimalgiri/1.jpeg', '/gallery/vimalgiri/2.jpeg', '/gallery/vimalgiri/3.jpeg', '/gallery/vimalgiri/4.jpeg', '/gallery/vimalgiri/5.jpeg'],
+      date: '31 Dec 2025',
+      attendees: 43
+    },
+    {
       title: 'Karannur LP School',
       description: 'BMH conducted a LifeLinER training session for NSS volunteers of IHRD Thiruthiyad as part of a 7-day camp program held at Karannur LP School',
       images: ['/gallery/karannur/1.jpeg', '/gallery/karannur/2.jpeg', '/gallery/karannur/3.jpeg'],
-      date: '30 Dec 2025'
+      date: '30 Dec 2025',
+      attendees: 51
     },
     {
       title: 'Cherupuzha',
