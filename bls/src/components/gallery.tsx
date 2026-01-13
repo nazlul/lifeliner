@@ -40,7 +40,7 @@ export default function GalleryPage() {
     {
       title: 'Vimalagiri HSS Vazhathoppu',
       description: 'BMH conducted a LifeLinER training session at Vimalagiri HSS Vazhathoppu',
-      images: ['/gallery/vimalgiri/1.jpeg', '/gallery/vimalgiri/2.jpeg', '/gallery/vimalgiri/3.jpeg', '/gallery/vimalgiri/4.jpeg', '/gallery/vimalgiri/5.jpeg'],
+      images: ['/gallery/vimalagiri/1.jpeg', '/gallery/vimalagiri/2.jpeg', '/gallery/vimalagiri/3.jpeg', '/gallery/vimalagiri/4.jpeg', '/gallery/vimalagiri/5.jpeg'],
       date: '31 Dec 2025',
       attendees: 43
     },
