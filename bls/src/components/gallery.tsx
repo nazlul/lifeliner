@@ -20,16 +20,95 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Rahmaniya Public School, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Rahmaniya Public School, Kozhikode',
+      images: ['/gallery/rahmaniya2/1.jpeg', '/gallery/rahmaniya2/2.jpeg', '/gallery/rahmaniya2/3.jpeg', '/gallery/rahmaniya2/4.jpeg'],
+      date: '19 Jan 2025'
+    },
+    {
+      title: 'Indian Institute of Management (IIM)',
+      description: 'BMH successfully conducted a LifeLinER training session at the Indian Institute of Management (IIM) as part of the Backwaters Annual Business Summit. As the official Health Partner for the summit',
+      images: ['/gallery/iim/1.jpeg', '/gallery/iim/2.jpeg', '/gallery/iim/3.jpeg'],
+      date: '16 Jan 2025'
+    },
+    {
+      title: 'Fire & Rescue Department, Thodupuzha',
+      description: 'BMH successfully conducted a LifeLinER training session at Fire & Rescue Department, Thodupuzha',
+      images: ['/gallery/fire/1.jpeg', '/gallery/fire/2.jpeg'],
+      date: '15 Jan 2025',
+      attendees: 15
+    },
+    {
+      title: 'Central Jail, Kannur',
+      description: 'LifeLinER training session for central jail employees in association with rotary club Kannur',
+      images: ['/gallery/jail2/1.jpeg', '/gallery/jail2/2.jpeg', '/gallery/jail2/3.jpeg'],
+      date: '14 Jan 2025',
+      attendees: 60
+    },
+    {
+      title: 'Govt polytechnic College, Mattannur',
+      description: 'LifeLinER BLS training programme and BMH community connect in association with Govt polytechnic college, Mattannur',
+      images: ['/gallery/mattannur2/1.jpeg', '/gallery/mattannur2/2.jpeg', '/gallery/mattannur2/3.jpeg', '/gallery/mattannur2/4.jpeg', '/gallery/mattannur2/5.jpeg', '/gallery/mattannur2/6.jpeg'],
+      date: '13 Jan 2025',
+      attendees: 65
+    },
+    {
+      title: 'Zoology teachers association, Calicut',
+      description: 'LifeLinER training session for Calicut Zoology teachers association held at BMH',
+      images: ['/gallery/zoology/1.jpeg', '/gallery/zoology/2.jpeg', '/gallery/zoology/3.jpeg', '/gallery/zoology/4.jpeg'],
+      date: '13 Jan 2025',
+      attendees: 39
+    },
+    {
+      title: 'Athirukalkkappuram',
+      description: 'Inauguration of market space for Special schools by CEO and first sales by Dr Jyothiprasanth as part of “Athirukalkkappuram”(അതിരുകൾക്കപ്പുറം) campaign',
+      images: ['/gallery/jaycee/1.jpeg', '/gallery/jaycee/2.jpeg', '/gallery/jaycee/3.jpeg'],
+      date: '13 Jan 2025'
+    },
+    {
+      title: 'Kayani Gramaseva Samithi',
+      description: 'LifelinER BLS training programme combined with Kayani Gramaseva Samithi',
+      images: ['/gallery/gramaseva/1.jpeg', '/gallery/gramaseva/2.jpeg', '/gallery/gramaseva/3.jpeg', '/gallery/gramaseva/4.jpeg', '/gallery/gramaseva/5.jpeg'],
+      date: '12 Jan 2025'
+    },
+    {
+      title: 'Wings Aviation, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Wings Aviation, Kozhikode',
+      images: ['/gallery/wings/1.jpeg'],
+      date: '12 Jan 2025',
+      attendees: 40
+    },
+    {
+      title: 'CH Center, Vavoor',
+      description: 'BMH conducted a LifeLinER training session at CH Center Vavoor',
+      images: ['/gallery/chcenter/1.jpeg', '/gallery/chcenter/2.jpeg', '/gallery/chcenter/3.jpeg', '/gallery/chcenter/4.jpeg', '/gallery/chcenter/5.jpeg'],
+      date: '12 Jan 2025',
+      attendees: 54
+    },
+    {
+      title: 'Venduttayi',
+      description: 'LifelinER medical camp combined with yuvarashmi arts and sport\'s club Venduttayi',
+      images: ['/gallery/venduttayi/1.jpeg', '/gallery/venduttayi/2.jpeg', '/gallery/venduttayi/3.jpeg', '/gallery/venduttayi/4.jpeg'],
+      date: '11 Jan 2025'
+    },
+    {
+      title: 'Lions Club, Kannur',
+      description: 'LifeLinER medical partner in association with lions club of kannur fort city for paralympic sports',
+      images: ['/gallery/lionsclub/1.jpeg', '/gallery/lionsclub/2.jpeg', '/gallery/lionsclub/3.jpeg'],
+      date: '10 Jan 2025'
+    },
+    {
       title: 'Kannur Diocese ENT Camp',
       description: 'ENT camp for Kairose (Kannur diocese)',
-      images: ['/gallery/karate/1.jpeg', '/gallery/karate/2.jpeg'],
+      images: ['/gallery/kannur5/1.jpeg', '/gallery/kannur5/2.jpeg'],
       date: '02 Jan 2025'
     },
     {
       title: 'Karate academy at Muzhapilangad',
-      description: 'BMH conducted a LifeLinER training session for  Karate academy at Muzhapilangad',
+      description: 'BMH conducted a LifeLinER training session for Karate academy at Muzhapilangad',
       images: ['/gallery/karate/1.jpeg', '/gallery/karate/2.jpeg'],
-      date: '02 Jan 2025'
+      date: '02 Jan 2025',
+      attendees: 45
     },
     {
       title: 'Sunrise College, Kuttoor',
@@ -234,7 +313,7 @@ export default function GalleryPage() {
     {
       title: 'GAGHSS Chalappuram, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at GAGHSS Chalappuram, Kozhikode',
-      images: ['/gallery/GAGHSS/2.jpeg', '/gallery/GAGHSS/3.jpeg'],
+      images: ['/gallery/gaghss/2.jpeg', '/gallery/gaghss/3.jpeg'],
       date: '27 Nov 2025',
       attendees: 80
     },
