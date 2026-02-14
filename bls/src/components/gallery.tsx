@@ -40,10 +40,11 @@ export default function GalleryPage() {
       attendees: 102
     },
     {
-      title: 'Eldho Mar Baselios College, Kothamangalam',
-      description: 'BMH successfully conducted a LifeLinER training session at Eldho Mar Baselios College, Kothamangalam, as part of the community CPR literacy initiative.',
+      title: 'Yeldho Mar Baselios College, Kothamangalam',
+      description: 'BMH successfully conducted a LifeLinER training session at Yeldho Mar Baselios College, Kothamangalam, as part of the community CPR literacy initiative.',
       images: ['/gallery/eldho/1.jpeg', '/gallery/eldho/2.jpeg', '/gallery/eldho/3.jpeg', '/gallery/eldho/4.jpeg', '/gallery/eldho/5.jpeg', '/gallery/eldho/6.jpeg'],
-      date: '09 Feb 2026'
+      date: '09 Feb 2026',
+      attendees: 34
     },
     {
       title: 'Physiotherapists of Kannur District',
@@ -85,31 +86,36 @@ export default function GalleryPage() {
       title: 'Wellness One Clinic',
       description: 'BMH successfully conducted LifeLinER and PEARL training sessions at Wellness One Clinic.',
       images: ['/gallery/pearl3/1.jpeg', '/gallery/pearl3/2.jpeg', '/gallery/pearl3/3.jpeg', '/gallery/pearl3/4.jpeg'],
-      date: '28 Jan 2025'
+      date: '28 Jan 2025',
+      attendees: 45
     },
     {
       title: 'Kerala Academy of Engineering',
       description: 'BMH conducted a LifeLinER training session at Kerala Academy of Engineering, Sulthan Bathery for students and management.',
       images: ['/gallery/kae/1.jpeg', '/gallery/kae/2.jpeg', '/gallery/kae/3.jpeg', '/gallery/kae/4.jpeg', '/gallery/kae/5.jpeg', '/gallery/kae/6.jpeg'],
-      date: '28 Jan 2025'
+      date: '28 Jan 2025',
+      attendees: 100
     },
     {
       title: 'ALP School Mandamkavu',
       description: 'BMH successfully conducted a LifeLinER training session at ALP School Mandamkavu',
       images: ['/gallery/alp/1.jpeg', '/gallery/alp/2.jpeg', '/gallery/alp/3.jpeg', '/gallery/alp/4.jpeg'],
-      date: '21 Jan 2025'
+      date: '21 Jan 2025',
+      attendees: 45
     },
     {
       title: 'Rahmaniya Public School, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Rahmaniya Public School, Kozhikode',
       images: ['/gallery/rahmaniya2/1.jpeg', '/gallery/rahmaniya2/2.jpeg', '/gallery/rahmaniya2/3.jpeg', '/gallery/rahmaniya2/4.jpeg'],
-      date: '19 Jan 2025'
+      date: '19 Jan 2025',
+      attendees: 65
     },
     {
       title: 'Indian Institute of Management (IIM)',
       description: 'BMH successfully conducted a LifeLinER training session at the Indian Institute of Management (IIM) as part of the Backwaters Annual Business Summit. As the official Health Partner for the summit',
       images: ['/gallery/iim/1.jpeg', '/gallery/iim/2.jpeg', '/gallery/iim/3.jpeg'],
-      date: '16 Jan 2025'
+      date: '16 Jan 2025',
+      attendees: 100
     },
     {
       title: 'Fire & Rescue Department, Thodupuzha',
