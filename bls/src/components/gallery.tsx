@@ -20,6 +20,86 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Chest Club, Kannur - Oncology CME Talk',
+      description: 'LifeLinER CME talk on Oncology conducted for the Chest Club by Dr. Vishnu Santhosh in Kannur.',
+      images: ['/gallery/oncology/1.jpeg'],
+      date: '13 Feb 2026'
+    },
+    {
+      title: 'Priest Academy, Sulthan Bathery',
+      description: 'BMH successfully conducted a LifeLinER training session at Priest Academy, Sulthan Bathery, for both students and faculty.',
+      images: ['/gallery/priest/1.jpeg', '/gallery/priest/2.jpeg', '/gallery/priest/3.jpeg', '/gallery/priest/4.jpeg'],
+      date: '13 Feb 2026',
+      attendees: 35
+    },
+    {
+      title: 'Thodupuzha yude OPPAM - Municipal Hall',
+      description: 'BMH successfully conducted a LifeLinER training session at Thodupuzha Municipal Hall in association with the MVD and Auto Drivers as part of the “Thodupuzha yude OPPAM” initiative.',
+      images: ['/gallery/mvd/1.jpeg', '/gallery/mvd/2.jpeg', '/gallery/mvd/3.jpeg', '/gallery/mvd/4.jpeg', '/gallery/mvd/5.jpeg', '/gallery/mvd/6.jpeg'],
+      date: '13 Feb 2026',
+      attendees: 102
+    },
+    {
+      title: 'Eldho Mar Baselios College, Kothamangalam',
+      description: 'BMH successfully conducted a LifeLinER training session at Eldho Mar Baselios College, Kothamangalam, as part of the community CPR literacy initiative.',
+      images: ['/gallery/eldho/1.jpeg', '/gallery/eldho/2.jpeg', '/gallery/eldho/3.jpeg', '/gallery/eldho/4.jpeg', '/gallery/eldho/5.jpeg', '/gallery/eldho/6.jpeg'],
+      date: '09 Feb 2026'
+    },
+    {
+      title: 'Physiotherapists of Kannur District',
+      description: 'BMH conducted a specialized LifeLinER BLS training session for Physiotherapists of Kannur District.',
+      images: ['/gallery/physio/1.jpeg', '/gallery/physio/2.jpeg', '/gallery/physio/3.jpeg', '/gallery/physio/4.jpeg'],
+      date: '08 Feb 2025'
+    },
+    {
+      title: 'Kargil Residence Association, Mele Chovva',
+      description: 'BMH conducted a LifeLinER BLS training session at Kargil Residence Association, Mele Chovva.',
+      images: ['/gallery/kargil/1.jpeg', '/gallery/kargil/2.jpeg', '/gallery/kargil/3.jpeg', '/gallery/kargil/4.jpeg', '/gallery/kargil/5.jpeg'],
+      date: '08 Feb 2025'
+    },
+    {
+      title: 'Snehakkoottam Association',
+      description: 'BMH successfully conducted a LifeLinER training session in association with Snehakkoottam.',
+      images: ['/gallery/snehakoottam/1.jpeg', '/gallery/snehakoottam/2.jpeg', '/gallery/snehakoottam/3.jpeg', '/gallery/snehakoottam/4.jpeg'],
+      date: '07 Feb 2025'
+    },
+    {
+      title: 'Sreepuram School',
+      description: 'BMH conducted a LifeLinER awareness talk at Sreepuram School.',
+      images: ['/gallery/sreepuram/1.jpeg', '/gallery/sreepuram/2.jpeg', '/gallery/sreepuram/3.jpeg', '/gallery/sreepuram/4.jpeg'],
+      date: '07 Feb 2025'
+    },
+    {
+      title: 'Oruma Resident Association, Chala',
+      description: 'BMH successfully conducted a LifeLinER medical camp in association with Oruma Resident Association in Chala.',
+      images: ['/gallery/oruma/1.jpeg', '/gallery/oruma/2.jpeg'],
+      date: '01 Feb 2025'
+    },
+    {
+      title: 'Govt ITI Cheruvathur',
+      description: 'LifeLinER BLS training programme and BMH Payyanur community connect at Govt ITI Cheruvathur.',
+      images: ['/gallery/cheruvathur/1.jpeg', '/gallery/cheruvathur/2.jpeg', '/gallery/cheruvathur/3.jpeg', '/gallery/cheruvathur/4.jpeg'],
+      date: '28 Jan 2025'
+    },
+    {
+      title: 'Wellness One Clinic',
+      description: 'BMH successfully conducted LifeLinER and PEARL training sessions at Wellness One Clinic.',
+      images: ['/gallery/pearl3/1.jpeg', '/gallery/pearl3/2.jpeg', '/gallery/pearl3/3.jpeg', '/gallery/pearl3/4.jpeg'],
+      date: '28 Jan 2025'
+    },
+    {
+      title: 'Kerala Academy of Engineering',
+      description: 'BMH conducted a LifeLinER training session at Kerala Academy of Engineering, Sulthan Bathery for students and management.',
+      images: ['/gallery/kae/1.jpeg', '/gallery/kae/2.jpeg', '/gallery/kae/3.jpeg', '/gallery/kae/4.jpeg', '/gallery/kae/5.jpeg', '/gallery/kae/6.jpeg'],
+      date: '28 Jan 2025'
+    },
+    {
+      title: 'ALP School Mandamkavu',
+      description: 'BMH successfully conducted a LifeLinER training session at ALP School Mandamkavu',
+      images: ['/gallery/alp/1.jpeg', '/gallery/alp/2.jpeg', '/gallery/alp/3.jpeg', '/gallery/alp/4.jpeg'],
+      date: '21 Jan 2025'
+    },
+    {
       title: 'Rahmaniya Public School, Kozhikode',
       description: 'BMH conducted a LifeLinER training session at Rahmaniya Public School, Kozhikode',
       images: ['/gallery/rahmaniya2/1.jpeg', '/gallery/rahmaniya2/2.jpeg', '/gallery/rahmaniya2/3.jpeg', '/gallery/rahmaniya2/4.jpeg'],
