@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Kozhikode Collectorate',
+      description: 'BMH conducted a LifeLinER & PEARL training session at the Kozhikode Collectorate. The program was inaugurated by Sree Snehil Kumar Singh (District Collector of Kozhikode) and led by Dr. Febna Rahman (Consultant Pediatrics) and Dr. Abid (Emergency Medicine).',
+      images: ['/gallery/collectorate/1.jpeg', '/gallery/collectorate/2.jpeg', '/gallery/collectorate/3.jpeg', '/gallery/collectorate/4.jpeg'],
+      date: '22 Feb 2026'
+    },
+    {
+      title: 'Central Jail, Kannur',
+      description: 'BMH conducted a LifeLinER BLS training programme for the staff of Kannur Central Jail in association with Rotary Club, Kannur.',
+      images: ['/gallery/jail3/1.jpeg', '/gallery/jail3/2.jpeg', '/gallery/jail3/3.jpeg', '/gallery/jail3/4.jpeg'],
+      date: '19 Feb 2026'
+    },
+    {
+      title: 'Thillenkeri',
+      description: 'BMH successfully conducted a LifeLinER BLS training programme combined with Ekatha Swayam Sahaya Sangham and Priyadarshini Arts and Sports Club, Thillenkeri.',
+      images: ['/gallery/thillenkeri/1.jpeg'],
+      date: '15 Feb 2026'
+    },
+    {
       title: 'Chest Club, Kannur - Oncology CME Talk',
       description: 'LifeLinER CME talk on Oncology conducted for the Chest Club by Dr. Vishnu Santhosh in Kannur.',
       images: ['/gallery/oncology/1.jpeg'],
