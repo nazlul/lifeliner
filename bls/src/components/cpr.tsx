@@ -151,7 +151,147 @@ export default function CPR() {
       location: 'Sonaighuli, Guwahati',
       images: ['/expedition/d17/1.jpg','/expedition/d17/2.jpg'],
       date: '26 Nov 2025'
-    }
+    },
+    {
+      day: 29,
+      title: 'Kigwama Village',
+      location: 'Nagaland',
+      images: ['/expedition/d29/1.jpg', '/expedition/d29/2.jpg', '/expedition/d29/3.jpg', '/expedition/d29/4.jpg', '/expedition/d29/5.jpg', '/expedition/d29/6.jpg', '/expedition/d29/7.jpg'],
+      date: '08 Dec 2025'
+    },
+    {
+  day: 30,
+  title: 'Kigwema Youth Organisation (KYO)',
+  location: 'Nagaland',
+  images: ['/expedition/d30/1.jpg', '/expedition/d30/2.jpg', '/expedition/d30/3.jpg', '/expedition/d30/4.jpg', '/expedition/d30/5.jpg', '/expedition/d30/6.jpg', '/expedition/d30/7.jpg'],
+  date: '09 Dec 2025'
+},
+{
+  day: 32,
+  title: 'Jawahar Navodaya Vidyalaya Twang',
+  location: 'Arunachal Pradesh',
+  images: ['/expedition/d32/1.jpg', '/expedition/d32/2.jpg', '/expedition/d32/3.jpg', '/expedition/d32/4.jpg', '/expedition/d32/5.jpg', '/expedition/d32/6.jpg', '/expedition/d32/7.jpg', '/expedition/d32/8.jpg'],
+  date: '11 Dec 2025'
+},
+{
+  day: 37,
+  title: 'Khasi Village',
+  location: 'Cherrapunji, Meghalaya',
+  images: ['/expedition/d37/1.jpg', '/expedition/d37/2.jpg', '/expedition/d37/3.jpg', '/expedition/d37/4.jpg', '/expedition/d37/5.jpg', '/expedition/d37/6.jpg', '/expedition/d37/7.jpg', '/expedition/d37/8.jpg'],
+  date: '16 Dec 2025'
+},
+{
+  day: 41,
+  title: 'Gantok District Police Station',
+  location: 'Sikkim',
+  images: ['/expedition/d41/1.jpg', '/expedition/d41/2.jpg', '/expedition/d41/3.jpg', '/expedition/d41/4.jpg', '/expedition/d41/5.jpg', '/expedition/d41/6.jpg', '/expedition/d41/7.jpg', '/expedition/d41/8.jpg'],
+  date: '20 Dec 2025'
+},
+{
+  day: 43,
+  title: 'MGM Mission school',
+  location: 'Patna, Bihar',
+  images: ['/expedition/d43/1.jpg', '/expedition/d43/2.jpg', '/expedition/d43/3.jpg', '/expedition/d43/4.jpg', '/expedition/d43/5.jpg', '/expedition/d43/6.jpg'],
+  date: '22 Dec 2025'
+},
+{
+  day: 44,
+  title: 'With students and teachers of MGM Mission School',
+  location: 'Patna, Bihar',
+  images: ['/expedition/d44/1.jpg', '/expedition/d44/2.jpg', '/expedition/d44/3.jpg', '/expedition/d44/4.jpg', '/expedition/d44/5.jpg', '/expedition/d44/6.jpg', '/expedition/d44/7.jpg'],
+  date: '23 Dec 2025'
+},
+{
+  day: 48,
+  title: 'Nivisha Nethralaya and Multi speciality Hospital',
+  location: 'Prayagraj, Uttar pradesh',
+  images: ['/expedition/d48/1.jpg', '/expedition/d48/2.jpg', '/expedition/d48/3.jpg', '/expedition/d48/4.jpg', '/expedition/d48/5.jpg', '/expedition/d48/6.jpg'],
+  date: '27 Dec 2025'
+},
+{
+  day: 49,
+  title: 'Khajuraho with Naya Purwa Villagers',
+  location: 'Madhya Pradesh',
+  images: ['/expedition/d49/1.jpg', '/expedition/d49/2.jpg', '/expedition/d49/3.jpg', '/expedition/d49/4.jpg', '/expedition/d49/5.jpg', '/expedition/d49/6.jpg', '/expedition/d49/7.jpg'],
+  date: '28 Dec 2025'
+},
+{
+  day: 53,
+  title: 'Indira Gandhi National Open University (IGNOU)',
+  location: 'Delhi',
+  images: ['/expedition/d53/1.jpg', '/expedition/d53/2.jpg', '/expedition/d53/3.jpg', '/expedition/d53/4.jpg', '/expedition/d53/5.jpg', '/expedition/d53/6.jpg', '/expedition/d53/7.jpg', '/expedition/d53/8.jpg'],
+  date: '01 Jan 2026'
+},
+{
+  day: 54,
+  title: 'AIIMS',
+  location: 'Delhi',
+  images: ['/expedition/d54/1.jpg', '/expedition/d54/2.jpg', '/expedition/d54/3.jpg', '/expedition/d54/4.jpg', '/expedition/d54/5.jpg', '/expedition/d54/6.jpg', '/expedition/d54/7.jpg', '/expedition/d54/8.jpg'],
+  date: '02 Jan 2026'
+},
+{
+  day: 57,
+  title: 'Forest Research Institute(FRI)',
+  location: 'Dehradun',
+  images: ['/expedition/d57/1.jpg', '/expedition/d57/2.jpg', '/expedition/d57/3.jpg', '/expedition/d57/4.jpg', '/expedition/d57/5.jpg', '/expedition/d57/6.jpg', '/expedition/d57/7.jpg', '/expedition/d57/8.jpg'],
+  date: '05 Jan 2026'
+},
+{
+  day: 58,
+  title: 'Tibetan Private ITI',
+  location: 'Dehradun',
+  images: ['/expedition/d58/1.jpg', '/expedition/d58/2.jpg', '/expedition/d58/3.jpg', '/expedition/d58/4.jpg', '/expedition/d58/5.jpg', '/expedition/d58/6.jpg', '/expedition/d58/7.jpg', '/expedition/d58/8.jpg'],
+  date: '06 Jan 2026'
+},
+{
+  day: 59,
+  title: 'Army Welfare Housing Organisation (AWHO)',
+  location: 'Chandigarh',
+  images: ['/expedition/d59/1.jpg', '/expedition/d59/2.jpg', '/expedition/d59/3.jpg', '/expedition/d59/4.jpg', '/expedition/d59/5.jpg', '/expedition/d59/6.jpg'],
+  date: '07 Jan 2026'
+},
+{
+  day: 60,
+  title: 'Serene Dorge Dark Monastery',
+  location: 'Shimla',
+  images: ['/expedition/d60/1.jpg', '/expedition/d60/2.jpg', '/expedition/d60/3.jpg', '/expedition/d60/4.jpg', '/expedition/d60/5.jpg', '/expedition/d60/6.jpg'],
+  date: '08 Jan 2026'
+},
+{
+  day: 65,
+  title: 'Emmanuel Mission School',
+  location: 'Jaisalmer',
+  images: ['/expedition/d65/1.jpg', '/expedition/d65/2.jpg', '/expedition/d65/3.jpg', '/expedition/d65/4.jpg', '/expedition/d65/5.jpg', '/expedition/d65/6.jpg', '/expedition/d65/7.jpg'],
+  date: '13 Jan 2026'
+},
+{
+  day: 69,
+  title: 'Dholavira',
+  location: 'Gujarat',
+  images: ['/expedition/d69/1.jpg', '/expedition/d69/2.jpg', '/expedition/d69/3.jpg', '/expedition/d69/4.jpg', '/expedition/d69/5.jpg', '/expedition/d69/6.jpg'],
+  date: '17 Jan 2026'
+},
+{
+  day: 71,
+  title: 'Maharshi Ved Vidyan Viswa Vidyapeetham',
+  location: 'Ellora',
+  images: ['/expedition/d71/1.jpg', '/expedition/d71/2.jpg', '/expedition/d71/3.jpg', '/expedition/d71/4.jpg', '/expedition/d71/5.jpg', '/expedition/d71/6.jpg', '/expedition/d71/7.jpg', '/expedition/d71/8.jpg'],
+  date: '19 Jan 2026'
+},
+{
+  day: 72,
+  title: 'Team SRTA Lifeguard Instructors & Trainers',
+  location: 'Goa',
+  images: ['/expedition/d72/1.jpg', '/expedition/d72/2.jpg', '/expedition/d72/3.jpg', '/expedition/d72/4.jpg', '/expedition/d72/5.jpg', '/expedition/d72/6.jpg', '/expedition/d72/7.jpg', '/expedition/d72/8.jpg'],
+  date: '20 Jan 2026'
+},
+{
+  day: 75,
+  title: 'Journey Ends - Back to BMH',
+  location: 'Kozhikode',
+  images: ['/expedition/d75/1.jpg', '/expedition/d75/2.jpg', '/expedition/d75/3.jpg', '/expedition/d75/4.jpg', '/expedition/d75/5.jpg', '/expedition/d75/6.jpg', '/expedition/d75/7.jpg', '/expedition/d75/8.jpg', '/expedition/d75/9.jpg', '/expedition/d75/10.jpg'],
+  date: '23 Jan 2026'
+}
   ]
 
   useEffect(() => {
