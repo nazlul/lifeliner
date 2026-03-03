@@ -118,7 +118,7 @@ export default function Home() {
         <div className="absolute top-[36%] md:top-[28%] lg:top-[34%] left-1/2 transform -translate-x-1/2 w-[90%] max-w-md md:max-w-lg lg:max-w-4xl pointer-events-none">
           <div className="relative z-10 text-center">
             <h1 className="font-bold text-3xl md:text-[50.25px] leading-tight tracking-wide">
-              <span className="block text-[#EE5A22] text-7xl">15000+</span>
+              <span className="block text-[#EE5A22] text-7xl">20000+</span>
               <span className="block text-[#0A68AD] whitespace-nowrap">LifeLin<span className="text-[#EE5A22]">ER</span>s Trained</span>
             </h1>
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-full -z-10"></div>
@@ -151,9 +151,9 @@ export default function Home() {
 
        <div className="absolute top-30 md:top-auto md:bottom-3 left-1/2 transform -translate-x-1/2 w-full max-w-5xl px-2 flex flex-col items-center justify-center gap-2 md:gap-4">
         <div className="flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4">
-          <CountUpStat number={19381} label="People Trained" onClick={handleGalleryScroll} />
-          <CountUpStat number={21795} label="Pledges Taken" onClick={handleGalleryScroll} />
-          <CountUpStat number={290} label="Sessions Organized" onClick={handleGalleryScroll} />
+          <CountUpStat number={19609} label="People Trained" onClick={handleGalleryScroll} />
+          <CountUpStat number={22023} label="Pledges Taken" onClick={handleGalleryScroll} />
+          <CountUpStat number={295} label="Sessions Organized" onClick={handleGalleryScroll} />
         </div>
         <p className="text-xs text-gray-500 mt-1">*since the launch of LifeLinER in May 2025.</p>
       </div>
