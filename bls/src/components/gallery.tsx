@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Kannur RTO Office - Auto Drivers',
+      description: 'BMH conducted a LifeLinER BLS training programme for auto drivers at the Kannur RTO office in association with Rotary Club, Kannur.',
+      images: ['/gallery/rto/1.jpeg', '/gallery/rto/2.jpeg', '/gallery/rto/3.jpeg', '/gallery/rto/4.jpeg', '/gallery/rto/5.jpeg'],
+      date: '04 Mar 2026'
+    },
+    {
       title: 'Kozhikode Collectorate',
       description: 'BMH conducted a LifeLinER & PEARL training session at the Kozhikode Collectorate. The program was inaugurated by Sree Snehil Kumar Singh (District Collector of Kozhikode) and led by Dr. Febna Rahman (Consultant Pediatrics) and Dr. Abid (Emergency Medicine).',
       images: ['/gallery/collectorate/1.jpeg', '/gallery/collectorate/2.jpeg', '/gallery/collectorate/3.jpeg', '/gallery/collectorate/4.jpeg'],
