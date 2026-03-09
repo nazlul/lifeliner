@@ -20,6 +20,26 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Eastern Orkla MTR Food Pvt Ltd, Adimaly',
+      description: 'BMH successfully conducted a LifeLinER training session at Eastern Orkla MTR Food Private Ltd, Adimaly.',
+      images: ['/gallery/orkla/1.jpeg', '/gallery/orkla/2.jpeg', '/gallery/orkla/3.jpeg', '/gallery/orkla/4.jpeg', '/gallery/orkla/5.jpeg', '/gallery/orkla/6.jpeg'],
+      date: '07 Mar 2026',
+      attendees: 36
+    },
+    {
+      title: 'The Eye Foundation Hospital',
+      description: 'BMH successfully conducted a LifeLinER training session at The Eye Foundation Hospital.',
+      images: ['/gallery/eyef/1.jpeg', '/gallery/eyef/2.jpeg', '/gallery/eyef/3.jpeg'],
+      date: '05 Mar 2026'
+    },
+    {
+      title: 'Central Jail, Kannur - Staff BLS Training',
+      description: 'BMH successfully conducted a LifeLinER BLS training programme for the staff of Kannur Central Jail in association with Rotary Club, Kannur.',
+      images: ['/gallery/jail4/1.jpeg', '/gallery/jail4/2.jpeg', '/gallery/jail4/3.jpeg', '/gallery/jail4/4.jpeg'],
+      date: '05 Mar 2026',
+      attendees: 60
+    },
+    {
       title: 'Kannur RTO Office - Auto Drivers',
       description: 'BMH conducted a LifeLinER BLS training programme for auto drivers at the Kannur RTO office in association with Rotary Club, Kannur.',
       images: ['/gallery/rto/1.jpeg', '/gallery/rto/2.jpeg', '/gallery/rto/3.jpeg', '/gallery/rto/4.jpeg', '/gallery/rto/5.jpeg'],
