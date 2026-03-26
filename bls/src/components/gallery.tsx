@@ -20,6 +20,31 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Central Jail, Kannur - Staff BLS Training',
+      description: 'BMH conducted a LifeLinER BLS training programme for the staff of Kannur Central Jail in association with Rotary Club, Kannur.',
+      images: ['/gallery/jail5/1.jpeg', '/gallery/jail5/2.jpeg', '/gallery/jail5/3.jpeg', '/gallery/jail5/4.jpeg', '/gallery/jail5/5.jpeg', '/gallery/jail5/6.jpeg'],
+      date: '26 Mar 2026'
+    },
+    {
+      title: 'St. Alphonsa Public School',
+      description: 'BMH successfully conducted a LifeLinER training session at St. Alphonsa Public School.',
+      images: ['/gallery/alphonsa2/1.jpeg', '/gallery/alphonsa2/2.jpeg', '/gallery/alphonsa2/3.jpeg', '/gallery/alphonsa2/4.jpeg'],
+      date: '25 Mar 2026'
+    },
+    {
+      title: 'Care Land Hospital - Clinical Training',
+      description: 'BMH conducted a LifeLinER training session at Care Land Hospital, focusing on clinical training for employees. The session, led by Ms. Navya (Emergency Medicine) and initiated by Mr. Praveen, emphasized emergency handling in polytrauma cases.',
+      images: ['/gallery/care/1.jpeg', '/gallery/care/2.jpeg', '/gallery/care/3.jpeg', '/gallery/care/4.jpeg', '/gallery/care/5.jpeg'],
+      date: '18 Mar 2026'
+    },
+    {
+      title: 'MVD Office, Adimaly - Truck Drivers Training',
+      description: 'BMH successfully conducted a LifeLinER training session for truck drivers at the MVD Office, Adimaly.',
+      images: ['/gallery/adimaly2/1.jpeg', '/gallery/adimaly2/2.jpeg', '/gallery/adimaly2/4.jpeg', '/gallery/adimaly2/5.jpeg'],
+      date: '07 Mar 2026',
+      attendees: 40
+    },
+    {
       title: 'Eastern Orkla MTR Food Pvt Ltd, Adimaly',
       description: 'BMH successfully conducted a LifeLinER training session at Eastern Orkla MTR Food Private Ltd, Adimaly.',
       images: ['/gallery/orkla/1.jpeg', '/gallery/orkla/2.jpeg', '/gallery/orkla/3.jpeg', '/gallery/orkla/4.jpeg', '/gallery/orkla/5.jpeg', '/gallery/orkla/6.jpeg'],
