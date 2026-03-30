@@ -18,7 +18,27 @@ export default function GalleryPage() {
   const imageRef = useRef<HTMLDivElement>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
 
-  const sets: ImageSet[] = [
+  const sets: ImageSet[] = [    
+    {
+      title: 'Chaithanya Club, Illamoola, Mattannur',
+      description: 'BMH conducted a LifeLinER BLS training programme in association with Chaithanya Club, Illamoola, Mattannur.',
+      images: ['/gallery/chaithanya/1.jpeg', '/gallery/chaithanya/2.jpeg', '/gallery/chaithanya/3.jpeg', '/gallery/chaithanya/4.jpeg'],
+      date: '30 Mar 2026'
+    },
+    {
+      title: 'Idukki District Fire and Rescue Office',
+      description: 'BMH successfully conducted a LifeLinER training session and Privilege Card distribution at the Idukki District Fire and Rescue Office, coordinated by Mr. Sarath with 26 participants.',
+      images: ['/gallery/fire2/1.jpeg', '/gallery/fire2/2.jpeg', '/gallery/fire2/3.jpeg', '/gallery/fire2/4.jpeg'],
+      date: '29 Mar 2026',
+      attendees: 26
+    },
+    {
+      title: 'KAIROS Institution, Thodupuzha',
+      description: 'BMH successfully conducted a LifeLinER training session at KAIROS Institution, Thodupuzha. The session was coordinated by Mr. Arjun and saw active participation from 30 members.',
+      images: ['/gallery/kairos/1.jpeg', '/gallery/kairos/2.jpeg', '/gallery/kairos/3.jpeg', '/gallery/kairos/4.jpeg'],
+      date: '27 Mar 2026',
+      attendees: 30
+    },
     {
       title: 'Central Jail, Kannur - Staff BLS Training',
       description: 'BMH conducted a LifeLinER BLS training programme for the staff of Kannur Central Jail in association with Rotary Club, Kannur.',
@@ -29,13 +49,15 @@ export default function GalleryPage() {
       title: 'St. Alphonsa Public School',
       description: 'BMH successfully conducted a LifeLinER training session at St. Alphonsa Public School.',
       images: ['/gallery/alphonsa2/1.jpeg', '/gallery/alphonsa2/2.jpeg', '/gallery/alphonsa2/3.jpeg', '/gallery/alphonsa2/4.jpeg'],
-      date: '25 Mar 2026'
+      date: '25 Mar 2026',
+      attendees: 124
     },
     {
       title: 'Care Land Hospital - Clinical Training',
       description: 'BMH conducted a LifeLinER training session at Care Land Hospital, focusing on clinical training for employees. The session, led by Ms. Navya (Emergency Medicine) and initiated by Mr. Praveen, emphasized emergency handling in polytrauma cases.',
       images: ['/gallery/care/1.jpeg', '/gallery/care/2.jpeg', '/gallery/care/3.jpeg', '/gallery/care/4.jpeg', '/gallery/care/5.jpeg'],
-      date: '18 Mar 2026'
+      date: '18 Mar 2026',
+      attendees: 60
     },
     {
       title: 'MVD Office, Adimaly - Truck Drivers Training',
@@ -68,13 +90,15 @@ export default function GalleryPage() {
       title: 'Kannur RTO Office - Auto Drivers',
       description: 'BMH conducted a LifeLinER BLS training programme for auto drivers at the Kannur RTO office in association with Rotary Club, Kannur.',
       images: ['/gallery/rto/1.jpeg', '/gallery/rto/2.jpeg', '/gallery/rto/3.jpeg', '/gallery/rto/4.jpeg', '/gallery/rto/5.jpeg'],
-      date: '04 Mar 2026'
+      date: '04 Mar 2026',
+      attendees: 45
     },
     {
       title: 'Kozhikode Collectorate',
       description: 'BMH conducted a LifeLinER & PEARL training session at the Kozhikode Collectorate. The program was inaugurated by Sree Snehil Kumar Singh (District Collector of Kozhikode) and led by Dr. Febna Rahman (Consultant Pediatrics) and Dr. Abid (Emergency Medicine).',
       images: ['/gallery/collectorate/1.jpeg', '/gallery/collectorate/2.jpeg', '/gallery/collectorate/3.jpeg', '/gallery/collectorate/4.jpeg'],
-      date: '22 Feb 2026'
+      date: '21 Feb 2026',
+      attendees: 56
     },
     {
       title: 'Central Jail, Kannur',
