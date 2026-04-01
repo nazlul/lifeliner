@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [    
     {
+      title: 'KSEB PETARC, Moolamattom',
+      description: 'BMH successfully conducted a LifeLinER training session at KSEB PETARC, Moolamattom, with 65 participants.',
+      images: ['/gallery/kseb/1.jpeg', '/gallery/kseb/2.jpeg', '/gallery/kseb/3.jpeg', '/gallery/kseb/4.jpeg'],
+      date: '01 Apr 2026',
+      attendees: 65
+    },
+    {
       title: 'Chaithanya Club, Illamoola, Mattannur',
       description: 'BMH conducted a LifeLinER BLS training programme in association with Chaithanya Club, Illamoola, Mattannur.',
       images: ['/gallery/chaithanya/1.jpeg', '/gallery/chaithanya/2.jpeg', '/gallery/chaithanya/3.jpeg', '/gallery/chaithanya/4.jpeg'],
