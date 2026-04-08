@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [    
     {
+      title: 'KSEB Lower Periyar, Karimanal',
+      description: 'BMH successfully conducted a LifeLinER training session at KSEB Lower Periyar, Karimanal, with 40 participants.',
+      images: ['/gallery/kseb2/1.jpeg', '/gallery/kseb2/2.jpeg', '/gallery/kseb2/3.jpeg', '/gallery/kseb2/4.jpeg'],
+      date: '07 Apr 2026',
+      attendees: 40
+    },
+    {
       title: 'KSEB PETARC, Moolamattom',
       description: 'BMH successfully conducted a LifeLinER training session at KSEB PETARC, Moolamattom, with 65 participants.',
       images: ['/gallery/kseb/1.jpeg', '/gallery/kseb/2.jpeg', '/gallery/kseb/3.jpeg', '/gallery/kseb/4.jpeg'],
