@@ -20,6 +20,19 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [    
     {
+      title: 'Devagiri Public School',
+      description: 'BMH successfully conducted a LifeLinER training session for the teachers and officials of Devagiri Public School.',
+      images: ['/gallery/devagiri/1.jpeg', '/gallery/devagiri/2.jpeg', '/gallery/devagiri/3.jpeg', '/gallery/devagiri/4.jpeg', '/gallery/devagiri/5.jpeg'],
+      date: '28 Apr 2026',
+      attendees: 125
+    },
+    {
+      title: 'Disaster Management Team',
+      description: 'BMH successfully conducted a specialized LifeLinER training session for the Disaster Management Team.',
+      images: ['/gallery/disaster/1.jpeg', '/gallery/disaster/2.jpeg', '/gallery/disaster/3.jpeg', '/gallery/disaster/4.jpeg', '/gallery/disaster/5.jpeg'],
+      date: '28 Apr 2026'
+    },
+    {
       title: 'KSEB Lower Periyar, Karimanal',
       description: 'BMH successfully conducted a LifeLinER training session at KSEB Lower Periyar, Karimanal, with 40 participants.',
       images: ['/gallery/kseb2/1.jpeg', '/gallery/kseb2/2.jpeg', '/gallery/kseb2/3.jpeg', '/gallery/kseb2/4.jpeg'],
