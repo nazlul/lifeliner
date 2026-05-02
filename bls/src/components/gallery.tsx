@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [    
     {
+      title: 'LENSFED Tower',
+      description: 'BMH conducted a LifeLinER training session and a balanced diet awareness talk for the Licensed Engineers and Supervisors Federation (LENSFED), with around 60 construction workers participating.',
+      images: ['/gallery/lensfed/1.jpeg', '/gallery/lensfed/2.jpeg', '/gallery/lensfed/3.jpeg', '/gallery/lensfed/4.jpeg', '/gallery/lensfed/5.jpeg'],
+      date: '01 May 2026',
+      attendees: 60
+    },
+    {
       title: 'DIET Campus, Sulthan Bathery',
       description: 'BMH successfully conducted a LifeLinER training session for TTC students at the DIET Campus, Sulthan Bathery, with 32 participants.',
       images: ['/gallery/ttc/1.jpeg', '/gallery/ttc/2.jpeg', '/gallery/ttc/3.jpeg', '/gallery/ttc/4.jpeg', '/gallery/ttc/5.jpeg', '/gallery/ttc/6.jpeg', '/gallery/ttc/7.jpeg', '/gallery/ttc/8.jpeg'],
