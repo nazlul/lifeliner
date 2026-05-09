@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [    
     {
+      title: 'EMS Hospital, Mukkam',
+      description: 'BMH conducted a LifeLinER training session for Nurses, Staff, and Doctors at EMS Hospital Mukkam, with 43 participants.',
+      images: ['/gallery/ems/1.jpeg', '/gallery/ems/2.jpeg', '/gallery/ems/3.jpeg'],
+      date: '07 May 2026',
+      attendees: 43
+    },
+    {
       title: 'LENSFED Tower',
       description: 'BMH conducted a LifeLinER training session and a balanced diet awareness talk for the Licensed Engineers and Supervisors Federation (LENSFED), with around 60 construction workers participating.',
       images: ['/gallery/lensfed/1.jpeg', '/gallery/lensfed/2.jpeg', '/gallery/lensfed/3.jpeg', '/gallery/lensfed/4.jpeg', '/gallery/lensfed/5.jpeg'],
