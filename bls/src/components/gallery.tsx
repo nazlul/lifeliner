@@ -18,7 +18,13 @@ export default function GalleryPage() {
   const imageRef = useRef<HTMLDivElement>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
 
-  const sets: ImageSet[] = [    
+  const sets: ImageSet[] = [  
+    {
+      title: 'Koodaranji Program',
+      description: 'LifeLinER training at Koodaranji Grama Panchayat',
+      images: ['/gallery/koodaranji2/1.jpg', '/gallery/koodaranji2/2.jpg', '/gallery/koodaranji2/3.jpg', '/gallery/koodaranji2/4.jpg', '/gallery/koodaranji2/5.jpg'],
+      date: '12 May 2026'
+    },  
     {
       title: 'EMS Hospital, Mukkam',
       description: 'BMH conducted a LifeLinER training session for Nurses, Staff, and Doctors at EMS Hospital Mukkam, with 43 participants.',
