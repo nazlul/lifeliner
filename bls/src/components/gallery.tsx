@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: 'Unity Residence Association, Nariyottumchal',
+      description: 'BMH successfully conducted a LifeLinER training session at the Unity Residence Association, Nariyottumchal.',
+      images: ['/gallery/unity/1.jpeg', '/gallery/unity/2.jpeg', '/gallery/unity/3.jpeg', '/gallery/unity/4.jpeg'],
+      date: '1`5 May 2026'
+    },
+    {
       title: 'Koodaranji Program',
       description: 'LifeLinER training at Koodaranji Grama Panchayat',
       images: ['/gallery/koodaranji2/1.jpg', '/gallery/koodaranji2/2.jpg', '/gallery/koodaranji2/3.jpg', '/gallery/koodaranji2/4.jpg', '/gallery/koodaranji2/5.jpg'],
