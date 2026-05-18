@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: 'Arrown Academy, Calicut',
+      description: 'BMH successfully conducted a LifeLinER training session at Arrown Academy, Calicut, with a total of 50 participants.',
+      images: ['/gallery/arrown/1.jpeg', '/gallery/arrown/2.jpeg', '/gallery/arrown/3.jpeg', '/gallery/arrown/4.jpeg', '/gallery/arrown/5.jpeg'],
+      date: '18 May 2026',
+      attendees: 50
+    },
+    {
       title: 'Unity Residence Association, Nariyottumchal',
       description: 'BMH successfully conducted a LifeLinER training session at the Unity Residence Association, Nariyottumchal.',
       images: ['/gallery/unity/1.jpeg', '/gallery/unity/2.jpeg', '/gallery/unity/3.jpeg', '/gallery/unity/4.jpeg'],
