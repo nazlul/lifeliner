@@ -20,8 +20,22 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: 'Aimsway Development Society, Meenangadi',
+      description: 'Successfully completed the LifeLinER program in association with Aimsway Development Society at Meenangadi.',
+      images: ['/gallery/aimsway/1.jpeg', '/gallery/aimsway/2.jpeg', '/gallery/aimsway/3.jpeg', '/gallery/aimsway/4.jpeg'],
+      date: '20 May 2026',
+      attendees: 30
+    },
+    {
+      title: 'Mastered Academy, Calicut',
+      description: 'BMH successfully conducted a LifeLinER training session for Mastered Academy students from Calicut at our Auditorium.',
+      images: ['/gallery/masc/1.jpeg', '/gallery/masc/2.jpeg', '/gallery/masc/3.jpeg', '/gallery/masc/4.jpeg', '/gallery/masc/5.jpeg', '/gallery/masc/6.jpeg', '/gallery/masc/7.jpeg'],
+      date: '19 May 2026',
+      attendees: 83
+    },
+    {
       title: 'Arrown Academy, Calicut',
-      description: 'BMH successfully conducted a LifeLinER training session at Arrown Academy, Calicut, with a total of 50 participants.',
+      description: 'BMH successfully conducted a LifeLinER training session at Arrown Academy, Calicut.',
       images: ['/gallery/arrown/1.jpeg', '/gallery/arrown/2.jpeg', '/gallery/arrown/3.jpeg', '/gallery/arrown/4.jpeg', '/gallery/arrown/5.jpeg'],
       date: '18 May 2026',
       attendees: 50
