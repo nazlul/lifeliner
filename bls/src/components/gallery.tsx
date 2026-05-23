@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: "St. Joseph's Boys School, Pulloorampara",
+      description: "BMH conducted a LifeLinER training session at St. Joseph's Boys School, Pulloorampara.",
+      images: ['/gallery/stjoseph2/1.jpeg', '/gallery/stjoseph2/2.jpeg', '/gallery/stjoseph2/3.jpeg', '/gallery/stjoseph2/4.jpeg', '/gallery/stjoseph2/5.jpeg'],
+      date: '23 May 2026'
+    },
+    {
       title: 'Aimsway Development Society, Meenangadi',
       description: 'Successfully completed the LifeLinER program in association with Aimsway Development Society at Meenangadi.',
       images: ['/gallery/aimsway/1.jpeg', '/gallery/aimsway/2.jpeg', '/gallery/aimsway/3.jpeg', '/gallery/aimsway/4.jpeg'],
