@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: 'Kavitha Library and Arts, Thokkupara',
+      description: 'BMH conducted a LifeLinER training session at Kavitha Library and Arts, Thokkupara.',
+      images: ['/gallery/kavitha/1.jpeg', '/gallery/kavitha/2.jpeg', '/gallery/kavitha/3.jpeg', '/gallery/kavitha/4.jpeg', '/gallery/kavitha/5.jpeg', '/gallery/kavitha/6.jpeg', '/gallery/kavitha/7.jpeg'],
+      date: '24 May 2026',
+      attendees: 34
+    },
+    {
       title: "St. Joseph's Boys School, Pulloorampara",
       description: "BMH conducted a LifeLinER training session at St. Joseph's Boys School, Pulloorampara.",
       images: ['/gallery/stjoseph2/1.jpeg', '/gallery/stjoseph2/2.jpeg', '/gallery/stjoseph2/3.jpeg', '/gallery/stjoseph2/4.jpeg', '/gallery/stjoseph2/5.jpeg'],
