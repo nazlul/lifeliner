@@ -3,9 +3,14 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 const videos = [
+  {
+    title: "CPR Saves a Life",
+    thumbnail: "/thumbnail/5.jpg",
+    videoUrl: "https://www.youtube.com/embed/HJHL4CaRY8Q",
+    description: "A real-life testimonial showing how immediate CPR action saved a bystander's life at Calicut."
+  },
   {
     title: "Heart Attack",
     thumbnail: "/thumbnail/1.jpg",
@@ -13,23 +18,23 @@ const videos = [
     description: "Dr. Fabith explains the first aid to be given in case of a Heart Attack."
   },
   {
-    title: "Stroke And Heart Attack",
-    thumbnail: "/thumbnail/2.jpg",
-    videoUrl: "https://www.youtube.com/embed/WkdwAliK1xc",
-    description: "A stroke or Heart Attack is a true emergency. Every moment counts."
+    title: "Seizure",
+    thumbnail: "/thumbnail/4.jpg",
+    videoUrl: "https://www.youtube.com/embed/jortS2HUW-Q",
+    description: "In this video BMH brings to you the first aid to be given in case of seizure."
   },
   {
     title: "Snake Bite",
     thumbnail: "/thumbnail/3.jpg",
     videoUrl: "https://www.youtube.com/embed/WUv1R_P2vlE",
-    description: "In this video BMH brings to you the the first aid to be given in case of Snake Bite."
+    description: "In this video BMH brings to you the first aid to be given in case of Snake Bite."
   },
   {
-    title: "Seizure",
-    thumbnail: "/thumbnail/4.jpg",
-    videoUrl: "https://www.youtube.com/embed/jortS2HUW-Q",
-    description: "In this video BMH brings to you the the first aid to be given in case of seizure."
-  },
+    title: "Stroke And Heart Attack",
+    thumbnail: "/thumbnail/2.jpg",
+    videoUrl: "https://www.youtube.com/embed/WkdwAliK1xc",
+    description: "A stroke or Heart Attack is a true emergency. Every moment counts."
+  }
 ]
 
 export default function Videos() {
