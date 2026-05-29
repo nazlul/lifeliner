@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: 'Orkla India Ltd., Kothamangalam',
+      description: 'BMH conducted a LifeLinER training session at Orkla India Ltd., Kothamangalam.',
+      images: ['/gallery/orkla2/1.jpeg', '/gallery/orkla2/2.jpeg', '/gallery/orkla2/3.jpeg', '/gallery/orkla2/4.jpeg', '/gallery/orkla2/5.jpeg'],
+      date: '27 May 2026',
+      attendees: 33
+    },
+    {
       title: 'Kavitha Library and Arts, Thokkupara',
       description: 'BMH conducted a LifeLinER training session at Kavitha Library and Arts, Thokkupara.',
       images: ['/gallery/kavitha/1.jpeg', '/gallery/kavitha/2.jpeg', '/gallery/kavitha/3.jpeg', '/gallery/kavitha/4.jpeg', '/gallery/kavitha/5.jpeg', '/gallery/kavitha/6.jpeg', '/gallery/kavitha/7.jpeg'],
