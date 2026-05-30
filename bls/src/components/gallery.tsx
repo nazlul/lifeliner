@@ -20,6 +20,13 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [  
     {
+      title: 'Inhouse Lifeliner',
+      description: 'BMH conducted an in-house LifeLinER training session led by Dr. Kevin.',
+      images: ['/gallery/inhouse2/1.jpeg', '/gallery/inhouse2/2.jpeg', '/gallery/inhouse2/3.jpeg', '/gallery/inhouse2/4.jpeg', '/gallery/inhouse2/5.jpeg', '/gallery/inhouse2/6.jpeg', '/gallery/inhouse2/7.jpeg'],
+      date: '29 May 2026',
+      attendees: 36
+    },
+    {
       title: 'Orkla India Ltd., Kothamangalam',
       description: 'BMH conducted a LifeLinER training session at Orkla India Ltd., Kothamangalam.',
       images: ['/gallery/orkla2/1.jpeg', '/gallery/orkla2/2.jpeg', '/gallery/orkla2/3.jpeg', '/gallery/orkla2/4.jpeg', '/gallery/orkla2/5.jpeg'],
