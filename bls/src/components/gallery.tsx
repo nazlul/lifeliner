@@ -18,7 +18,26 @@ export default function GalleryPage() {
   const imageRef = useRef<HTMLDivElement>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
 
-  const sets: ImageSet[] = [  
+  const sets: ImageSet[] = [
+    {
+      title: 'Sevabharathi Kottooli Unit',
+      description: 'BMH conducted a LifeLinER training session at Sevabharathi Kottooli Unit.',
+      images: ['/gallery/sevabharathi/1.jpeg', '/gallery/sevabharathi/2.jpeg', '/gallery/sevabharathi/3.jpeg', '/gallery/sevabharathi/4.jpeg'],
+      date: '07 Jun 2026'
+    },
+    {
+      title: 'Sneha Hospital, Kenichira, Wayanad',
+      description: 'BMH conducted a medical camp at Sneha Hospital, Kenichira, Wayanad.',
+      images: ['/gallery/sneha/1.jpeg', '/gallery/sneha/2.jpeg', '/gallery/sneha/3.jpeg', '/gallery/sneha/4.jpeg'],
+      date: '07 Jun 2026'
+    },  
+    {
+      title: 'St. Joseph Church, Vythiri',
+      description: 'BMH conducted a LifeLinER training session for the general public at St. Joseph Church, Vythiri, in association with Jeevana (Calicut Diocese Social Service Society).',
+      images: ['/gallery/jeevana/1.jpeg', '/gallery/jeevana/2.jpeg', '/gallery/jeevana/3.jpeg', '/gallery/jeevana/4.jpeg', '/gallery/jeevana/5.jpeg', '/gallery/jeevana/6.jpeg'],
+      date: '04 Jun 2026',
+      attendees: 40
+    },
     {
       title: "St. Mary's Church, Kalluvayal",
       description: "BMH conducted a LifeLinER training session for catechism students at St. Mary's Church, Kalluvayal.",
