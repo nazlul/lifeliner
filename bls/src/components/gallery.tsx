@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Matter Lab',
+      description: 'BMH conducted a LifeLinER BLS training program at Matter Lab.',
+      images: ['/gallery/matter/1.jpeg', '/gallery/matter/2.jpeg', '/gallery/matter/3.jpeg', '/gallery/matter/4.jpeg'],
+      date: '09 Jun 2026'
+    },
+    {
       title: 'Sevabharathi Kottooli Unit',
       description: 'BMH conducted a LifeLinER training session at Sevabharathi Kottooli Unit.',
       images: ['/gallery/sevabharathi/1.jpeg', '/gallery/sevabharathi/2.jpeg', '/gallery/sevabharathi/3.jpeg', '/gallery/sevabharathi/4.jpeg'],
