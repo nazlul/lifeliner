@@ -19,6 +19,13 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
+     {
+      title: 'Matter Lab',
+      description: 'BMH conducted a LifeLinER BLS training program session Associated with AIMSWAY Foundation at Puthussery, Mananthavady for CDS & Kudumbasree Members',
+      images: ['/gallery/aimsway2/1.jpeg', '/gallery/aimsway2/2.jpeg', '/gallery/aimsway2/3.jpeg', '/gallery/aimsway2/4.jpeg', '/gallery/aimsway2/5.jpeg'],
+      date: '13 Jun 2026',
+      attendees: 35
+    },
     {
       title: 'Matter Lab',
       description: 'BMH conducted a LifeLinER BLS training program at Matter Lab.',
