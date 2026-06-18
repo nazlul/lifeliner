@@ -19,6 +19,27 @@ export default function GalleryPage() {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const sets: ImageSet[] = [
+    {
+      title: 'Kenichira, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for SC/ST coordinators, panchayat staff, and the general public at Kenichira, Wayanad, in association with AIMSWAY Foundation.',
+      images: ['/gallery/aimsway4/1.jpeg', '/gallery/aimsway4/2.jpeg', '/gallery/aimsway4/3.jpeg', '/gallery/aimsway4/4.jpeg'],
+      date: '18 Jun 2026',
+      attendees: 40
+    },
+    {
+      title: 'Meppadi, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for the general public at Meppadi, Wayanad, in association with AIMSWAY Foundation.',
+      images: ['/gallery/aimsway3/1.jpeg', '/gallery/aimsway3/2.jpeg', '/gallery/aimsway3/3.jpeg', '/gallery/aimsway3/4.jpeg', '/gallery/aimsway3/5.jpeg'],
+      date: '17 Jun 2026',
+      attendees: 30
+    },
+    {
+      title: 'Koothattukulam Fire & Rescue',
+      description: 'BMH conducted a LifeLinER training session led by Dr. Joel Rajen at Koothattukulam Fire & Rescue, coordinated by Ans Skaria.',
+      images: ['/gallery/koothattukulam/1.jpeg', '/gallery/koothattukulam/2.jpeg', '/gallery/koothattukulam/3.jpeg', '/gallery/koothattukulam/4.jpeg'],
+      date: '17 Jun 2026',
+      attendees: 29
+    },
      {
       title: 'AIMSWAY Foundation',
       description: 'BMH conducted a LifeLinER BLS training program session Associated with AIMSWAY Foundation at Puthussery, Mananthavady for CDS & Kudumbasree Members',
