@@ -20,6 +20,66 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'KSEB Office, Kodenchery',
+      description: 'BMH conducted a LifeLinER training session at the KSEB office in Kodenchery.',
+      images: ['/gallery/kseb3/1.jpeg', '/gallery/kseb3/2.jpeg', '/gallery/kseb3/3.jpeg', '/gallery/kseb3/4.jpeg'],
+      date: '29 Jun 2026'
+    },
+    {
+      title: 'Cherpulassery, Palakkad',
+      description: 'BMH conducted a LifeLinER training session for 38 participants at Cherpulassery, Palakkad, in association with the Kerala Emergency Team Palakkad zone.',
+      images: ['/gallery/cherpulassery/1.jpeg', '/gallery/cherpulassery/2.jpeg', '/gallery/cherpulassery/3.jpeg', '/gallery/cherpulassery/4.jpeg'],
+      date: '29 Jun 2026',
+      attendees: 38
+    },
+    {
+      title: 'Alphonsa Hospital, Murickassery',
+      description: 'BMH conducted a LifeLinER training program led by Dr. Kevin for 50 staff members at Alphonsa Hospital, Murickassery, coordinated by George and Sona.',
+      images: ['/gallery/alphonsa3/1.jpeg', '/gallery/alphonsa3/2.jpeg', '/gallery/alphonsa3/3.jpeg', '/gallery/alphonsa3/4.jpeg', '/gallery/alphonsa3/5.jpeg'],
+      date: '27 Jun 2026',
+      attendees: 50
+    },
+    {
+      title: 'MCS Hospital, Muvattupuzha',
+      description: 'BMH conducted a LifeLinER training session at MCS Hospital, Muvattupuzha.',
+      images: ['/gallery/mcs/1.jpeg', '/gallery/mcs/2.jpeg', '/gallery/mcs/3.jpeg', '/gallery/mcs/4.jpeg', '/gallery/mcs/5.jpeg', '/gallery/mcs/6.jpeg', '/gallery/mcs/7.jpeg', '/gallery/mcs/8.jpeg'],
+      date: '25 Jun 2026',
+      attendees: 28
+    },
+    {
+      title: 'Taj Gateway, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Taj Gateway, Kozhikode.',
+      images: ['/gallery/taj/1.jpeg', '/gallery/taj/2.jpeg', '/gallery/taj/3.jpeg', '/gallery/taj/4.jpeg'],
+      date: '23 Jun 2026'
+    },
+    {
+      title: 'Mullenkolly, Pulpally, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for the general public at Mullenkolly, Pulpally, Wayanad, in association with AIMSWAY Foundation.',
+      images: ['/gallery/aimsway6/1.jpeg', '/gallery/aimsway6/2.jpeg', '/gallery/aimsway6/3.jpeg', '/gallery/aimsway6/4.jpeg', '/gallery/aimsway6/5.jpeg'],
+      date: '22 Jun 2026',
+      attendees: 30
+    },
+    {
+      title: 'PHC Tanur',
+      description: 'BMH conducted a LifeLinER training session at PHC Tanur.',
+      images: ['/gallery/phc/1.jpeg', '/gallery/phc/2.jpeg', '/gallery/phc/3.jpeg', '/gallery/phc/4.jpeg'],
+      date: '22 Jun 2026'
+    },
+    {
+      title: 'Padichira, Pulpally, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for the general public at Padichira, Pulpally, Wayanad, in association with AIMSWAY Foundation.',
+      images: ['/gallery/aimsway5/1.jpeg', '/gallery/aimsway5/2.jpeg', '/gallery/aimsway5/3.jpeg', '/gallery/aimsway5/4.jpeg'],
+      date: '20 Jun 2026',
+      attendees: 40
+    },
+    {
+      title: 'Murikasery Gramapanchayath',
+      description: 'BMH conducted a LifeLinER training session led by Dr. Kevin for the RRT Team at Murikasery Gramapanchayath, coordinated by Ans Skaria.',
+      images: ['/gallery/rrt/1.jpeg', '/gallery/rrt/2.jpeg', '/gallery/rrt/3.jpeg', '/gallery/rrt/4.jpeg', '/gallery/rrt/5.jpeg', '/gallery/rrt/6.jpeg', '/gallery/rrt/7.jpeg'],
+      date: '20 Jun 2026',
+      attendees: 48
+    },
+    {
       title: 'Kenichira, Wayanad',
       description: 'BMH conducted a LifeLinER training session for SC/ST coordinators, panchayat staff, and the general public at Kenichira, Wayanad, in association with AIMSWAY Foundation.',
       images: ['/gallery/aimsway4/1.jpeg', '/gallery/aimsway4/2.jpeg', '/gallery/aimsway4/3.jpeg', '/gallery/aimsway4/4.jpeg'],
