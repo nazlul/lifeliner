@@ -20,6 +20,12 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'KSEB Office, Omassery',
+      description: 'BMH conducted a LifeLinER training session at the KSEB office in Omassery.',
+      images: ['/gallery/kseb4/1.jpeg', '/gallery/kseb4/2.jpeg', '/gallery/kseb4/3.jpeg', '/gallery/kseb4/4.jpeg'],
+      date: '30 Jun 2026'
+    },
+    {
       title: 'KSEB Office, Kodenchery',
       description: 'BMH conducted a LifeLinER training session at the KSEB office in Kodenchery.',
       images: ['/gallery/kseb3/1.jpeg', '/gallery/kseb3/2.jpeg', '/gallery/kseb3/3.jpeg', '/gallery/kseb3/4.jpeg'],
