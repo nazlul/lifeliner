@@ -20,6 +20,41 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Puthiyapalam Big Screen Auditorium',
+      description: 'BMH conducted an interactive LifeLinER training session at the Puthiyapalam big screen auditorium for 250+ attendees during the FIFA World Cup screening. In addition, medical support was provided for the Argentina vs Egypt match.',
+      images: ['/gallery/puthiyapalam/1.jpeg', '/gallery/puthiyapalam/2.jpeg', '/gallery/puthiyapalam/3.jpeg', '/gallery/puthiyapalam/4.jpeg', '/gallery/puthiyapalam/5.jpeg'],
+      date: '07 Jul 2026',
+      attendees: 250
+    },
+    {
+      title: 'St. George Church, Puthuppadi, Thamarassery',
+      description: 'BMH conducted a LifeLinER training session for 40 members of the general public at St. George Church, Puthuppadi, Thamarassery, in association with the COD Foundation.',
+      images: ['/gallery/stgeorge2/1.jpeg', '/gallery/stgeorge2/2.jpeg', '/gallery/stgeorge2/3.jpeg', '/gallery/stgeorge2/4.jpeg', '/gallery/stgeorge2/5.jpeg'],
+      date: '04 Jul 2026',
+      attendees: 40
+    },    
+    {
+      title: 'KSEB Mananthavady (Afternoon Session)',
+      description: 'BMH successfully conducted the afternoon session of the LifeLinER training program for 78 KSEB employees at the Mananthavady Section.',
+      images: ['/gallery/kseb6/1.jpeg', '/gallery/kseb6/2.jpeg', '/gallery/kseb6/3.jpeg', '/gallery/kseb6/4.jpeg', '/gallery/kseb6/5.jpeg'],
+      date: '04 Jul 2026',
+      attendees: 78
+    },
+    {
+      title: 'KSEB Mananthavady',
+      description: 'BMH conducted an interactive LifeLinER training program for 80 KSEB employees at the Mananthavady Section.',
+      images: ['/gallery/kseb5/1.jpeg', '/gallery/kseb5/2.jpeg', '/gallery/kseb5/3.jpeg', '/gallery/kseb5/4.jpeg', '/gallery/kseb5/5.jpeg'],
+      date: '04 Jul 2026',
+      attendees: 80
+    },
+    {
+      title: 'KHEP, Kakkayam',
+      description: 'BMH conducted a LifeLinER BLS awareness session, featuring specialized demonstrations on log roll and choking management, at KHEP, Kakkayam.',
+      images: ['/gallery/khep/1.jpeg', '/gallery/khep/2.jpeg', '/gallery/khep/3.jpeg', '/gallery/khep/4.jpeg', '/gallery/khep/5.jpeg'],
+      date: '02 Jul 2026',
+      attendees: 80
+    },
+    {
       title: 'KSEB Office, Omassery',
       description: 'BMH conducted a LifeLinER training session at the KSEB office in Omassery.',
       images: ['/gallery/kseb4/1.jpeg', '/gallery/kseb4/2.jpeg', '/gallery/kseb4/3.jpeg', '/gallery/kseb4/4.jpeg'],
