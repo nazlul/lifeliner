@@ -20,6 +20,26 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Taj Resort, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for 30 staff members at Taj Resort, Wayanad.',
+      images: ['/gallery/taj2/1.jpeg', '/gallery/taj2/2.jpeg', '/gallery/taj2/3.jpeg', '/gallery/taj2/4.jpeg', '/gallery/taj2/5.jpeg'],
+      date: '15 Jul 2026',
+      attendees: 30
+    },
+    {
+      title: 'Department of Chemical Engineering, NIT Calicut',
+      description: 'BMH conducted a LifeLinER training session for the Department of Chemical Engineering at NIT Calicut.',
+      images: ['/gallery/nitc/1.jpeg', '/gallery/nitc/2.jpeg', '/gallery/nitc/3.jpeg', '/gallery/nitc/4.jpeg', '/gallery/nitc/5.jpeg', '/gallery/nitc/6.jpeg'],
+      date: '13 Jul 2026'
+    },
+    {
+      title: 'BMH Auditorium, Calicut',
+      description: 'BMH conducted a LifeLinER BLS training session for 164 participants at the BMH Auditorium, in association with Mastered Academy Calicut.',
+      images: ['/gallery/mastered/1.jpeg', '/gallery/mastered/2.jpeg', '/gallery/mastered/3.jpeg', '/gallery/mastered/4.jpeg'],
+      date: '13 Jul 2026',
+      attendees: 164
+    },
+    {
       title: 'Puthiyapalam Big Screen Auditorium',
       description: 'BMH conducted an interactive LifeLinER training session at the Puthiyapalam big screen auditorium for 250+ attendees during the FIFA World Cup screening. In addition, medical support was provided for the Argentina vs Egypt match.',
       images: ['/gallery/puthiyapalam/1.jpeg', '/gallery/puthiyapalam/2.jpeg', '/gallery/puthiyapalam/3.jpeg', '/gallery/puthiyapalam/4.jpeg', '/gallery/puthiyapalam/5.jpeg'],
