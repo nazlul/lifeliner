@@ -20,6 +20,26 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'Community Health Centre, Korome, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for 30 CHC staff members at Korome, Wayanad.',
+      images: ['/gallery/korome2/1.jpeg', '/gallery/korome2/2.jpeg', '/gallery/korome2/3.jpeg', '/gallery/korome2/4.jpeg'],
+      date: '20 Jul 2026',
+      attendees: 30
+    },    
+    {
+      title: 'Community Health Centre, Korome, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for 45 CHC staff members and Asha workers at Korome, Wayanad.',
+      images: ['/gallery/korome/1.jpeg', '/gallery/korome/2.jpeg', '/gallery/korome/3.jpeg', '/gallery/korome/4.jpeg', '/gallery/korome/5.jpeg'],
+      date: '20 Jul 2026',
+      attendees: 45
+    },
+    {
+      title: 'Kozhikode Town Police Station',
+      description: 'BMH conducted a LifeLinER training session for police personnel at Kozhikode Town Police Station following its inauguration by City Police Commissioner Mr. Jayadev IPS.',
+      images: ['/gallery/policeclt2/1.jpeg', '/gallery/policeclt2/2.jpeg', '/gallery/policeclt2/3.jpeg', '/gallery/policeclt2/4.jpeg'],
+      date: '17 Jul 2026'
+    },
+    {
       title: 'Taj Resort, Wayanad',
       description: 'BMH conducted a LifeLinER training session for 30 staff members at Taj Resort, Wayanad.',
       images: ['/gallery/taj2/1.jpeg', '/gallery/taj2/2.jpeg', '/gallery/taj2/3.jpeg', '/gallery/taj2/4.jpeg', '/gallery/taj2/5.jpeg'],
