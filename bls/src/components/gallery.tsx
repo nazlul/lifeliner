@@ -20,6 +20,39 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [
     {
+      title: 'SYS Kuthuparamba Unit',
+      description: 'BMH conducted a LifeLinER BLS training session at the SYS Kuthuparamba Unit.',
+      images: ['/gallery/sys/1.jpeg', '/gallery/sys/2.jpeg', '/gallery/sys/3.jpeg', '/gallery/sys/4.jpeg'],
+      date: '27 Jul 2026'
+    },
+    {
+      title: 'Pavanathma College, Murickassery',
+      description: 'BMH conducted a LifeLinER training program led by Dr. Gogul for 76 participants at Pavanathma College, Murickassery, coordinated by Sona.',
+      images: ['/gallery/pavanathma/1.jpeg', '/gallery/pavanathma/2.jpeg', '/gallery/pavanathma/3.jpeg', '/gallery/pavanathma/4.jpeg', '/gallery/pavanathma/5.jpeg', '/gallery/pavanathma/6.jpeg', '/gallery/pavanathma/7.jpeg'],
+      date: '25 Jul 2026',
+      attendees: 76
+    },
+    {
+      title: 'Moonlight LP School, Mundakkutty, Wayanad',
+      description: 'BMH conducted a PEARL (Paediatric Emergency Awareness and Response Learning) training session led by paediatrician Dr. Febina for 122 parents and children at Moonlight LP School, Mundakkutty, Wayanad.',
+      images: ['/gallery/pearl5/1.jpeg', '/gallery/pearl5/2.jpeg', '/gallery/pearl5/3.jpeg', '/gallery/pearl5/4.jpeg', '/gallery/pearl5/6.jpeg'],
+      date: '23 Jul 2026',
+      attendees: 122
+    },
+    {
+      title: 'H.I.M Oxford English School, Vaduvanchal, Wayanad',
+      description: 'BMH conducted a PEARL training session for 35 staff members and parents at H.I.M Oxford English School, Vaduvanchal, Wayanad.',
+      images: ['/gallery/pearl4/1.jpeg', '/gallery/pearl4/2.jpeg', '/gallery/pearl4/3.jpeg', '/gallery/pearl4/4.jpeg', '/gallery/pearl4/5.jpeg', '/gallery/pearl4/6.jpeg'],
+      date: '23 Jul 2026',
+      attendees: 35
+    },
+    {
+      title: 'GHSS East Hill',
+      description: 'BMH conducted a LifeLinER training session at GHSS East Hill.',
+      images: ['/gallery/easthill/1.jpeg', '/gallery/easthill/2.jpeg', '/gallery/easthill/3.jpeg', '/gallery/easthill/4.jpeg', '/gallery/easthill/5.jpeg'],
+      date: '22 Jul 2026'
+    },
+    {
       title: 'Community Health Centre, Korome, Wayanad',
       description: 'BMH conducted a LifeLinER training session for 30 CHC staff members at Korome, Wayanad.',
       images: ['/gallery/korome2/1.jpeg', '/gallery/korome2/2.jpeg', '/gallery/korome2/3.jpeg', '/gallery/korome2/4.jpeg'],
