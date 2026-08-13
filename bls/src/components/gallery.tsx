@@ -22,13 +22,13 @@ export default function GalleryPage() {
     {
       title: 'Nochad Higher Secondary School',
       description: 'BMH conducted a LifeLinER training session at Nochad Higher Secondary School.',
-      images: ['/gallery/nochad/1.jpeg', '/gallery/nochad/2.jpeg', '/gallery/nochad/3.jpeg', '/gallery/nochad/4.jpeg'],
+      images: ['/gallery/nochad/1.jpg', '/gallery/nochad/2.jpg', '/gallery/nochad/3.jpg', '/gallery/nochad/4.jpg'],
       date: '30 Jul 2026'
     },
     {
       title: 'Eastern Company Ltd, Adimaly',
       description: 'BMH conducted a LifeLinER training program led by Dr. Deuma for 25 participants at Eastern Company Ltd, Adimaly, coordinated by Sona.',
-      images: ['/gallery/eastern/1.jpeg', '/gallery/eastern/2.jpeg', '/gallery/eastern/3.jpeg', '/gallery/eastern/4.jpeg', '/gallery/eastern/5.jpeg', '/gallery/eastern/6.jpeg', '/gallery/eastern/7.jpeg', '/gallery/eastern/8.jpeg'],
+      images: ['/gallery/eastern/1.jpg', '/gallery/eastern/2.jpg', '/gallery/eastern/3.jpg', '/gallery/eastern/4.jpg', '/gallery/eastern/5.jpg', '/gallery/eastern/6.jpg', '/gallery/eastern/7.jpg', '/gallery/eastern/8.jpg'],
       date: '28 Jul 2026',
       attendees: 25
     },
