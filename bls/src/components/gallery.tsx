@@ -20,6 +20,25 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [ 
     {
+      title: 'St. Mary\'s Church, Thavinjal, Wayanad',
+      description: 'BMH conducted a LifeLinER training session for 35 participants at St. Mary\'s Church, Thavinjal, Wayanad.',
+      images: ['/gallery/stmarys2/1.jpeg', '/gallery/stmarys2/2.jpeg', '/gallery/stmarys2/3.jpeg', '/gallery/stmarys2/4.jpeg', '/gallery/stmarys2/5.jpeg', '/gallery/stmarys2/6.jpeg', '/gallery/stmarys2/7.jpeg'],
+      date: '16 Aug 2026',
+      attendees: 35
+    },
+    {
+      title: 'Memunda Higher Secondary School',
+      description: 'BMH conducted a LifeLinER Basic Life Support (BLS) training program focusing on hands-on CPR, first aid, and essential life-saving techniques at Memunda Higher Secondary School.',
+      images: ['/gallery/memunda/1.jpeg', '/gallery/memunda/2.jpeg', '/gallery/memunda/3.jpeg', '/gallery/memunda/4.jpeg', '/gallery/memunda/5.jpeg', '/gallery/memunda/6.jpeg', '/gallery/memunda/7.jpeg'],
+      date: '16 Aug 2026'
+    },
+    {
+      title: 'Thennala',
+      description: 'BMH conducted a LifeLinER training session for PTH members at Thennala.',
+      images: ['/gallery/thennala/1.jpeg', '/gallery/thennala/2.jpeg', '/gallery/thennala/3.jpeg', '/gallery/thennala/4.jpeg', '/gallery/thennala/5.jpeg', '/gallery/thennala/6.jpeg'],
+      date: '16 Aug 2026'
+    },
+    {
       title: 'Nochad Higher Secondary School',
       description: 'BMH conducted a LifeLinER training session at Nochad Higher Secondary School.',
       images: ['/gallery/nochad/1.jpg', '/gallery/nochad/2.jpg', '/gallery/nochad/3.jpg', '/gallery/nochad/4.jpg'],
