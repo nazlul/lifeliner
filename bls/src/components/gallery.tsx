@@ -20,6 +20,25 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [ 
     {
+      title: 'AKKR School, Chelannur',
+      description: 'BMH conducted a LifeLinER training session at AKKR School, Chelannur.',
+      images: ['/gallery/akkr2/1.jpeg', '/gallery/akkr2/2.jpeg', '/gallery/akkr2/3.jpeg', '/gallery/akkr2/4.jpeg'],
+      date: '24 Aug 2026'
+    },
+    {
+      title: 'SNDP Gurumandiram, Iritty',
+      description: 'BMH conducted a LifeLinER BLS training program at SNDP Gurumandiram, Iritty.',
+      images: ['/gallery/sndp/1.jpeg', '/gallery/sndp/2.jpeg'],
+      date: '24 Aug 2026'
+    },
+    {
+      title: 'St. Joseph Hospital, Moolamattom',
+      description: 'BMH conducted a LifeLinER training program led by Dr. Deuma for 48 participants at St. Joseph Hospital, Moolamattom, coordinated by Sona.',
+      images: ['/gallery/moolamattom/1.jpeg', '/gallery/moolamattom/2.jpeg', '/gallery/moolamattom/3.jpeg'],
+      date: '22 Aug 2026',
+      attendees: 48
+    },
+    {
       title: 'St. Mary\'s Church, Thavinjal, Wayanad',
       description: 'BMH conducted a LifeLinER training session for 35 participants at St. Mary\'s Church, Thavinjal, Wayanad.',
       images: ['/gallery/stmarys2/1.jpeg', '/gallery/stmarys2/2.jpeg', '/gallery/stmarys2/3.jpeg', '/gallery/stmarys2/4.jpeg', '/gallery/stmarys2/5.jpeg', '/gallery/stmarys2/6.jpeg', '/gallery/stmarys2/7.jpeg'],
