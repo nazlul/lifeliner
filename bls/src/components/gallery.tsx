@@ -20,6 +20,24 @@ export default function GalleryPage() {
 
   const sets: ImageSet[] = [ 
     {
+      title: 'Krome Fitness, Athanikkal',
+      description: 'BMH conducted a hands-on LifeLinER training session at Krome Fitness, Athanikkal.',
+      images: ['/gallery/krome/1.jpeg', '/gallery/krome/2.jpeg', '/gallery/krome/3.jpeg', '/gallery/krome/4.jpeg'],
+      date: '28 Aug 2026'
+    },
+    {
+      title: 'Wellphy Medical Hub, Eranjipalam, Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Wellphy Medical Hub, Eranjipalam, Kozhikode.',
+      images: ['/gallery/wellphy/1.jpeg', '/gallery/wellphy/2.jpeg', '/gallery/wellphy/3.jpeg', '/gallery/wellphy/4.jpeg', '/gallery/wellphy/5.jpeg'],
+      date: '28 Aug 2026'
+    },
+    {
+      title: 'Karuna Residence Association, NIT Kozhikode',
+      description: 'BMH conducted a LifeLinER training session at Karuna Residence Association, NIT Kozhikode.',
+      images: ['/gallery/nitc4/1.jpeg', '/gallery/nitc4/2.jpeg'],
+      date: '25 Aug 2026'
+    },
+    {
       title: 'AKKR School, Chelannur',
       description: 'BMH conducted a LifeLinER training session at AKKR School, Chelannur.',
       images: ['/gallery/akkr2/1.jpeg', '/gallery/akkr2/2.jpeg', '/gallery/akkr2/3.jpeg', '/gallery/akkr2/4.jpeg'],
